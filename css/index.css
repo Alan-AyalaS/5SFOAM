@@ -1,0 +1,82 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(45, 45, 45);
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    height: 10vh;
+}
+
+header figure {
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.logo_5sfoam {
+}
+
+header nav {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.menu-button {
+    display: inline-block;
+    text-align: center;
+    font-size: 3rem;
+  }
+
+nav ul {
+    display: none;
+}
+
+header nav ul li{
+    padding-left: 40px;
+    list-style: none;
+}
+
+header nav ul a {
+    text-align: center;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 768px){
+
+    header {
+        justify-content:flex-start;     
+    }
+
+    header figure {
+        width: 40vw;
+    }
+
+    header nav {
+        width: 60vw;
+        font-size: 2rem;
+        justify-content: flex-end;
+        padding-right: 10rem;
+    }
+
+
+    .menu-button {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+    }
+}
