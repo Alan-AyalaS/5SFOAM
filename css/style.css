@@ -1,7 +1,14 @@
+:root {
+    --gris-oscuro: #28222B;
+    --blanco: #FFFF;
+    --rojo: #FFFF;
+}
+
 html{
     box-sizing: border-box;
     font-size: 62.5%;
     font-family: Helvetica, sans-serif;
+    background-color: var(--gris-oscuro);
 }
 
 * {
@@ -9,25 +16,25 @@ html{
     padding: 0;
 }
 
-
-
 header {
-    background-color: rgb(45, 45, 45);
     display: flex;
     justify-content: space-between;
-    padding: 1.5rem;
+    padding: 1.6rem;
     height: 10vh;
 }
 
 header figure {
     width: 90vw;
-    padding-left: 1.5rem;
+    padding-left: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;    
 }
 
 .logo_5sfoam {
+    position: relative;
+    left: 0.8rem;
 }
 
 header nav {
@@ -43,6 +50,7 @@ header nav {
     font-size: 3rem;
     filter: invert(1);
     position: relative;
+    right: 2rem;
     z-index: 1;
   }
 
@@ -51,7 +59,6 @@ header nav {
     text-align: center;
     filter: invert(1);
 }
-
 
 nav .nav_options {
     display: none;
@@ -81,7 +88,7 @@ nav .nav_options.active {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgb(45, 45, 45) ;
+    background-color: var(--gris-oscuro);
 }
 
 .nav_options.active li {
@@ -102,10 +109,49 @@ nav .nav_options.active {
 .x-icon.show {
     display: flex;
     position: relative;
+    right: 2rem;
     z-index: 1;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 810px) {
+    
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    header figure {
+        width: 100vw;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    header .navigation {
+        display: flex;
+        padding-top: 2.5rem;
+        font-size: 2rem;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        right: 8.3rem;
+    }
+
+    nav .nav_options {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav .nav_options li {
+        padding-left: 6rem;
+    }
+
+    .menu-button {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 820px){
 
     body{    
         overflow-x: hidden;
@@ -125,6 +171,7 @@ nav .nav_options.active {
         width: 60vw;
         font-size: 2rem;
         justify-content: flex-end;
+        padding-right: 5rem;
     }
 
     nav .nav_options a {
@@ -135,12 +182,12 @@ nav .nav_options.active {
         color: red;
     }
 
-
     .menu-button {
         display: none;
     }
 
     nav .nav_options {
         display: flex;
+        
     }
 }
