@@ -9,6 +9,8 @@ html{
     padding: 0;
 }
 
+
+
 header {
     background-color: rgb(45, 45, 45);
     display: flex;
@@ -18,15 +20,18 @@ header {
 }
 
 header figure {
-    padding-left: 1rem;
+    width: 90vw;
+    padding-left: 1.5rem;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .logo_5sfoam {
 }
 
 header nav {
+    width:10vw;
     color: white;
     display: flex;
     align-items: center;
@@ -102,19 +107,24 @@ nav .nav_options.active {
 
 @media screen and (min-width: 768px){
 
+    body{    
+        overflow-x: hidden;
+     }
+
     header {
         justify-content:flex-start;     
     }
 
     header figure {
         width: 40vw;
+        justify-content: flex-start;
+        padding-right: 4rem;
     }
 
     header nav {
         width: 60vw;
         font-size: 2rem;
         justify-content: flex-end;
-        padding-right: 10rem;
     }
 
     nav .nav_options a {
