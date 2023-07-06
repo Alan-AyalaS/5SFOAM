@@ -124,9 +124,11 @@ main {
     width: 100vw;
 }
 
-main section {
+main .principal-frame {
     display: flex;
     flex-direction: column;
+    background-color: #181419;
+    padding-bottom: 1.6rem;
 }
 
 main section h1,h2{
@@ -134,6 +136,10 @@ main section h1,h2{
     color: var(--blanco);
     font-size: 3rem;
     align-items: center;
+}
+
+main .principal-image-container {
+    display: none;
 }
 
 main .principal-frame {
@@ -151,12 +157,27 @@ main section p {
     font-size: 1.5rem;
 }
 
-main section div {
+main .principal-frame .container-paso {
     display: flex;
     align-items: center;
     font-weight: bold;
     margin-top: 2.6rem;
-    padding-bottom: 0.8rem;
+}
+
+main .texto-principal-container {
+    margin: 0 auto;
+}
+
+main .texto-principal {
+    margin-top: 1.6rem;
+}
+
+main .espumasorg {
+    font-size: 2.2rem;
+}
+
+main .texto-principal .logo-5sfoam2-container img{
+    width: 85%;
 }
 
 main .texto-principal div{
@@ -179,7 +200,7 @@ main .number-icons {
 }
 
 main .boton-contacto{
-    margin-top: 0.4rem;
+    margin-top: 3.6rem;
     width: 80vw;
     height: 10vh;
 }
@@ -208,7 +229,10 @@ main .titulo {
     background-position-x: center;
 } */
 
-@media screen and (min-width: 820px){
+
+
+
+@media screen and (min-width: 1025px){
 
     body{    
         overflow-x: hidden;
@@ -247,5 +271,28 @@ main .titulo {
     nav .nav_options {
         display: flex;
         
+    }
+
+    main .principal-frame {
+        background-image: none;
+        display: flex;
+        flex-direction: row;
+        width: inherit;
+        height: 85vh;
+    }    
+
+    main .texto-principal-container {
+        margin: 0 auto;
+        width: 35vw;
+    }
+
+    main .principal-image-container {
+        width: 65vw;
+        display: flex;
+    }
+
+    main .principal-image-container img {
+        width: 100%;
+        margin-top: 0.8rem;
     }
 }
