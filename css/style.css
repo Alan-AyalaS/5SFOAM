@@ -1,0 +1,276 @@
+:root {
+    --gris-oscuro: #28222B;
+    --blanco: #FFFF;
+    --rojo: #ff0000;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: Helvetica, sans-serif;
+    background-color: #28222b;
+    background-image: url("/imgs/asfalt-dark.png");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.6rem;
+    height: 10vh;
+    background-color: var(--gris-oscuro);
+}
+
+header figure {
+    width: 90vw;
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;    
+}
+
+.logo_5sfoam {
+    position: relative;
+    left: 0.8rem;
+}
+
+header nav {
+    width:10vw;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.menu-button {
+    display: inline-block;
+    text-align: center;
+    font-size: 3rem;
+    filter: invert(1);
+    position: relative;
+    right: 2rem;
+    top: 1rem;
+    z-index: 1;
+  }
+
+.x-icon {
+    display: none;
+    text-align: center;
+    filter: invert(1);
+}
+
+nav .nav_options {
+    display: none;
+}
+
+
+
+header nav ul li{
+    padding-left: 40px;
+    list-style: none;
+}
+
+header nav ul a {
+    text-align: center;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav .nav_options.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--gris-oscuro);
+}
+
+.nav_options.active li {
+    font-size: 2.5rem;
+    padding: 2rem;
+    color: #FFFF;
+    font-weight: bold;
+}
+
+.nav_options.active a:hover {
+    color: red;
+}
+
+.menu-button.hide {
+    display: none;
+}
+
+.x-icon.show {
+    display: flex;
+    position: relative;
+    right: 2rem;
+    z-index: 1;
+}
+
+
+main {
+    width: 100vw;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+}
+
+main section h1{
+    margin-top: 2.6rem;
+    color: var(--blanco);
+    font-size: 3rem;
+    align-items: center;
+
+}
+
+main figure {
+    width: 60vw;
+    
+}
+
+main .titulo {
+    width: 100vw;
+    height: 40vh;
+    padding-left: 1.8rem;
+
+    background-image: url("../imgs/TituloFondo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+main figure img {
+    object-fit: cover;
+    height: 70vh;
+    width: 100vw;
+}
+
+main .boton-contacto{
+    width: 80vw;
+    height: 10vh;
+    padding-top: 5rem;
+}
+
+.boton-contacto a{
+    background-color: var(--rojo);
+    text-transform: uppercase;
+    padding: 1.6rem 2.4rem;
+    text-decoration: none;
+    color: var(--blanco);
+    font-weight:900;
+}
+
+.boton-contacto a:hover{
+    background-color: #ff3434;
+}
+
+
+/* 
+main .titulo {
+    margin: auto 0;
+    background-image: url("../imgs/TituloFondo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-position-x: center;
+} */
+
+
+
+@media screen and (min-width: 768px) and (max-width: 810px) {
+    
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    header figure {
+        width: 100vw;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    header .navigation {
+        display: flex;
+        padding-top: 2.5rem;
+        font-size: 2rem;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        right: 8.3rem;
+    }
+
+    nav .nav_options {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav .nav_options li {
+        padding-left: 6rem;
+    }
+
+    nav .nav_options a{
+        font-weight: bold;
+    }
+
+    nav .nav_options a:hover {
+        color: var(--rojo);
+    }
+
+    .menu-button {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 820px){
+
+    body{    
+        overflow-x: hidden;
+     }
+
+    header {
+        justify-content:flex-start;     
+    }
+
+    header figure {
+        width: 40vw;
+        justify-content: flex-start;
+        padding-right: 4rem;
+    }
+
+    header nav {
+        width: 60vw;
+        font-size: 2rem;
+        justify-content: flex-end;
+        padding-right: 5rem;
+    }
+
+    nav .nav_options a {
+        font-weight: bold;
+    }
+
+    nav .nav_options a:hover {
+        color: red;
+    }
+
+    .menu-button {
+        display: none;
+    }
+
+    nav .nav_options {
+        display: flex;
+        
+    }
+}
