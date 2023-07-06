@@ -10,12 +10,14 @@ html{
     font-family: Helvetica, sans-serif;
     background-color: #28222b;
     background-image: url("../imgs/asfalt-dark.png");
+    background-position: center;
     width: 100vw;
 }
 
 * {
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 header {
@@ -27,7 +29,7 @@ header {
     background-color: var(--gris-oscuro);
 }
 
-header figure {
+header .logo_5sfoam {
     width: 90vw;
     padding-left: 2rem;
     display: flex;
@@ -51,12 +53,10 @@ header nav {
 .menu-button {
     display: inline-block;
     text-align: center;
-    font-size: 3rem;
     filter: invert(1);
     position: relative;
-    right: 2rem;
-    top: 0.5rem;
     z-index: 1;
+    margin-right: 80rem;
   }
 
 .x-icon {
@@ -114,8 +114,6 @@ nav .nav_options.active {
 .x-icon.show {
     display: flex;
     position: relative;
-    right: 2rem;
-    top: 1rem;
     z-index: 1;
 }
 
@@ -224,6 +222,11 @@ main .boton-contacto{
     font-weight: 700;
 }
 
+.boton-contacto a span {
+    position: relative;
+    top: 0.8rem;
+}
+
 .boton-contacto a:hover{
     background-color: #ff3434;
 }
@@ -243,6 +246,14 @@ main .titulo {
 
 
 @media screen and (min-width: 1025px){
+
+    * {
+        overflow:visible;
+    }
+
+    html {
+        overflow: hidden;
+    }
 
     body{    
         overflow-x: hidden;
