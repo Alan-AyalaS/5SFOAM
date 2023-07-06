@@ -113,6 +113,7 @@ nav .nav_options.active {
     display: flex;
     position: relative;
     right: 2rem;
+    top: 1rem;
     z-index: 1;
 }
 
