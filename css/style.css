@@ -55,7 +55,7 @@ header nav {
     filter: invert(1);
     position: relative;
     right: 2rem;
-    top: 1rem;
+    top: 0.5rem;
     z-index: 1;
   }
 
@@ -128,7 +128,7 @@ main .principal-frame {
     display: flex;
     flex-direction: column;
     background-color: #181419;
-    padding-bottom: 1.6rem;
+    padding-bottom: 1rem;
 }
 
 main section h1,h2{
@@ -152,11 +152,6 @@ main .principal-frame {
     background-size: cover;
 }
 
-main section p {
-    color: var(--blanco);
-    font-size: 1.5rem;
-}
-
 main .principal-frame .container-paso {
     display: flex;
     align-items: center;
@@ -166,6 +161,7 @@ main .principal-frame .container-paso {
 
 main .texto-principal-container {
     margin: 0 auto;
+    padding: 5% 3%;    
 }
 
 main .texto-principal {
@@ -176,8 +172,22 @@ main .espumasorg {
     font-size: 2.2rem;
 }
 
+main section article .elimine-container {
+    margin-top: 3.2rem;
+}
+
 main .texto-principal .logo-5sfoam2-container img{
     width: 85%;
+}
+
+main section .pasos {
+    margin-top: 4.8rem;
+}
+
+main section .pasos p {
+    color: var(--blanco);
+    font-size: 2rem;
+    margin-left: 0.8rem;
 }
 
 main .texto-principal div{
@@ -200,18 +210,19 @@ main .number-icons {
 }
 
 main .boton-contacto{
-    margin-top: 3.6rem;
+    margin-top: 6.8rem;
     width: 80vw;
     height: 10vh;
 }
 
 .boton-contacto a{
+    font-size: 3rem;
     background-color: var(--rojo);
     text-transform: uppercase;
     padding: 1.6rem 2.4rem;
     text-decoration: none;
     color: var(--blanco);
-    font-weight:900;
+    font-weight: 700;
 }
 
 .boton-contacto a:hover{
