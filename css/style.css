@@ -17,7 +17,7 @@ html{
 * {
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 header {
@@ -245,18 +245,20 @@ main .titulo {
     background-position-x: center;
 } */
 
-
+main .random {
+    width: 100%;
+}
 
 
 @media screen and (min-width: 1025px){
 
     * {
-        overflow:visible;
+        overflow-x:visible;
     }
 
     html {
-        overflow: hidden;
-    }
+        overflow: auto;
+        }
 
     body{    
         overflow-x: hidden;
