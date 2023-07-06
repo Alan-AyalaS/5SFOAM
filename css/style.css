@@ -1,14 +1,15 @@
 :root {
     --gris-oscuro: #28222B;
     --blanco: #FFFF;
-    --rojo: #FFFF;
+    --rojo: #ff0000;
 }
 
 html{
     box-sizing: border-box;
     font-size: 62.5%;
     font-family: Helvetica, sans-serif;
-    background-color: var(--gris-oscuro);
+    background-color: #28222b;
+    background-image: url("/imgs/asfalt-dark.png");
 }
 
 * {
@@ -21,6 +22,7 @@ header {
     justify-content: space-between;
     padding: 1.6rem;
     height: 10vh;
+    background-color: var(--gris-oscuro);
 }
 
 header figure {
@@ -51,6 +53,7 @@ header nav {
     filter: invert(1);
     position: relative;
     right: 2rem;
+    top: 1rem;
     z-index: 1;
   }
 
@@ -113,6 +116,78 @@ nav .nav_options.active {
     z-index: 1;
 }
 
+
+main {
+    width: 100vw;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+}
+
+main section h1{
+    margin-top: 2.6rem;
+    color: var(--blanco);
+    font-size: 3rem;
+    align-items: center;
+
+}
+
+main figure {
+    width: 60vw;
+    
+}
+
+main .titulo {
+    width: 100vw;
+    height: 40vh;
+    padding-left: 1.8rem;
+
+    background-image: url("../imgs/TituloFondo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+main figure img {
+    object-fit: cover;
+    height: 70vh;
+    width: 100vw;
+}
+
+main .boton-contacto{
+    width: 80vw;
+    height: 10vh;
+    padding-top: 5rem;
+}
+
+.boton-contacto a{
+    background-color: var(--rojo);
+    text-transform: uppercase;
+    padding: 1.6rem 2.4rem;
+    text-decoration: none;
+    color: var(--blanco);
+    font-weight:900;
+}
+
+.boton-contacto a:hover{
+    background-color: #ff3434;
+}
+
+
+/* 
+main .titulo {
+    margin: auto 0;
+    background-image: url("../imgs/TituloFondo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-position-x: center;
+} */
+
+
+
 @media screen and (min-width: 768px) and (max-width: 810px) {
     
     header {
@@ -144,6 +219,14 @@ nav .nav_options.active {
 
     nav .nav_options li {
         padding-left: 6rem;
+    }
+
+    nav .nav_options a{
+        font-weight: bold;
+    }
+
+    nav .nav_options a:hover {
+        color: var(--rojo);
     }
 
     .menu-button {
