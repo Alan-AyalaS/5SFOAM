@@ -21,7 +21,7 @@ html{
 header {
     display: flex;
     justify-content: space-between;
-    padding: 1.6rem;
+    padding: .4rem;
     height: 10vh;
     width: inherit;
     background-color: var(--gris-oscuro);
@@ -208,62 +208,15 @@ main .titulo {
     background-position-x: center;
 } */
 
-
-
-@media screen and (min-width: 768px) and (max-width: 810px) {
-    
-    header {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    header figure {
-        width: 100vw;
-        margin: 0 auto;
-        padding: 0;
-    }
-
-    header .navigation {
-        display: flex;
-        padding-top: 2.5rem;
-        font-size: 2rem;
-        width: 100%;
-        margin: 0 auto;
-        position: relative;
-        right: 8.3rem;
-    }
-
-    nav .nav_options {
-        display: flex;
-        justify-content: center;
-    }
-
-    nav .nav_options li {
-        padding-left: 6rem;
-    }
-
-    nav .nav_options a{
-        font-weight: bold;
-    }
-
-    nav .nav_options a:hover {
-        color: var(--rojo);
-    }
-
-    .menu-button {
-        display: none;
-    }
-}
-
 @media screen and (min-width: 820px){
 
     body{    
         overflow-x: hidden;
      }
 
-    header {
-        justify-content:flex-start;     
+    header .logo_5sfoam{
+        position: relative;
+        padding-bottom: 1rem;
     }
 
     header figure {
