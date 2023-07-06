@@ -10,6 +10,7 @@ html{
     font-family: Helvetica, sans-serif;
     background-color: #28222b;
     background-image: url("../imgs/asfalt-dark.png");
+    width: 100vw;
 }
 
 * {
@@ -22,6 +23,7 @@ header {
     justify-content: space-between;
     padding: 1.6rem;
     height: 10vh;
+    width: inherit;
     background-color: var(--gris-oscuro);
 }
 
@@ -127,39 +129,59 @@ main section {
     flex-direction: column;
 }
 
-main section h1{
+main section h1,h2{
     margin-top: 2.6rem;
     color: var(--blanco);
     font-size: 3rem;
     align-items: center;
-
 }
 
-main figure {
-    width: 60vw;
-    
-}
+main .principal-frame {
+    height: fit-content;
+    padding-left: 0.4rem;
 
-main .titulo {
-    height: 40vh;
-    padding-left: 1.8rem;
-
-    background-image: url("../imgs/TituloFondo.png");
+    background-image: url("../imgs/TituloFondo1.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-main figure img {
-    object-fit: cover;
-    height: 70vh;
-    width: 100vw;
+main section p {
+    color: var(--blanco);
+    font-size: 1.5rem;
+}
+
+main section div {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 2.6rem;
+    padding-bottom: 0.8rem;
+}
+
+main .texto-principal div{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+
+main .texto-principal div h1{
+    margin: 0;
+}
+
+main .texto-principal h2{
+    margin: 0;
+}
+
+main .number-icons {
+    margin-right: 0.4rem;
 }
 
 main .boton-contacto{
+    margin-top: 0.4rem;
     width: 80vw;
     height: 10vh;
-    padding-top: 5rem;
 }
 
 .boton-contacto a{
