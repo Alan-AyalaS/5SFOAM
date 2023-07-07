@@ -43,7 +43,8 @@ header .navbar-icon-cont{
 
     position: relative;
     top: 0.5rem;
-  }
+    right: 1rem;
+}
 
 .x-icon {
     display: none;
@@ -52,6 +53,7 @@ header .navbar-icon-cont{
 
     position: relative;
     top: 0.5rem;
+    right: 1rem;
 }
 
 header nav {
@@ -60,11 +62,9 @@ header nav {
     align-items: center;
 }
 
-
 nav .nav_options {
     display: none;
 }
-
 
 
 header nav ul li{
@@ -113,11 +113,75 @@ nav .nav_options.active {
     z-index: 1;
 }
 
-@media screen and (min-width: 1040px){
+main section {
+    display: flex;
+}
 
-    header {
+main .entrada-contenedor .back-video{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    object-fit: cover;
+    min-height: 41.7rem;
+}
 
-    }
+main .texto-entrada-cont {
+    padding: 5% 5%;
+    color: #FFF;
+}
+
+main section .texto-entrada-cont .espum-cont {
+    font-size: 1rem;
+    margin-bottom: 1.6rem;
+}
+
+main section .texto-entrada-cont .espum-cont img{
+    min-width: 55%;
+    max-width:max-content;
+}
+
+main section .texto-entrada-cont .pasos-cont{
+    max-width: 70%;
+}
+
+main section .texto-entrada-cont .pasos-cont h2{
+    font-size: 2.4rem;
+    margin-bottom: 1.6rem;
+}
+
+main section .texto-entrada-cont .pasos-cont figure {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.8rem;
+}
+
+main section .texto-entrada-cont .pasos-cont figure span {
+    font-size: 2.4rem;
+    padding-left: 1rem;
+}
+
+main section .texto-entrada-cont .pasos-cont div figure img{
+    width: 2rem;
+}
+
+main section .texto-entrada-cont .boton-contacto-cont {
+    margin-top: 3.4rem;
+}
+
+main section .texto-entrada-cont .boton-contacto-cont a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 2.4rem;
+    background-color: red;
+    padding: 1.6rem 2.2rem;
+}
+
+main section .texto-entrada-cont .boton-contacto-cont a:hover {
+    background-color: rgb(255, 92, 92);
+}
+
+
+@media screen and (min-width: 1023px){
 
     header .logo_5sfoam {
         justify-content: flex-start;
@@ -145,12 +209,64 @@ nav .nav_options.active {
         color: red;
     }
 
-
     .menu-button {
         display: none;
     }
 
     nav .nav_options {
         display: flex;
+    }
+
+    main .entrada-contenedor {
+        display: flex;
+    }
+
+    main .entrada-contenedor .back-video{
+        margin-top: 0.8rem;
+        width: 60%;
+        object-fit: cover;
+        position: relative;
+        order: 2;
+    }
+
+    main .entrada-contenedor .texto-entrada-cont {
+        width: 40%;
+    }
+
+    main .texto-entrada-cont {
+        padding: 6% 5%;
+        color: #FFF;
+    }
+
+    main section .texto-entrada-cont .pasos-cont h2{
+        font-size: 4rem;
+        margin-bottom: 1.6rem;
+    }
+
+    main section .texto-entrada-cont .pasos-cont div figure img{
+        width: 2.4rem;
+    }
+
+    main section .texto-entrada-cont .pasos-cont div figure span{
+        font-size: 3.2rem;
+    }
+   
+
+    main .entrada-contenedor .texto-entrada-cont img {
+        
+    } 
+
+
+    main section .texto-entrada-cont .espum-cont {
+        font-size: 1rem;
+        margin-bottom: 2.4rem;
+    }
+    
+    main section .texto-entrada-cont .pasos-cont{
+        max-width: 100%;
+    }
+
+    main section .texto-entrada-cont .boton-contacto-cont{
+        margin-top: 6.2rem;
     }
 }
