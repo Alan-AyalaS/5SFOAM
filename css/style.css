@@ -124,7 +124,7 @@ main section {
 
 main .entrada-contenedor {
     overflow: hidden;
-    min-height: 60rem;
+    min-height: 58rem;
 
 }
 
@@ -137,7 +137,7 @@ main .entrada-contenedor .back-video{
     z-index: -1;
     width: 100%;
     object-fit: cover;
-    min-height: 60rem;
+    min-height: 58rem;
 }
 
 main .texto-entrada-cont {
@@ -180,7 +180,7 @@ main section .texto-entrada-cont .pasos-cont div figure img{
 }
 
 main section .texto-entrada-cont .boton-contacto-cont {
-    margin-top: 18rem;
+    margin-top: 15rem;
 }
 
 main section .texto-entrada-cont .boton-contacto-cont a{
