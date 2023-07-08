@@ -126,13 +126,16 @@ main .entrada-contenedor {
     overflow: hidden;
 }
 
+main .entrada-contenedor h2{
+    font-size: 2.4rem;
+}
+
 main .entrada-contenedor .back-video{
     position: absolute;
     z-index: -1;
     width: 100%;
     object-fit: cover;
-    min-height: 43rem;
-
+    min-height: 45rem;
 }
 
 main .texto-entrada-cont {
@@ -214,8 +217,8 @@ main .about-container .about-title-cont {
     margin-bottom: 2.4rem;
 }
 
-main .about-container h1,h2 {
-    font-size: 1.6rem;
+.about-container h1,h2 {
+    font-size: 2.4rem;
 }
 
 main .about-container .que-son {
@@ -325,6 +328,7 @@ main .about-container .boton-galeria-cont a:hover {
         object-fit: cover;
         position: relative;
         order: 2;
+        height: 67rem;
     }
 
     main .entrada-contenedor .texto-entrada-cont {
