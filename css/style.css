@@ -123,7 +123,6 @@ main section {
 }
 
 main .entrada-contenedor {
-    padding-top: 1.6rem;
     overflow: hidden;
 }
 
@@ -219,6 +218,11 @@ main .about-container h1,h2 {
     font-size: 1.6rem;
 }
 
+main .about-container .que-son {
+    display: flex;
+    flex-direction: column;
+}
+
 main .about-container .about-text-cont {
     width: 100%;
     display: flex;
@@ -311,6 +315,7 @@ main .about-container .boton-galeria-cont a:hover {
     /*Main*/
 
     main .entrada-contenedor {
+        padding-top: 1.6rem;
         display: flex;
     }
 
