@@ -124,6 +124,8 @@ main section {
 
 main .entrada-contenedor {
     overflow: hidden;
+    min-height: 60rem;
+
 }
 
 main .entrada-contenedor h2{
@@ -135,7 +137,7 @@ main .entrada-contenedor .back-video{
     z-index: -1;
     width: 100%;
     object-fit: cover;
-    min-height: 45rem;
+    min-height: 60rem;
 }
 
 main .texto-entrada-cont {
@@ -178,7 +180,7 @@ main section .texto-entrada-cont .pasos-cont div figure img{
 }
 
 main section .texto-entrada-cont .boton-contacto-cont {
-    margin-top: 3.4rem;
+    margin-top: 18rem;
 }
 
 main section .texto-entrada-cont .boton-contacto-cont a{
@@ -384,7 +386,7 @@ main .about-container .boton-galeria-cont a:hover {
     main .about-container {
         width: 80%;
         margin: 0 auto;
-        margin-top: 3.2rem;
+        margin-top: 4.8rem;
     }
 
     main .about-container .about-title-cont {
