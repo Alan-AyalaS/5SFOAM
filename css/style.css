@@ -185,8 +185,11 @@ main section .texto-entrada-cont .boton-contacto-cont {
 
 main section .texto-entrada-cont .boton-contacto-cont a{
     text-decoration: none;
+    text-transform: uppercase;
     color: #FFF;
     font-size: 2.4rem;
+    font-weight: 600;
+
     background-color: var(--rojo);
     padding: 1.6rem 2.2rem;
 }
@@ -205,6 +208,7 @@ main .about-container {
 
     color: white;
     margin-top: 8rem;
+    margin-bottom: 4.8rem;
 }
 
 main .about-container .about-text-cont {
@@ -268,9 +272,12 @@ main .about-container .boton-galeria-cont {
 }
 
 main .about-container .boton-galeria-cont a{
+    text-transform: uppercase;
     text-decoration: none;
-    color: #FFF;
+    font-weight: 600;
     font-size: 2.4rem;
+    color: #FFF;
+
     background-color: var(--rojo);
     padding: 1.6rem 2.2rem;
 }
