@@ -225,14 +225,13 @@ main .about-container .about-text-cont {
 }
 
 main .about-container .about-text p{
-    text-align: justify;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     margin-bottom: 4rem;
+    font-weight: bold;
 }
 
 main .about-container .about-imgs-cont {
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
 
 }
 
@@ -244,7 +243,9 @@ main .about-container .about-imgs-cont {
 .about-imgs-cont figure .img-gal2{
     display: flex;
     justify-content: center;
-    width: 15rem;
+    height: 15rem;
+    width: 100%;
+    object-fit: cover;
 }
 
 .about-imgs-cont img {
