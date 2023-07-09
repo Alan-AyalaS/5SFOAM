@@ -334,7 +334,7 @@ main .about-container .boton-galeria-cont a:hover {
 
 /*PCs / LAPTOPs*/
 
-@media screen and (min-width: 1023px){
+@media screen and (min-width: 1023px) {
 
     /*Header / nav*/
 
@@ -549,7 +549,7 @@ main .about-container .boton-galeria-cont a:hover {
 }
 
 @media screen and (min-width:1920px){
-    .back-video {
-        height: 80rem;
+    main .entrada-contenedor {
+        height: 81rem;
     }
 }
