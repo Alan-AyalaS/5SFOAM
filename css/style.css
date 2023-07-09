@@ -550,7 +550,7 @@ main .about-container .boton-galeria-cont a:hover {
 }
 
 @media screen and (min-width:1920px){
-    main .entrada-contenedor {
+    main .entrada-contenedor .back-video {
         height: 81rem;
     }
 }
