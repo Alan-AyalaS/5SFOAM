@@ -125,7 +125,6 @@ main section {
 main .entrada-contenedor {
     overflow: hidden;
     min-height: 58rem;
-
 }
 
 main .entrada-contenedor h2{
@@ -386,7 +385,6 @@ main .about-container .boton-galeria-cont a:hover {
         object-fit: cover;
         position: relative;
         order: 2;
-        height: 67rem;
     }
 
     main .entrada-contenedor .texto-entrada-cont {
@@ -547,5 +545,11 @@ main .about-container .boton-galeria-cont a:hover {
 
     main .about-container .boton-galeria-cont {
         margin-top: 0;
+    }
+}
+
+@media screen and (min-width:1920px){
+    .back-video {
+        height: 80rem;
     }
 }
