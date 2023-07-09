@@ -382,6 +382,7 @@ main .about-container .boton-galeria-cont a:hover {
     main .entrada-contenedor .back-video{
         margin-top: 0.8rem;
         width: 60%;
+        height: 64rem;
         object-fit: cover;
         position: relative;
         order: 2;
