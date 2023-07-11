@@ -312,7 +312,7 @@ main .about-container .boton-galeria-cont a:hover {
     background-color: var(--rojo);
     padding: 0 0.5rem 0.5rem 0.5rem;
     border: 0.3rem;
-    box-shadow: 0px 0px 1.5rem rgb(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 10rem rgba(0, 0, 0, 0.853);
     display: none;
     pointer-events: none;
     z-index: 4;
@@ -669,17 +669,9 @@ main .about-container .boton-galeria-cont a:hover {
     position: fixed;
     max-width: 60%;
     width: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0.9);
-    background-color: var(--rojo);
+    height: 100%;
     padding: 0 0.5rem 0.5rem 0.5rem;
     border: 0.3rem;
-    box-shadow: 0px 0px 1.5rem rgb(0, 0, 0, 0.2);
-    display: none;
-    pointer-events: none;
-    z-index: 4;
-    transform: all 0.3s ease;
 }
 
 .preview-box .image {
