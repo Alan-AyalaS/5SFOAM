@@ -600,6 +600,7 @@ main .about-container .boton-galeria-cont a:hover {
 
     .about-container .img-gal1 {
         display: flex;
+        border: none;
     }
     
     .about-container .img-gal2 {
