@@ -47,6 +47,7 @@ header .navbar-icon-cont{
     position: relative;
     top: 0.5rem;
     right: 1rem;
+    cursor: pointer;
 }
 
 .x-icon {
@@ -117,6 +118,7 @@ nav .nav_options.active {
     top: 3rem;
     right: 2rem;
     z-index: 1;
+    cursor: pointer;
 }
 
 /*Main*/
