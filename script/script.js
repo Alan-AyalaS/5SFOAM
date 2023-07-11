@@ -23,6 +23,7 @@ const gallery = document.querySelectorAll('.about-imgs-cont .image'),
     previewImg = previewBox.querySelector('.image'),
     totalImg = previewBox.querySelector('.current-img'),
     currentImg = previewBox.querySelector('.total-img'),
+    shadow = document.querySelector('.shadow'),
     closeIcon = previewBox.querySelector('.icon');
 
     window.onload = () => {
@@ -86,12 +87,16 @@ const gallery = document.querySelectorAll('.about-imgs-cont .image'),
 
                 preview();
                 previewBox.classList.add('show');
+                shadow.style.display  = "block";
+                document.querySelector("body").style.overflow = "hidden";
 
                 closeIcon.onclick = ()=>{
                     newIndex = clickImgIndex;
                     prevBtn.style.display = "block";
                     nextBtn.style.display = "block";
                     previewBox.classList.remove('show');
+                    shadow.style.display  = "none";
+                    document.querySelector("body").style.overflow = "auto";
                 }
             }
         }
