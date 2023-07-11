@@ -80,6 +80,7 @@ header nav ul a {
     color: white;
     list-style: none;
     text-decoration: none;
+    transition: all 0.3s ease;
 }
 
 nav .nav_options.active {
@@ -103,7 +104,7 @@ nav .nav_options.active {
 }
 
 .nav_options.active a:hover {
-    color: red;
+    color: var(--rojo);
 }
 
 .menu-button.hide {
@@ -191,10 +192,11 @@ main section .texto-entrada-cont .boton-contacto-cont a{
 
     background-color: var(--rojo);
     padding: 1.6rem 2.2rem;
+    transition: all 0.3s ease;
 }
 
 main section .texto-entrada-cont .boton-contacto-cont a:hover {
-    background-color: #e64042;
+    background-color: #ee4e50;
 }
 
 /*ABOUT*/
@@ -279,11 +281,122 @@ main .about-container .boton-galeria-cont a{
 
     background-color: var(--rojo);
     padding: 1.6rem 2.2rem;
+    transition: all 0.3s ease;
 }
 
 main .about-container .boton-galeria-cont a:hover {
     background-color: #e64042;
 }
+
+/* .popup-image{
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(45, 45, 45, 0.938);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+
+.popup-image span {
+    position: absolute;
+    top: 0; right: 1rem;
+    font-size: 6rem;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.popup-image img {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 95%;
+    object-fit: cover;
+} */
+
+.preview-box {
+    position: fixed;
+    max-width: 60%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.9);
+    background-color: var(--rojo);
+    padding: 0 0.5rem 0.5rem 0.5rem;
+    border: 0.3rem;
+    box-shadow: 0px 0px 1.5rem rgb(0, 0, 0, 0.2);
+    display: none;
+    pointer-events: none;
+}
+
+.preview-box .image {
+    width: 100%;
+}
+
+.preview-box.show {
+    display: flex;
+    flex-direction: column;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
+    transform: all 0.3s ease;
+}
+
+.preview-box .details {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem 1.5rem 1.2rem 1rem;
+    align-items: center;
+}
+
+.preview-box .details .icon{
+    cursor: pointer;
+    font-size: 3rem;
+}
+
+.details .title {
+    display: flex;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.details .title p {
+    margin: 0 0.5rem;
+}
+
+.details .title p.current-img {
+    font-weight: 600;
+}
+
+.preview-box .img-box {
+    display: flex;
+    width: 100%;
+}
+
+.img-box .slide {
+    width: 10%;
+    position: absolute;
+    top: 45%;
+    cursor: pointer;
+    filter: invert(100%);
+}
+
+.img-box .slide.prev {
+    left: 0;
+    transform: rotate(180deg);
+}
+
+.img-box .slide.next {
+    right: 0;
+}
+
+.preview-box .img-box img {
+    width: 100%;
+    border-radius: 0 0 0.3rem 0.3rem;
+}
+
 
 /*TABLETAS*/
 
@@ -362,6 +475,7 @@ main .about-container .boton-galeria-cont a:hover {
 
     nav .nav_options a:hover {
         color: red;
+        
     }
 
     .menu-button {
@@ -488,7 +602,6 @@ main .about-container .boton-galeria-cont a:hover {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        border: dotted var(--rojo);
 
     }
 
@@ -538,27 +651,63 @@ main .about-container .boton-galeria-cont a:hover {
         width: 100%;
         height: 20rem;
         object-fit: cover;
+        overflow: hidden;
+        border: dotted #e64042;
     }
     
     .about-imgs-cont img {
             width: 100%;
             height: 100%;
+            transition: all 0.3s ease;
     }
 
     .about-imgs-cont img:hover {
         filter:opacity(70%);
+        transform: scale(1.1);
+        cursor: pointer;
     }
 
     .boton-galeria-cont {
         display: flex;
 
-        width: 50%;
+        width: 40%;
         justify-content: center;
     }
 
     main .about-container .boton-galeria-cont {
         margin-top: 0;
+        width: 40%;
     }
+
+/*     .popup-image-cont .popup-image{
+        position: fixed;
+        top: 0; left: 0;
+        background-color: rgba(45, 45, 45, 0.938);
+        height: 100%;
+        width: 100%;
+        z-index: 100;
+        display: none;
+    }
+
+    .popup-image-cont .popup-image span {
+        position: absolute;
+        top: 0; right: 1rem;
+        font-size: 6rem;
+        font-weight: bolder;
+        color: white;
+        cursor: pointer;
+        z-index: 100;
+    }
+
+    .popup-image-cont .popup-image img {
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-50%, -50%);
+        width: 70%;
+        height: 95%;
+        object-fit: cover;
+    }
+ */
 }
 
 @media screen and (min-width:1920px){
