@@ -314,7 +314,7 @@ main .about-container .about-text-cont .about-imgs-cont figure img {
 
 
 .benefit-cont {
-    margin-bottom: 2.4rem;
+    margin-bottom: 4rem;
 }
 
 .benefit-cont figure {
@@ -648,13 +648,17 @@ main .about-container .boton-galeria-cont a:hover {
     }
 
     main .about-container .about-text-cont .about-text {
-        width: 40%;
+        width: 45%;
     }
 
     .about-container .about-text h2 {
         font-size: 4rem;
         margin-bottom: 1.4rem;
         text-transform: uppercase;
+    }
+
+    .benefit-cont {
+        margin-bottom: 6.4rem;
     }
 
     .benefit-cont img {
@@ -664,8 +668,9 @@ main .about-container .boton-galeria-cont a:hover {
     }
 
     main .about-container .about-text-cont .about-imgs-cont {
-        width: 60%;
+        width: 55%;
         height: auto;
+        padding-left: 1.6rem;
 
         justify-content: center;
     }
@@ -685,12 +690,6 @@ main .about-container .boton-galeria-cont a:hover {
 
     main .about-container .about-imgs-cont {
         margin-top: 0;
-    }
-
-    .about-imgs-cont .galsample-mobile-cont{
-        display: none;
-        width: 110rem;
-        height: 0;
     }
 
     .about-container .img-gal1 {
@@ -747,18 +746,18 @@ main .about-container .boton-galeria-cont a:hover {
     }
 
     
-.preview-box {
-    position: fixed;
-    max-width: 60%;
-    width: 100%;
-    height: 100%;
-    padding: 0 0.5rem 0.5rem 0.5rem;
-    border: 0.3rem;
-}
+    .preview-box {
+        position: fixed;
+        max-width: 60%;
+        width: 100%;
+        height: 100%;
+        padding: 0 0.5rem 0.5rem 0.5rem;
+        border: 0.3rem;
+    }
 
-.preview-box .image {
-    width: 100%;
-}
+    .preview-box .image {
+        width: 100%;
+    }
 
     .boton-galeria-cont {
         display: flex;
