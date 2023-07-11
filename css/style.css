@@ -264,6 +264,33 @@ main .about-container .about-text-cont .about-imgs-cont figure img {
     object-fit: cover;
 }
 
+.about-container .about-text .benefit-cont .benefit-title-cont {
+    display: flex;
+    align-items: center;
+}
+
+.about-container .about-text h2 {
+    font-size: 4rem;
+    margin-bottom: 1.4rem;
+    text-transform: uppercase;
+}
+
+.benefit-cont {
+    margin-bottom: 2.4rem;
+}
+
+.benefit-cont figure {
+    height: 100%;
+    align-items: center;
+    margin-right: 0.8rem;
+}
+
+.benefit-cont img {
+    width: 5rem;
+    height: 100%;
+    align-items: center;
+}
+
 .about-container .img-gal1 {
     display: flex;
     border: dotted #EC3337;
@@ -437,6 +464,11 @@ main .about-container .boton-galeria-cont a:hover {
         width: 50%;
         padding-left: 1.4rem;
         justify-content: center;
+    }
+
+    .preview-box {
+    height: 100%;
+
     }
 
 }
