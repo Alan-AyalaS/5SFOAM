@@ -84,6 +84,29 @@ header nav ul a {
     transition: all 0.3s ease;
 }
 
+.redes-cont {
+    display: none;
+    align-items: center;
+}
+
+.redes-cont figure {
+    width: 100%;
+    height: 100%;
+}
+
+.redes-cont figure a {
+    justify-content: center;
+    align-content: center;
+}
+
+.redes-cont img {
+    height: 100%;
+    width: 3.5rem;
+    align-items: center;
+}
+
+
+
 nav .nav_options.active {
     display: flex;
     justify-content: center;
@@ -95,7 +118,17 @@ nav .nav_options.active {
     width: 100%;
     height: 100%;
     background-color: var(--gris-oscuro);
-    }
+}
+
+.nav_options.active .redes-cont {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 5%;    
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+}
 
 .nav_options.active li {
     font-size: 2.5rem;
