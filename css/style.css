@@ -266,14 +266,14 @@ main .about-container .about-text-cont .about-imgs-cont figure img {
 
 .about-container .about-text .benefit-cont .benefit-title-cont {
     display: flex;
-    align-items: center;
 }
 
 .about-container .about-text h2 {
-    font-size: 4rem;
+    font-size: 2.8rem;
     margin-bottom: 1.4rem;
     text-transform: uppercase;
 }
+
 
 .benefit-cont {
     margin-bottom: 2.4rem;
@@ -286,7 +286,7 @@ main .about-container .about-text-cont .about-imgs-cont figure img {
 }
 
 .benefit-cont img {
-    width: 5rem;
+    width: 4rem;
     height: 100%;
     align-items: center;
 }
@@ -611,6 +611,18 @@ main .about-container .boton-galeria-cont a:hover {
 
     main .about-container .about-text-cont .about-text {
         width: 40%;
+    }
+
+    .about-container .about-text h2 {
+        font-size: 4rem;
+        margin-bottom: 1.4rem;
+        text-transform: uppercase;
+    }
+
+    .benefit-cont img {
+        width: 5rem;
+        height: 100%;
+        align-items: center;
     }
 
     main .about-container .about-text-cont .about-imgs-cont {
