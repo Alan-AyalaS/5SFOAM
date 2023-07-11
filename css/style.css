@@ -266,6 +266,7 @@ main .about-container .about-text-cont .about-imgs-cont figure img {
 
 .about-container .img-gal1 {
     display: flex;
+    border: dotted #EC3337;
 }
 
 .about-container .img-gal2 {
