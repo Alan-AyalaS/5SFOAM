@@ -88,13 +88,13 @@ nav .nav_options.active {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background-color: var(--gris-oscuro);
-}
+    }
 
 .nav_options.active li {
     font-size: 2.5rem;
@@ -113,7 +113,9 @@ nav .nav_options.active {
 
 .x-icon.show {
     display: flex;
-    position: relative;
+    position: fixed;
+    top: 3rem;
+    right: 2rem;
     z-index: 1;
 }
 
@@ -344,8 +346,8 @@ main .about-container .boton-galeria-cont a:hover {
     display: none;
     pointer-events: none;
     z-index: 4;
-    transform: all 0.3s ease;
     overflow: hidden;
+
 }
 
 .preview-box .img-box {
