@@ -124,7 +124,7 @@ nav .nav_options.active {
     display: flex;
     flex-wrap: wrap;
     position: absolute;
-    bottom: 5%;    
+    bottom: 1%;    
     width: 80%;
     margin: 0 auto;
     justify-content: center;
