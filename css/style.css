@@ -685,12 +685,18 @@ main .about-container .boton-galeria-cont a:hover {
     .benefit-cont {
         margin-bottom: 6.4rem;
         padding: 4rem;
+        width: 80%;
     }
 
     .benefit-cont img {
         width: 5rem;
         height: 100%;
         align-items: center;
+    }
+
+    .benefit-cont:hover {
+        transform: scale(1.12);
+        transition: all ease-out 150ms;
     }
 
     main .about-container .about-text-cont .about-imgs-cont {
