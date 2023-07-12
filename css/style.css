@@ -318,11 +318,17 @@ main .about-container .about-text-cont .about-imgs-cont figure img {
     text-transform: uppercase;
 }
 
+.about-container .benefit-cont .orga-title {
+    font-size: 2rem;
+    position: relative;
+    top: 0.5rem;
+}
+
 .benefit-cont {
     margin-bottom: 3.2rem;
     background-color: rgba(0, 0, 0, 0.182);
     box-shadow: black   ;
-    padding: 1.6rem 1.6rem 2.4rem 1.6rem;
+    padding: 2.4rem 2.4rem 3.2rem 2.4rem;
     border-radius: 2rem;
 
     -webkit-box-shadow: -12px 23px 69px -9px rgba(0,0,0,0.75);
@@ -671,8 +677,14 @@ main .about-container .boton-galeria-cont a:hover {
         text-transform: uppercase;
     }
 
+    .about-container .benefit-cont .orga-title {
+        font-size: 4rem;
+        top: 0;
+    }
+
     .benefit-cont {
         margin-bottom: 6.4rem;
+        padding: 4rem;
     }
 
     .benefit-cont img {
