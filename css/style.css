@@ -339,23 +339,26 @@ main .about-container .about-text-cont .about-imgs-cont figure img {
 
 .org-cont {
     background-image: url('../imgs/org-back-icon.svg');
-    background-position: center;
+    background-position-x: calc(8rem);
+    background-position-y: calc(1rem);
     background-repeat: no-repeat;
-    background-size: 80%;
+    background-size: 35rem;
 }
 
 .vers-cont {
     background-image: url('../imgs/vers-back-icon.svg');
-    background-position: center;
+    background-position-x: calc(8rem);
+    background-position-y: calc(50%);
     background-repeat: no-repeat;
-    background-size: 90%;
+    background-size: 35rem;
 }
 
 .prot-cont {
     background-image: url('../imgs/prot-back-icon.svg');
-    background-position: center;
+    background-position-x: calc(5rem);
+    background-position-y: calc(50%);
     background-repeat: no-repeat;
-    background-size: 40%;
+    background-size: 35rem;
 }
 
 .benefit-cont figure {
