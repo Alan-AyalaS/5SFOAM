@@ -573,9 +573,39 @@ main .about-container .boton-galeria-cont a:hover {
 
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1024px) {
+    
+    main .about-container .about-text .benefit-cont  h2 {
+        font-size: 3rem;
+        position: relative;
+        top: 0.5rem;
+    }
+    
+    main .org-cont {
+        background-position-x: calc(255%);
+        background-position-y: calc(50%);
+        background-repeat: no-repeat;
+        background-size: 35rem;
+    }
+    
+    main .vers-cont {
+        background-position-x: calc(255%);
+        background-position-y: calc(50%);
+        background-repeat: no-repeat;
+        background-size: 35rem;
+    }
+    
+    main .prot-cont {
+        background-position-x: calc(-275%);
+        background-position-y: calc(0%);
+        background-repeat: no-repeat;
+        background-size: 45rem;
+    }
+}
+
 /*PCs / LAPTOPs*/
 
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 1024px) {
 
     /*Header / nav*/
 
@@ -735,24 +765,21 @@ main .about-container .boton-galeria-cont a:hover {
     }
 
     .org-cont {
-        background-image: url('../imgs/org-back-icon.svg');
-        background-position-x: calc(30rem);
+        background-position-x: calc(155%);
         background-position-y: calc(50%);
         background-repeat: no-repeat;
         background-size: 35rem;
     }
     
     .vers-cont {
-        background-image: url('../imgs/vers-back-icon.svg');
-        background-position-x: calc(30rem);
+        background-position-x: calc(145%);
         background-position-y: calc(50%);
         background-repeat: no-repeat;
         background-size: 35rem;
     }
     
     .prot-cont {
-        background-image: url('../imgs/prot-back-icon.svg');
-        background-position-x: calc(30rem);
+        background-position-x: calc(275%);
         background-position-y: calc(0%);
         background-repeat: no-repeat;
         background-size: 45rem;
