@@ -338,21 +338,21 @@ main .about-container .about-text-cont .about-imgs-cont figure img {
 }
 
 .org-cont {
-    background-image: url('./imgs/org-back-icon.svg');
+    background-image: url('../imgs/org-back-icon.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 80%;
 }
 
 .vers-cont {
-    background-image: url('./imgs/vers-back-icon.svg');
+    background-image: url('../imgs/vers-back-icon.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 90%;
 }
 
 .prot-cont {
-    background-image: url('./imgs/prot-back-icon.svg');
+    background-image: url('../imgs/prot-back-icon.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 40%;
