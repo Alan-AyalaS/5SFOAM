@@ -140,8 +140,6 @@ header nav ul a {
     align-items: center;
 }
 
-
-
 nav .nav_options.active {
     display: flex;
     justify-content: center;
@@ -199,7 +197,6 @@ main .entrada-contenedor {
     overflow: hidden;
     min-height: 58rem;
     background-color: rgba(0, 0, 0, 0.182);
-
 }
 
 main .entrada-contenedor h2{
@@ -278,34 +275,44 @@ main section .texto-entrada-cont .boton-contacto-cont a:hover {
 main .about-container {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 
     color: white;
-    margin-top: 5rem;
     margin-bottom: 4.8rem;
+}
+
+main .about-container .about-width {
+    width: 90%;
+    margin: 0 auto;
 }
 
 main .about-container .about-text-cont {
     display: flex;
     flex-direction: column;
+    
 }
 
 main .about-container .about-title-cont {
+    margin-bottom: 4.8rem;
+    background-color: #EC3337;
+    padding: 1.6rem;
+    -webkit-box-shadow: 0px 0px 16px 10px rgba(99,99,99,0.17);
+-moz-box-shadow: 0px 0px 16px 10px rgba(99,99,99,0.17);
+box-shadow: 0px 0px 16px 10px rgba(99,99,99,0.17);
+}
+
+.about-container .title-cont {
+    width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin-bottom: 4.8rem;
 }
 
 .about-container h1,h2 {
     font-size: 2.4rem;
 }
 
-main .about-container .que-son {
-    display: flex;
-    flex-direction: column;
-}
 
 main .about-container .about-text-cont {
     width: 100%;
@@ -746,16 +753,29 @@ main .about-container .boton-galeria-cont a:hover {
     /*About 5sFOAM*/
 
     main .about-container {
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
-        margin-top: 4.8rem;
         margin-bottom: 2.4rem;
         flex-direction: column;
     }
 
+    main .about-container .about-width {
+        width: 90%;
+        margin: 0 auto;
+    }
+
     main .about-container .about-title-cont {
-        justify-content: start;
-        margin-bottom: 7.2rem;
+        margin-bottom: 4.8rem;
+        background-color: #ec3336;
+        padding: 1.6rem;
+    }
+    
+    .about-container .title-cont {
+        width: 90%;
+        padding-left: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
     }
 
     main .about-container h1,h2 {
