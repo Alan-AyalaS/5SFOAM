@@ -332,9 +332,9 @@ main .about-container .about-text-cont .about-imgs-cont figure img {
     padding: 2.4rem 2.4rem 3.2rem 2.4rem;
     border-radius: 2rem;
 
-    -webkit-box-shadow: -12px 23px 69px -9px rgba(0,0,0,0.75);
-    -moz-box-shadow: -12px 23px 69px -9px rgba(0,0,0,0.75);
-    box-shadow: -12px 23px 69px -9px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -10px -12px 69px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: -10px -12px 69px -9px rgba(0,0,0,0.75);
+box-shadow: -10px -12px 69px -9px rgba(0,0,0,0.75);
 }
 
 .org-cont {
