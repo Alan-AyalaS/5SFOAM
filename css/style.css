@@ -307,21 +307,22 @@ main .about-container .about-text-cont .about-imgs-cont figure img {
     box-shadow: -12px 23px 69px -9px rgba(0,0,0,0.75);
 }
 
-.about-container .about-text .benefit-cont .benefit-title-cont {
-    display: flex;
-    width: 100%;
-}
-
 .about-container .about-text h2 {
-    font-size: 250%;
     margin-bottom: 1.4rem;
     text-transform: uppercase;
 }
 
-.about-container .benefit-cont .orga-title {
-    font-size: 2rem;
+.about-container .about-text .benefit-cont .benefit-title-cont {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 2.4rem;
+}
+
+.benefit-cont h2 {
+    font-size: large;
     position: relative;
-    top: 0.5rem;
+    top: 0.6rem;
 }
 
 .benefit-cont {
@@ -336,7 +337,29 @@ main .about-container .about-text-cont .about-imgs-cont figure img {
     box-shadow: -12px 23px 69px -9px rgba(0,0,0,0.75);
 }
 
+.org-cont {
+    background-image: url('/imgs/org-back-icon.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+
+.vers-cont {
+    background-image: url('/imgs/vers-back-icon.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+
+.prot-cont {
+    background-image: url('/imgs/prot-back-icon.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+
 .benefit-cont figure {
+    display: none;
     height: 100%;
     align-items: center;
     margin-right: 0.8rem;
@@ -344,7 +367,7 @@ main .about-container .about-text-cont .about-imgs-cont figure img {
 }
 
 .benefit-cont img {
-    width: 4rem;
+    width: 3.5rem;
     height: 100%;
     align-items: center;
 }
@@ -677,6 +700,10 @@ main .about-container .boton-galeria-cont a:hover {
         text-transform: uppercase;
     }
 
+    .about-container .about-text .benefit-cont h2 {
+        padding-right: 0;
+    }
+
     .about-container .benefit-cont .orga-title {
         font-size: 4rem;
         top: 0;
@@ -686,6 +713,31 @@ main .about-container .boton-galeria-cont a:hover {
         margin-bottom: 6.4rem;
         padding: 4rem;
         width: 80%;
+    }
+
+    .org-cont {
+        background-image: none;
+    }
+    
+    .vers-cont {
+        background-image: none;
+    }
+    
+    .prot-cont {
+        background-image: none;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 40%;
+    }
+
+    .benefit-cont h2 {
+        font-size: large;
+        position: relative;
+        top: 0;
+    }
+
+    .benefit-cont figure {
+        display: flex;
     }
 
     .benefit-cont img {
@@ -776,7 +828,6 @@ main .about-container .boton-galeria-cont a:hover {
         transform: scale(1.1);
         cursor: pointer;
     }
-
     
     .preview-box {
         position: fixed;
