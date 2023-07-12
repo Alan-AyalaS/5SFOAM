@@ -395,7 +395,7 @@ main .about-container .about-text-cont .about-imgs-cont figure img {
 
 .prot-cont {
     background-image: url('../imgs/prot-back-icon.svg');
-    background-position-x: calc(5rem);
+    background-position-x: calc(9rem);
     background-position-y: calc(50%);
     background-repeat: no-repeat;
     background-size: 35rem;
@@ -861,27 +861,6 @@ main .about-container .boton-galeria-cont a:hover {
         transition: all ease-out 150ms;
     }
 
-    main .about-container .about-text-cont .about-imgs-cont {
-        width: 55%;
-        height: auto;
-        padding-left: 1.6rem;
-
-        justify-content: center;
-    }
-
-    main .about-container .about-text-cont .about-imgs-cont figure {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-    main .about-container .about-text-cont .about-imgs-cont figure img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-
-    }
-
     main .about-container .about-imgs-cont {
         margin-top: 0;
     }
@@ -896,11 +875,11 @@ main .about-container .boton-galeria-cont a:hover {
     }
     
     .about-container .img-gal3 {
-        display: flex;
+        display: none;
     }
     
     .about-container .img-gal4 {
-        display: flex;
+        display: none;
     }
 
     main .about-container .about-imgs-cont {
@@ -911,20 +890,37 @@ main .about-container .boton-galeria-cont a:hover {
         font-size: 1.5rem;
     
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
         grid-row-gap: 1.6rem;
         grid-column-gap: 1.6rem;
         justify-items: center;
     
     }
-    
-    .about-imgs-cont figure {
+
+    main .about-container .about-text-cont .about-imgs-cont {
+        flex-direction: column;
+        width: 55%;
+        height: auto;
+        padding-left: 1.6rem;
+
+        justify-content: center;
+    }
+
+    main .about-container .about-text-cont .about-imgs-cont .image1 {
         width: 100%;
-        height: 20rem;
+        height: 100%;
         object-fit: cover;
+    }
+
+    main .about-container .about-text-cont .about-imgs-cont .image2 {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .about-imgs-cont .image1, .image2 {
+        border: dotted #EE3333;
         overflow: hidden;
-        border: dotted #e64042;
     }
     
     .about-imgs-cont img {
