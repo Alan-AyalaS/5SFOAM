@@ -298,8 +298,8 @@ main .about-container .about-title-cont {
     background-color: #EC3337;
     padding: 1.6rem;
     -webkit-box-shadow: 0px 0px 16px 10px rgba(99,99,99,0.17);
--moz-box-shadow: 0px 0px 16px 10px rgba(99,99,99,0.17);
-box-shadow: 0px 0px 16px 10px rgba(99,99,99,0.17);
+    -moz-box-shadow: 0px 0px 16px 10px rgba(99,99,99,0.17);
+    box-shadow: 0px 0px 16px 10px rgba(99,99,99,0.17);
 }
 
 .about-container .title-cont {
@@ -310,7 +310,7 @@ box-shadow: 0px 0px 16px 10px rgba(99,99,99,0.17);
 }
 
 .about-container h1,h2 {
-    font-size: 2.4rem;
+    font-size: 2.8rem;
 }
 
 
