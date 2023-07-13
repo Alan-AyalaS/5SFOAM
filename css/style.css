@@ -165,7 +165,7 @@ nav .nav_options.active {
     width: 100%;
     height: 100%;
     background-color: var(--gris-oscuro);
-    z-index: 1;
+    z-index: 2;
 }
 
 .nav_options.active .redes-cont li {
@@ -346,30 +346,70 @@ main .about-container {
 }
 
 main .about-container .about-title-cont {
+    position: relative;
     margin-bottom: 4.8rem;
     background-color: #EC3337;
-    padding: 1.6rem;
     -webkit-box-shadow: 0px 0px 16px 10px rgba(99,99,99,0.17);
     -moz-box-shadow: 0px 0px 16px 10px rgba(99,99,99,0.17);
     box-shadow: 0px 0px 16px 10px rgba(99,99,99,0.17);
 }
 
+.about-container .title-cont h1{
+    position: relative;
+    z-index: 1;
+    word-spacing: 0.1rem;
+    letter-spacing: 2px;
+    font-size: 3.2rem;
+}
+
+.about-container .title-cont h2{
+    position: relative;
+    z-index: 1;
+    word-spacing: 0.1rem;
+    letter-spacing: 2px;
+    font-size: 3.2rem;
+}
+
 .about-container .title-cont {
+    position: relative;
     width: 90%;
+    padding: 1.6rem;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    font-weight: 400;
+}
+
+.triangle {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.triangle svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 960.3px);
+    height: 380px;
+}
+
+.triangle .shape-fill {
+    fill: #EC3337;
 }
 
 .about-container .title-cont h1, h2{
     word-spacing: 0.1rem;
-
+    letter-spacing: 2px;
     font-size: 3.2rem;
 }
 
 main .about-container .about-width {
     width: 90%;
     margin: 0 auto;
+
+    position: relative;
 }
 
 main .about-container .about-text-cont {
@@ -425,8 +465,6 @@ main .about-container .about-text-cont .about-imgs-cont figure img {
 
 .benefit-cont h2 {
     font-size: large;
-    position: relative;
-    top: 0.6rem;
 }
 
 .benefit-cont {
@@ -450,7 +488,7 @@ box-shadow: -17px -13px 73px -13px rgba(0,0,0,0.75);
 }
 
 .vers-cont {
-    background-image: url('../imgs/vers-back-icon.svg');
+    background-image: url('../imgs/vers-back-icon-black.svg');
     background-position-x: calc(8rem);
     background-position-y: calc(50%);
     background-repeat: no-repeat;
@@ -458,7 +496,7 @@ box-shadow: -17px -13px 73px -13px rgba(0,0,0,0.75);
 }
 
 .prot-cont {
-    background-image: url('../imgs/resistente-back-icon.svg');
+    background-image: url('../imgs/prot-back-icon-black.svg');
     background-position-x: calc(8rem);
     background-position-y: calc(50%);
     background-repeat: no-repeat;
@@ -485,7 +523,7 @@ box-shadow: -17px -13px 73px -13px rgba(0,0,0,0.75);
 
 .about-container .img-gal1 {
     display: flex;
-    border: dotted #EC3337;
+    border: dotted #FFF;
 }
 
 .about-container .img-gal2 {
@@ -650,7 +688,10 @@ main .benefits-container .benefits-title-cont {
 
 .benefits-container .benefits-title-cont h2{
     width: 90%;
+    word-spacing: 0.1rem;
+    letter-spacing: 1px;
 }
+
 
 
 
@@ -795,7 +836,7 @@ main .benefits-container .benefits-title-cont {
 
     .about-imgs-cont .img-gal2 {
         display: flex;
-        border: dotted #EC3337;
+        border: dotted #FFF;
     }
 
     .preview-box {
@@ -960,19 +1001,31 @@ main .benefits-container .benefits-title-cont {
     }
 
     main .about-container .about-title-cont {
+        width: 100%;
+        position: relative;
         margin-bottom: 4.8rem;
         background-color: #ec3336;
-        padding: 1.6rem;
     }
     
     .about-container .title-cont {
         width: 90%;
+        padding: 1.6rem;
         position: relative;
         left: 5%;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
     }
+
+    .custom-shape-divider-top-1689284330 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
 
     main .about-container .about-title-cont h1, h2 {
         font-size: 4.8rem;
@@ -1062,6 +1115,8 @@ main .benefits-container .benefits-title-cont {
         width: 55%;
         height: auto;
 
+        position: relative;
+        z-index: 1;
         justify-content: center;
     }
 
@@ -1120,7 +1175,7 @@ main .benefits-container .benefits-title-cont {
         height: 20rem;
         object-fit: cover;
         overflow: hidden;
-        border: dotted #e64042;
+        border: dashed red;
     }
     
     .about-imgs-cont img {
@@ -1130,7 +1185,7 @@ main .benefits-container .benefits-title-cont {
     }
 
     .about-imgs-cont img:hover {
-        filter:opacity(70%);
+        filter:contrast(80%);
         transform: scale(1.1);
         cursor: pointer;
     }
