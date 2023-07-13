@@ -258,6 +258,7 @@ main .entrada-contenedor {
 }
 
 main .entrada-contenedor h2{
+    letter-spacing: 0.1rem;
     font-size: 2.4rem;
 }
 
@@ -285,12 +286,13 @@ main section .texto-entrada-cont .espum-cont img{
 }
 
 main section .texto-entrada-cont .pasos-cont{
-    max-width: 70%;
+    max-width: 90%;
 }
 
 main section .texto-entrada-cont .pasos-cont h2{
+    text-transform: uppercase;
     font-size: 2.4rem;
-    font-family: Helvetica, sans-serif;
+    letter-spacing: 0.1rem;
     margin-bottom: 1.6rem;
 }
 
