@@ -1,6 +1,10 @@
 :root {
     --gris-oscuro: rgb(45, 45, 45);
     --rojo: #EC3337;
+
+    --title-font: 'Oswald', sans-serif;
+    --cont-font: 'PT Sans', sans-serif;
+    
 }
 
 html{
@@ -10,6 +14,7 @@ html{
     background-color: var(--gris-oscuro);
     background-image: url("../imgs/asfalt-dark\ \(1\).png");
 }
+
 
 * {
     margin: 0;
@@ -49,6 +54,14 @@ html{
   *::-webkit-scrollbar-thumb:active {
     background-color: #EE3333;
   }
+
+  h1, h2 {
+    font-family: var(--title-font);
+  }
+
+ a, p, span {
+    font-family: var(--cont-font);
+}
 
 
 /*Header / Nav*/
@@ -232,6 +245,7 @@ main section .texto-entrada-cont .pasos-cont{
 
 main section .texto-entrada-cont .pasos-cont h2{
     font-size: 2.4rem;
+    font-family: sans-serif;
     margin-bottom: 1.6rem;
 }
 
@@ -270,7 +284,7 @@ main section .texto-entrada-cont .boton-contacto-cont a:hover {
     background-color: #ee4e50;
 }
 
-/*ABOUT*/
+/*A B O U T*/
 
 main .about-container {
     display: flex;
@@ -280,17 +294,6 @@ main .about-container {
 
     color: white;
     margin-bottom: 4.8rem;
-}
-
-main .about-container .about-width {
-    width: 90%;
-    margin: 0 auto;
-}
-
-main .about-container .about-text-cont {
-    display: flex;
-    flex-direction: column;
-    
 }
 
 main .about-container .about-title-cont {
@@ -309,8 +312,22 @@ main .about-container .about-title-cont {
     justify-content: flex-start;
 }
 
-.about-container h1,h2 {
-    font-size: 2.8rem;
+.about-container .title-cont h1, h2{
+    letter-spacing: 2px;
+    word-spacing: 0.1rem;
+
+    font-size: 3.2rem;
+}
+
+main .about-container .about-width {
+    width: 90%;
+    margin: 0 auto;
+}
+
+main .about-container .about-text-cont {
+    display: flex;
+    flex-direction: column;
+    
 }
 
 
@@ -322,7 +339,7 @@ main .about-container .about-text-cont {
 main .about-container .about-text p{
     text-align: justify;
     font-size: 1.5rem;
-    margin-bottom: 2.4rem;
+    margin-bottom: 1.6rem;
 }
 
 main .about-container .about-text-cont .about-imgs-cont {
@@ -348,7 +365,6 @@ main .about-container .about-text-cont .about-imgs-cont figure img {
 }
 
 .about-container .about-text h2 {
-    margin-bottom: 1.4rem;
     text-transform: uppercase;
 }
 
@@ -356,7 +372,7 @@ main .about-container .about-text-cont .about-imgs-cont figure img {
     display: flex;
     width: 100%;
     overflow: hidden;
-    margin-bottom: 2.4rem;
+    margin-bottom: 1.6rem;
 }
 
 .benefit-cont h2 {
@@ -369,12 +385,12 @@ main .about-container .about-text-cont .about-imgs-cont figure img {
     margin-bottom: 3.2rem;
     background-color: rgba(0, 0, 0, 0.182);
     box-shadow: black   ;
-    padding: 2.4rem 2.4rem 3.2rem 2.4rem;
+    padding: 2.4rem;
     border-radius: 2rem;
 
-    -webkit-box-shadow: -10px -12px 69px -9px rgba(0,0,0,0.75);
-    -moz-box-shadow: -10px -12px 69px -9px rgba(0,0,0,0.75);
-    box-shadow: -10px -12px 69px -9px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -17px -13px 73px -13px rgba(0,0,0,0.75);
+-moz-box-shadow: -17px -13px 73px -13px rgba(0,0,0,0.75);
+box-shadow: -17px -13px 73px -13px rgba(0,0,0,0.75);
 }
 
 .org-cont {
@@ -394,19 +410,23 @@ main .about-container .about-text-cont .about-imgs-cont figure img {
 }
 
 .prot-cont {
-    background-image: url('../imgs/prot-back-icon.svg');
+    background-image: url('../imgs/resistente-back-icon.svg');
     background-position-x: calc(5rem);
     background-position-y: calc(50%);
     background-repeat: no-repeat;
     background-size: 35rem;
 }
 
+.benefit-cont h2 {
+    letter-spacing: 3px;
+    font-size: 3rem;
+}
+
 .benefit-cont figure {
     display: none;
     height: 100%;
     align-items: center;
-    margin-right: 0.8rem;
-    margin-bottom: 3.2rem;
+    align-self: center;
 }
 
 .benefit-cont img {
@@ -434,7 +454,7 @@ main .about-container .about-text-cont .about-imgs-cont figure img {
 
 main .about-container .boton-galeria-cont {
     text-align: center;
-    margin-top: 3.4rem;
+    margin-top: 4.8rem;
 }
 
 main .about-container .boton-galeria-cont a{
@@ -468,7 +488,10 @@ main .about-container .boton-galeria-cont a:hover {
     pointer-events: none;
     z-index: 4;
     overflow: hidden;
+}
 
+.preview-box .info {
+    font-size: 2rem;
 }
 
 .preview-box .img-box {
@@ -557,6 +580,30 @@ main .about-container .boton-galeria-cont a:hover {
     display: none;
     z-index: 3;
 }
+
+/*B E N E F I T S*/
+
+main .benefits-container {
+    margin-top: 4.8rem;
+    width: 100%;
+}
+
+main .benefits-container .benefits-title-cont {
+    margin-bottom: 2.4rem;
+    background-color: #EC3337;
+    padding: 1.6rem;
+    -webkit-box-shadow: 0px 0px 16px 10px rgba(99,99,99,0.17);
+    -moz-box-shadow: 0px 0px 16px 10px rgba(99,99,99,0.17);
+    box-shadow: 0px 0px 16px 10px rgba(99,99,99,0.17);
+
+    width: 100%;
+    color: #FFF;
+}
+
+.benefits-container .benefits-title-cont h2{
+    width: 90%;
+}
+
 
 
 /*TABLETAS*/
@@ -772,14 +819,16 @@ main .about-container .boton-galeria-cont a:hover {
     
     .about-container .title-cont {
         width: 90%;
-        padding-left: 5rem;
+        position: relative;
+        left: 5%;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
     }
 
-    main .about-container h1,h2 {
+    main .about-container .about-title-cont h1, h2 {
         font-size: 4.8rem;
+        align-self: center;
     }
     
     main .about-container .about-text {
@@ -800,7 +849,6 @@ main .about-container .boton-galeria-cont a:hover {
 
     .about-container .about-text h2 {
         font-size: 4rem;
-        margin-bottom: 1.4rem;
         text-transform: uppercase;
     }
 
@@ -865,7 +913,6 @@ main .about-container .boton-galeria-cont a:hover {
     main .about-container .about-text-cont .about-imgs-cont {
         width: 55%;
         height: auto;
-        padding-left: 1.6rem;
 
         justify-content: center;
     }
@@ -960,9 +1007,33 @@ main .about-container .boton-galeria-cont a:hover {
         justify-content: center;
     }
 
+    .about-container span {
+        display: flex;
+        text-transform: uppercase;
+        font-weight: bold;
+
+        align-self: center;
+        font-size: 3rem;
+        padding-right: 0.8rem;
+    }
+
     main .about-container .boton-galeria-cont {
-        margin-top: 0;
-        width: 40%;
+        margin-top: 3.2rem;
+        width: 45%;
+        position: relative;
+        left: 50%;
+        justify-content: end;
+    }
+
+    main .about-container .boton-galeria-cont a{
+        font-size: 3.2rem;
+        padding: 1.6rem 2.4rem; 
+    }
+
+    .benefits-container .benefits-title-cont h2{
+        width: 90%;
+        position: relative;
+        left: 5%;
     }
 }
 
