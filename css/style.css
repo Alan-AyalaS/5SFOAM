@@ -167,25 +167,67 @@ nav .nav_options.active {
     z-index: 1;
 }
 
+.nav_options.active .redes-cont li {
+    width: auto;
+}
+
 .nav_options.active .redes-cont {
     display: flex;
     flex-wrap: wrap;
     position: absolute;
-    bottom: 1%;    
-    width: 80%;
-    margin: 0 auto;
-    justify-content: center;
+    bottom: 10%;    
+    width: 100%;
 }
 
 .nav_options.active li {
-    font-size: 2.5rem;
-    padding: 2rem;
+    font-size: 3.5rem;
     color: #FFFF;
     font-weight: bold;
+
+    width: 100%;
+    text-decoration: underline #EC3337 0.5rem;
+    text-decoration-line: 10px ;
 }
+
+.nav_options.active .home {
+    position: absolute;
+    top: 16%;
+    right: 50%;
+    left: 0%;
+}
+
+.nav_options.active .galeria {
+    position: absolute;
+    top: 24%;
+    right: 50%;
+    left: 0%;
+}
+
+.nav_options.active .blog {
+    position: absolute;
+    top: 32%;
+    right: 50%;
+    left: 0%;
+}
+
+.nav_options.active .nosotros {
+    position: absolute;
+    top: 40%;
+    right: 50%;
+    left: 0%;
+}
+
+.nav_options.active .contacto {
+    position: absolute;
+    top: 48%;
+    right: 50%;
+    left: 0%;
+}
+
 
 .nav_options.active a:hover {
     color: var(--rojo);
+    text-decoration: underline #FFF 0.5rem;
 }
 
 .menu-button.hide {
