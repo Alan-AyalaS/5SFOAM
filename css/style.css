@@ -197,7 +197,7 @@ nav .nav_options.active {
     position: fixed;
     top: 3rem;
     right: 2rem;
-    z-index: 1;
+    z-index: 2;
     cursor: pointer;
 }
 
