@@ -186,7 +186,6 @@ nav .nav_options.active {
 
     width: 100%;
     text-decoration: underline #EC3337 0.5rem;
-    text-decoration-line: 10px ;
 }
 
 .nav_options.active .home {
@@ -756,6 +755,9 @@ main .benefits-container .benefits-title-cont {
         font-size: 2rem;
         justify-content: flex-end;
         padding-right: 10rem;
+
+        text-decoration: underline #EC3337 0.5rem;
+
     }
 
     nav .nav_options a {
@@ -764,6 +766,7 @@ main .benefits-container .benefits-title-cont {
 
     nav .nav_options a:hover {
         color: red;
+        text-decoration: underline #FFF 0.5rem;
         
     }
 
