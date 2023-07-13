@@ -457,7 +457,7 @@ box-shadow: -17px -13px 73px -13px rgba(0,0,0,0.75);
 
 .prot-cont {
     background-image: url('../imgs/resistente-back-icon.svg');
-    background-position-x: calc(5rem);
+    background-position-x: calc(8rem);
     background-position-y: calc(50%);
     background-repeat: no-repeat;
     background-size: 35rem;
@@ -806,11 +806,13 @@ main .benefits-container .benefits-title-cont {
 @media screen and (min-width: 1024px) and (max-width: 1024px) {
     
     main .about-container .about-text .benefit-cont  h2 {
-        font-size: 3rem;
-        position: relative;
-        top: 0.5rem;
+        font-size: 4rem;
     }
-    
+
+    main .about-container .about-text .benefit-cont  p {
+        font-size: 1.6rem;
+    }
+
     main .org-cont {
         background-position-x: calc(255%);
         background-position-y: calc(50%);
@@ -983,7 +985,7 @@ main .benefits-container .benefits-title-cont {
         flex-direction: row;
     }
 
-    main .about-container .about-text-cont .about-text p{
+    .about-container .about-text-cont .about-text p{
         font-size: 2.4rem;
     }
 
