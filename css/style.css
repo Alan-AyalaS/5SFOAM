@@ -713,7 +713,7 @@ main .about-container .boton-galeria-cont a:hover {
 
 .triangle-bottom {
     position: relative;
-    bottom: 0;
+    bottom: -0.5rem;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -724,7 +724,7 @@ main .about-container .boton-galeria-cont a:hover {
     position: relative;
     display: block;
     width: calc(150% + 960.3px);
-    height: 8.9rem;
+    height: 7.9rem;
 }
 
 .triangle-bottom .shape-fill {
@@ -754,7 +754,8 @@ main .benefits-container .benefits-title-cont {
 }
 
 .triangle-top-benefits {
-    position: absolute;
+    position: relative;
+    top: -0.5rem;
     left: 0;
     width: 100%;
     overflow: hidden;
