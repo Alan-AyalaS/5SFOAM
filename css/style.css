@@ -309,12 +309,17 @@ main section .texto-entrada-cont .pasos-cont figure span {
     font-weight: bold;
 }
 
+main section .texto-entrada-cont .pasos-cont .org{
+    margin-bottom: 0;
+}
+
+
 main section .texto-entrada-cont .pasos-cont div figure img{
     width: 2rem;
 }
 
 main section .texto-entrada-cont .boton-contacto-cont {
-    margin-top: 15rem;
+    margin-top: 14rem;
 }
 
 main section .texto-entrada-cont .boton-contacto-cont a{
@@ -367,6 +372,7 @@ main .about-container .about-title-cont {
     word-spacing: 0.1rem;
     letter-spacing: 2px;
     font-size: 3.2rem;
+    align-self: center;
 }
 
 .about-container .title-cont {
@@ -401,7 +407,8 @@ main .about-container .about-title-cont {
 .about-container .title-cont h1, h2{
     word-spacing: 0.1rem;
     letter-spacing: 2px;
-    font-size: 3.2rem;
+    font-size: 4rem;
+    align-self: center;
 }
 
 main .about-container .about-width {
@@ -522,7 +529,8 @@ box-shadow: -17px -13px 73px -13px rgba(0,0,0,0.75);
 
 .about-container .img-gal1 {
     display: flex;
-    border: dotted #FFF;
+    border: dashed #FFF 3.5px;
+    
 }
 
 .about-container .img-gal2 {
@@ -860,9 +868,14 @@ main .benefits-container .benefits-title-cont {
         border: none;
     }
 
+    .about-imgs-cont .img-gal1 {
+        border: dashed #FFF 3.5px;
+
+    }
+
     .about-imgs-cont .img-gal2 {
         display: flex;
-        border: dotted #FFF;
+        border: dashed #FFF 3.5px;
     }
 
     .preview-box {
@@ -1200,7 +1213,7 @@ main .benefits-container .benefits-title-cont {
         height: 20rem;
         object-fit: cover;
         overflow: hidden;
-        border: dashed red;
+        border: dashed #fff 3.5px;
     }
     
     .about-imgs-cont img {
