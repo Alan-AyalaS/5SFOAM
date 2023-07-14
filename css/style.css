@@ -458,12 +458,6 @@ main .about-container .about-text-cont .about-imgs-cont .image1 {
     border: dashed #FFF 3.5px;
 }
 
-main .about-container .about-text-cont .about-imgs-cont .image2 {
-    border: dashed #FFF 3.5px;
-}
-
-
-
 main .about-container .about-text-cont .about-imgs-cont figure img {
     width: 100%;
     height: 100%;
@@ -900,6 +894,10 @@ main .benefits-container .benefits-title-cont {
 
     .about-imgs-cont .img-gal2 {
         display: flex;
+    }
+
+    main .about-container .about-text-cont .about-imgs-cont .image2 {
+        border: dashed #FFF 3.5px;
     }
 
     .preview-box {
