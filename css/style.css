@@ -754,8 +754,7 @@ main .benefits-container .benefits-title-cont {
 }
 
 .triangle-top-benefits {
-    position: relative;
-    top: -0.5rem;
+    position: absolute;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -766,14 +765,21 @@ main .benefits-container .benefits-title-cont {
     position: relative;
     display: block;
     width: calc(350% + 1.3px);
-    height: 275px;
+    height: 86px;
 }
 
 .triangle-top-benefits .shape-fill {
     fill: #EC3337;
 }
 
+.benefits-container {
+    background-image: url(../imgs/benefits-background.svg);
+
+}
+
 .benefits-width {
+    width: 90%;
+    margin: 0 auto;
     margin-top: 3.2rem;
     display: flex;
     position: relative;
