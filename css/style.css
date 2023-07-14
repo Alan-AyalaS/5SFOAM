@@ -128,7 +128,7 @@ header nav ul a {
     text-align: center;
     color: white;
     list-style: none;
-    text-decoration: #EC3337;
+    text-decoration: underline #EC3337 0.5rem;
     transition: all 0.3s ease;
 }
 
