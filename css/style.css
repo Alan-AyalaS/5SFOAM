@@ -452,7 +452,7 @@ main .about-container .about-text-cont .about-imgs-cont figure {
 }
 
 main .about-container .about-text-cont .about-imgs-cont .image1 {
-    border: dashed #FFF 3.5px;
+    border: dashed #FFF;
 }
 
 main .about-container .about-text-cont .about-imgs-cont figure img {
@@ -460,6 +460,13 @@ main .about-container .about-text-cont .about-imgs-cont figure img {
     height: 100%;
     object-fit: cover;
 }
+
+.triangle svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 960.3px);
+    height: 20.9rem;
+  }
 
 .about-container .about-text h2 {
     text-transform: uppercase;
@@ -504,7 +511,7 @@ main .about-container .about-text-cont .about-imgs-cont figure img {
     background-size: 35rem;
 }
 
-.prot-cont {
+.res-cont {
     background-image: url('../imgs/prot-back-icon-black.svg');
     background-position-x: calc(8rem);
     background-position-y: calc(50%);
@@ -862,6 +869,13 @@ main .benefits-container .benefits-title-cont {
         font-size: 4.2rem;
     }
 
+    .triangle svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 960.3px);
+        height: 21.9rem;
+      }
+
     .about-container .about-text-cont .about-text p {
         font-size: 1.6rem;
     }
@@ -927,7 +941,7 @@ main .benefits-container .benefits-title-cont {
         background-size: 35rem;
     }
     
-    main .prot-cont {
+    main .res-cont {
         background-position-x: calc(-275%);
         background-position-y: calc(0%);
         background-repeat: no-repeat;
@@ -1074,7 +1088,7 @@ main .benefits-container .benefits-title-cont {
     }    
 
     main .about-container .about-title-cont h1, h2 {
-        font-size: 5.6rem;
+        font-size: 8rem;
         align-self: center;
     }
 
@@ -1083,9 +1097,16 @@ main .benefits-container .benefits-title-cont {
         z-index: 1;
         word-spacing: 0.1rem;
         letter-spacing: 2px;
-        font-size: 4.8rem;
+        font-size: 6.8rem;
         align-self: center;
     }
+
+    .triangle svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 960.3px);
+        height: 25.9rem;
+      }
         
     main .about-container .about-text {
         padding-right: 3.2rem;
@@ -1137,7 +1158,7 @@ main .benefits-container .benefits-title-cont {
         background-size: 35rem;
     }
     
-    .prot-cont {
+    .res-cont {
         background-position-x: calc(275%);
         background-position-y: calc(0%);
         background-repeat: no-repeat;
@@ -1226,11 +1247,11 @@ main .benefits-container .benefits-title-cont {
     }
 
     main .about-container .about-text-cont .about-imgs-cont figure {
-        object-fit: cover;
-        -webkit-box-shadow: -17px -13px 73px -13px rgba(0,0,0,0.75);
-        -moz-box-shadow: -17px -13px 73px -13px rgba(0,0,0,0.75);
-        box-shadow: -17px -13px 73px -13px rgba(0,0,0,0.75);
-    }
+    object-fit: cover;
+    -webkit-box-shadow: -17px -13px 73px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: -17px -13px 73px -13px rgba(0,0,0,0.75);
+    box-shadow: -17px -13px 73px -13px rgba(0,0,0,0.75);
+}
     
     .about-imgs-cont figure {
         width: 100%;
@@ -1271,7 +1292,6 @@ main .benefits-container .benefits-title-cont {
         width: 40%;
         justify-content: center;
         margin-bottom: 0;
-
     }
 
     .about-container span {
@@ -1314,5 +1334,23 @@ main .benefits-container .benefits-title-cont {
 
     main .entrada-contenedor .back-video {
         height: 81rem;
+    }
+
+    main .about-container .about-title-cont h1, h2 {
+        font-size: 8.6rem;
+        align-self: center;
+    }
+
+    main .about-container .about-title-cont h2 {
+        font-size: 6rem;
+    }
+
+
+    .about-container .res-cont {
+        background-image: url('../imgs/prot-back-icon-black.svg');
+        background-position-x: calc(140%);
+        background-position-y: calc(50%);
+        background-repeat: no-repeat;
+        background-size: 35rem;
     }
 }
