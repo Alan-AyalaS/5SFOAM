@@ -486,7 +486,7 @@ main .about-container .about-text-cont .about-imgs-cont figure img {
 .benefit-cont {
     margin-bottom: 3.2rem;
     background-color: rgba(0, 0, 0, 0.182);
-    box-shadow: black   ;
+    box-shadow: black;
     padding: 2.4rem;
     border-radius: 2rem;
 
@@ -696,7 +696,7 @@ main .about-container .boton-galeria-cont a:hover {
 .triangle-bottom svg {
     position: relative;
     display: block;
-    width: calc(100% + 960.3px);
+    width: calc(150% + 960.3px);
     height: 8.9rem;
 }
 
@@ -739,7 +739,7 @@ main .benefits-container .benefits-title-cont {
 .triangle-top-benefits svg {
     position: relative;
     display: block;
-    width: calc(300% + 1.3px);
+    width: calc(350% + 1.3px);
     height: 275px;
 }
 
@@ -905,6 +905,10 @@ main .benefits-container .benefits-title-cont {
 
     .about-imgs-cont .img-gal2 {
         display: flex;
+    }
+
+    main .about-container .about-text-cont .about-imgs-cont .image1 {
+        border: dashed #FFF 3.5px;
     }
 
     main .about-container .about-text-cont .about-imgs-cont .image2 {
