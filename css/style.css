@@ -353,9 +353,12 @@ main .about-container .about-title-cont {
     position: relative;
     margin-bottom: 4.8rem;
     background-color: #EC3337;
+
+    background-color: #EC3337;
     -webkit-box-shadow: 0px 0px 16px 10px rgba(99,99,99,0.17);
     -moz-box-shadow: 0px 0px 16px 10px rgba(99,99,99,0.17);
     box-shadow: 0px 0px 16px 10px rgba(99,99,99,0.17);
+
 }
 
 .about-container .title-cont h1{
@@ -692,7 +695,7 @@ main .about-container .boton-galeria-cont a:hover {
 }
 
 .triangle-bottom .shape-fill {
-    fill: #fd272c;
+    fill: #ec3337;
 }
 
 /*B E N E F I T S*/
@@ -706,12 +709,10 @@ main .benefits-container .benefits-title-cont {
     position: relative;
     margin-bottom: 2.4rem;
     background-color: #EC3337;
-    -webkit-box-shadow: 0px 0px 16px 10px rgba(99,99,99,0.17);
-    -moz-box-shadow: 0px 0px 16px 10px rgba(99,99,99,0.17);
-    box-shadow: 0px 0px 16px 10px rgba(99,99,99,0.17);
 
     width: 100%;
     color: #FFF;
+    margin-bottom: 0;
 }
 
 .benefits-container .title-cont h2{
@@ -721,8 +722,29 @@ main .benefits-container .benefits-title-cont {
     letter-spacing: 1px;
 }
 
+.triangle-top-benefits {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.triangle-top-benefits svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 275px;
+}
+
+.triangle-top-benefits .shape-fill {
+    fill: #EC3337;
+}
+
 .benefits-width {
+    margin-top: 3.2rem;
     display: flex;
+    position: relative;
     flex-direction: column;
 }
 
@@ -1053,23 +1075,22 @@ main .benefits-container .benefits-title-cont {
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
-    }
-
-    .custom-shape-divider-top-1689284330 {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        overflow: hidden;
-        line-height: 0;
-    }
-    
+    }    
 
     main .about-container .about-title-cont h1, h2 {
+        font-size: 5.6rem;
+        align-self: center;
+    }
+
+    .about-container .title-cont h2{
+        position: relative;
+        z-index: 1;
+        word-spacing: 0.1rem;
+        letter-spacing: 2px;
         font-size: 4.8rem;
         align-self: center;
     }
-    
+        
     main .about-container .about-text {
         padding-right: 3.2rem;
     }
