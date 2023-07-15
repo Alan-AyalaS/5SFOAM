@@ -976,6 +976,32 @@ main .benefit-cont h2 {
         height: 100%;
     }
 
+
+    .benefits-width {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 4.2rem;
+    
+        position: relative;
+        top: 1%;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    .benefit-cont {
+        margin: 0;
+        width: 100%;
+        max-width: 40%;
+        color: #FFF;
+        margin-bottom: 3.2rem;
+        padding: 2.4rem;
+        border-radius: 2rem;
+    }
+
+
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1024px) {
