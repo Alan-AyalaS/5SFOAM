@@ -498,18 +498,18 @@ main .about-container .about-text-cont .about-imgs-cont figure img {
     text-transform: uppercase;
 }
 
-.about-container .about-text .benefit-cont .benefit-title-cont {
+.about-container .about-text .caract-cont .caract-title-cont {
     display: flex;
     width: 100%;
     overflow: hidden;
     margin-bottom: 1.6rem;
 }
 
-.benefit-cont h2 {
+.caract-cont h2 {
     font-size: large;
 }
 
-.benefit-cont {
+.caract-cont {
     margin-bottom: 3.2rem;
     background-color: rgba(0, 0, 0, 0.182);
     box-shadow: black;
@@ -519,14 +519,6 @@ main .about-container .about-text-cont .about-imgs-cont figure img {
     -webkit-box-shadow: -17px -13px 73px -13px rgba(0,0,0,0.75);
     -moz-box-shadow: -17px -13px 73px -13px rgba(0,0,0,0.75);
     box-shadow: -17px -13px 73px -13px rgba(0,0,0,0.75);
-}
-
-.org-cont {
-    background-image: url('../imgs/org-back-icon.svg');
-    background-position-x: calc(8rem);
-    background-position-y: calc(1rem);
-    background-repeat: no-repeat;
-    background-size: 35rem;
 }
 
 .vers-cont {
@@ -545,19 +537,19 @@ main .about-container .about-text-cont .about-imgs-cont figure img {
     background-size: 35rem;
 }
 
-.benefit-cont h2 {
+.caract-cont h2 {
     letter-spacing: 3px;
     font-size: 3rem;
 }
 
-.benefit-cont figure {
+.caract-cont figure {
     display: none;
     height: 100%;
     align-items: center;
     align-self: center;
 }
 
-.benefit-cont img {
+.caract-cont img {
     width: 3.5rem;
     height: 100%;
     align-items: center;
@@ -773,17 +765,58 @@ main .benefits-container .benefits-title-cont {
 }
 
 .benefits-container {
-    background-image: url(../imgs/benefits-background.svg);
+    position: relative;
+    height: auto;
 
+
+    background-image: url(../imgs/benefits-background.svg);
+    background-repeat: no-repeat;
+    background-position-y: calc(24%);
+    background-position-x: calc(100%);
 }
 
 .benefits-width {
+    display: flex;
+    flex-wrap: wrap;
     width: 90%;
     margin: 0 auto;
     margin-top: 3.2rem;
-    display: flex;
+
     position: relative;
+    top: 1%;
     flex-direction: column;
+}
+
+.benefit-cont {
+    background-color: #35212144;
+    width: 60%;
+    margin: 0 auto;
+    max-width: 80%;
+    color: #FFF;
+    margin-bottom: 3.2rem;
+    padding: 2.4rem;
+    border-radius: 2rem;
+}
+
+.benefit-cont img {
+    width: 100%;
+}
+
+main .benefit-cont .org-cont figure{
+    width: 100%;
+}
+
+.benefit-cont p {
+    font-size: 1.5rem;
+}
+
+main .benefit-cont h2 {
+    font-size: 2rem;
+}
+
+
+.org-cont {
+    
 }
 
 
@@ -955,11 +988,11 @@ main .benefits-container .benefits-title-cont {
 
 @media screen and (min-width: 1024px) and (max-width: 1024px) {
     
-    main .about-container .about-text .benefit-cont  h2 {
+    main .about-container .about-text .caract-cont  h2 {
         font-size: 4rem;
     }
 
-    main .about-container .about-text .benefit-cont  p {
+    main .about-container .about-text .caract-cont  p {
         font-size: 1.6rem;
     }
 
@@ -1165,16 +1198,16 @@ main .benefits-container .benefits-title-cont {
         text-transform: uppercase;
     }
 
-    .about-container .about-text .benefit-cont h2 {
+    .about-container .about-text .caract-cont h2 {
         padding-right: 0;
     }
 
-    .about-container .benefit-cont .orga-title {
+    .about-container .caract-cont .orga-title {
         font-size: 4rem;
         top: 0;
     }
 
-    .benefit-cont {
+    .caract-cont {
         margin-bottom: 6.4rem;
         padding: 4rem;
         width: 80%;
@@ -1202,23 +1235,23 @@ main .benefits-container .benefits-title-cont {
         margin-bottom: 0;
     }
 
-    .benefit-cont h2 {
+    .caract-cont h2 {
         font-size: large;
         position: relative;
         top: 0;
     }
 
-    .benefit-cont figure {
+    .caract-cont figure {
         display: flex;
     }
 
-    .benefit-cont img {
+    .caract-cont img {
         width: 5rem;
         height: 100%;
         align-items: center;
     }
 
-    .benefit-cont:hover {
+    .caract-cont:hover {
         transform: scale(1.12);
         transition: all ease-out 150ms;
     }
@@ -1367,6 +1400,19 @@ main .benefits-container .benefits-title-cont {
         width: 90%;
         position: relative;
         left: 5%;
+    }
+
+    .benefits-width {
+        margin: 0 auto;
+
+        display: flex;
+        flex-direction: row;
+    
+        position: relative;
+    }
+
+    .benefit-cont {
+        width: 25%;
     }
 }
 
