@@ -737,6 +737,11 @@ main .benefits-container .benefits-title-cont {
     margin-bottom: 0;
 }
 
+main .benefits-container .title-cont {
+    position: relative;
+    z-index: 1;
+}
+
 .benefits-container .title-cont h2{
     padding-left: 1.6rem;
     width: 90%;
@@ -746,6 +751,7 @@ main .benefits-container .benefits-title-cont {
 
 .triangle-top-benefits {
     position: absolute;
+    top: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -755,8 +761,8 @@ main .benefits-container .benefits-title-cont {
 .triangle-top-benefits svg {
     position: relative;
     display: block;
-    width: calc(350% + 1.3px);
-    height: 86px;
+    width: calc(180% + 900.3px);
+    height: 239px;
 }
 
 .triangle-top-benefits .shape-fill {
