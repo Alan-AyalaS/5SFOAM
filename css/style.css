@@ -511,11 +511,10 @@ main .about-container .about-text-cont .about-imgs-cont figure img {
 
 .caract-cont {
     margin-bottom: 3.2rem;
-    background-color: rgba(0, 0, 0, 0.182);
-    box-shadow: black;
     padding: 2.4rem;
     border-radius: 2rem;
 
+    background-color: rgba(0, 0, 0, 0.182);
     -webkit-box-shadow: -17px -13px 73px -13px rgba(0,0,0,0.75);
     -moz-box-shadow: -17px -13px 73px -13px rgba(0,0,0,0.75);
     box-shadow: -17px -13px 73px -13px rgba(0,0,0,0.75);
@@ -766,19 +765,12 @@ main .benefits-container .benefits-title-cont {
 
 .benefits-container {
     position: relative;
-    height: auto;
-
-
-    background-image: url(../imgs/benefits-background.svg);
-    background-repeat: no-repeat;
-    background-position-y: calc(24%);
-    background-position-x: calc(100%);
 }
 
 .benefits-width {
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     margin-top: 3.2rem;
 
@@ -788,8 +780,12 @@ main .benefits-container .benefits-title-cont {
 }
 
 .benefit-cont {
-    background-color: #35212144;
-    width: 60%;
+    background-color: rgba(0, 0, 0, 0.182);
+    -webkit-box-shadow: -17px -13px 73px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: -17px -13px 73px -13px rgba(0,0,0,0.75);
+    box-shadow: -17px -13px 73px -13px rgba(0,0,0,0.75);
+
+    width: 75%;
     margin: 0 auto;
     max-width: 80%;
     color: #FFF;
@@ -806,20 +802,16 @@ main .benefit-cont .org-cont figure{
     width: 100%;
 }
 
-.benefit-cont p {
-    font-size: 1.5rem;
-}
-
 main .benefit-cont h2 {
-    font-size: 2rem;
+    font-size: 3rem;
+    margin-bottom: 0.8rem;
 }
 
-
-.org-cont {
+.benefit-cont p {
+    font-size: 1.7rem;
+    text-align: start;
     
 }
-
-
 
 
 /*TABLETAS*/
