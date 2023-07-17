@@ -1681,3 +1681,27 @@ main .usos-section {
         background-size: 35rem;
     }
 }
+
+/*G A L A X Y   F O L D*/
+
+@media screen and (min-width: 280px) and (max-width: 280px) {
+    main .entrada-contenedor .back-video{
+        min-height: 60rem;
+    }
+
+    main .entrada-contenedor .texto-entrada-cont .boton-contacto-cont {
+        margin-top: 8rem;
+    }
+
+    main .about-container .about-title-cont .title-cont h2{
+        font-size: 3rem;
+    }
+
+    main .about-container .about-title-cont .title-cont h1{
+        font-size: 3.5rem;
+    }
+
+    main .usos-section #usos-title h2{
+        font-size: 3rem;
+    }
+}
