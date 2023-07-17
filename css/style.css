@@ -889,6 +889,10 @@ main .usos-section {
     object-fit: cover;
 }
 
+.uso-cont .uso-texto h2 {
+    font-size: 2.5rem;
+}
+
 .uso-cont p {
     font-size: 1.5rem;
 }
