@@ -1157,6 +1157,14 @@ main .usos-section {
         background-size: 45rem;
     }
 
+    .benefit-cont h2 {
+        font-size: 3rem;
+    }
+
+    .benefit-cont p {
+        font-size: 1.8rem;
+    }
+
     main .uso-cont p {
         font-size: 1.8rem;
     }
