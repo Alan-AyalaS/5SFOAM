@@ -847,15 +847,38 @@ main .benefit-cont h2 {
 }
 
 main .usos-section {
-    background-color: var(--rojo);
     position: relative;
     flex-direction: column;
     justify-content: space-between;
 }
 
+.usos-top-divider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.usos-top-divider svg {
+    position: relative;
+    display: block;
+    width: calc(275% + 1.3px);
+    height: 350px;
+}
+
+.usos-top-divider .shape-fill {
+    fill: #EC3337;
+}
+
 .usos-width {
+    position: relative;
+    z-index: 1;
     width: 90%;
     margin: 0 auto;
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -865,6 +888,7 @@ main .usos-section {
     width: 90%;
     padding-left: 1.6rem;
     position: relative;
+    z-index: 1;
     color: #FFF;
     margin-bottom: 2.4rem;
 }
@@ -1613,6 +1637,13 @@ main .usos-section {
 
     .uso-cont {
         flex-direction: row;
+    }
+
+    .usos-top-divider svg {
+        position: relative;
+        display: block;
+        width: calc(175% + 1.3px);
+        height: 350px;
     }
 
     .uso-cont figure{
