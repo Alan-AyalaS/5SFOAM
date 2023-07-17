@@ -865,8 +865,8 @@ main .usos-section {
 .usos-top-divider svg {
     position: relative;
     display: block;
-    width: calc(275% + 1.3px);
-    height: 350px;
+    width: calc(193% + 1.3px);
+    height: 309px;
 }
 
 .usos-top-divider .shape-fill {
