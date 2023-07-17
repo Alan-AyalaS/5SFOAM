@@ -828,7 +828,7 @@ main .benefit-cont h2 {
 
 .benefits-bottom-divider {
     position: absolute;
-    bottom: 100%;
+    bottom: 99.6%;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -1562,6 +1562,7 @@ main .usos-section {
         flex-direction: row;
     
         position: relative;
+        margin-bottom: 3rem;
     }
 
     .benefit-cont {
