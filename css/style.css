@@ -1157,6 +1157,10 @@ main .usos-section {
         background-size: 45rem;
     }
 
+    main .usos-section .usos-title h2{
+        font-size: 7rem;
+    }
+
     .benefit-cont h2 {
         font-size: 3rem;
     }
