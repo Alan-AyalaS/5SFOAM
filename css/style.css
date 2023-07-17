@@ -1580,6 +1580,10 @@ main .usos-section {
         height: 150px;
     }
 
+    .usos-section .usos-title {
+        margin-bottom: 4rem;
+    }
+
     .uso-cont {
         flex-direction: row;
     }
