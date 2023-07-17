@@ -1156,6 +1156,10 @@ main .usos-section {
         background-repeat: no-repeat;
         background-size: 45rem;
     }
+
+    main .uso-cont p {
+        font-size: 1.8rem;
+    }
 }
 
 /*PCs / LAPTOPs*/
