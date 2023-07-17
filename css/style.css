@@ -1574,7 +1574,7 @@ main .usos-section {
     }
 
     .benefit-cont:hover {
-        transform: scale(1.05);
+        transform: scale(1.01);
         transition: all ease-out 150ms;
     }
 
@@ -1649,6 +1649,10 @@ main .usos-section {
         margin-right: 0;
         margin-left: 1.6rem;
         order: 2;
+    }
+
+    .uso-cont .uso-texto h2 {
+        font-size: 6rem;
     }
 
 }
