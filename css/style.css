@@ -1176,6 +1176,10 @@ main .usos-section {
     main .uso-cont p {
         font-size: 1.8rem;
     }
+
+    main .uso-cont .uso-texto h2 {
+        font-size: 4rem;
+    }
 }
 
 /*PCs / LAPTOPs*/
