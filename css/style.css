@@ -1707,6 +1707,12 @@ main .usos-section {
         box-shadow: -19px -11px 46px 0px rgba(0,0,0,0.75);
     }
 
+    .uso-cont9 img {
+        -webkit-box-shadow: -19px -11px 46px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: -19px -11px 46px 0px rgba(0,0,0,0.75);
+        box-shadow: -19px -11px 46px 0px rgba(0,0,0,0.75);
+    }
+
     .uso-cont2 img {
         -webkit-box-shadow: 25px -11px 46px 0px rgba(0,0,0,0.75);
         -moz-box-shadow: 25px -11px 46px 0px rgba(0,0,0,0.75);
@@ -1760,7 +1766,9 @@ main .usos-section {
     }
 
     .uso-cont8 figure img{
-        
+        -webkit-box-shadow: 25px -11px 46px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 25px -11px 46px 0px rgba(0,0,0,0.75);
+        box-shadow: 25px -11px 46px 0px rgba(0,0,0,0.75);
     }
 
 }
