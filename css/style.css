@@ -276,14 +276,14 @@ nav .nav_options.active {
     cursor: pointer;
 }
 
-/*Main*/
+/*M A I N*/
 
 main section {
     display: flex;
 }
 
 main .entrada-contenedor {
-    margin-top: 8rem;
+    margin-top: 6.5rem;
     overflow: hidden;
     min-height: 58rem;
     background-color: rgba(0, 0, 0, 0.182);
@@ -1560,6 +1560,10 @@ main .productos-section .producto-title h2{
 
     /*Header / nav*/
 
+    header {
+        position: inherit;
+    }
+
     header .logo_5sfoam {
         justify-content: flex-start;
         width: 50vw;
@@ -1602,6 +1606,7 @@ main .productos-section .producto-title h2{
     /*MAIN  ENTRADA*/
 
     main .entrada-contenedor {
+        margin-top: 0;
         padding-top: 1.6rem;
         display: flex;
     }
