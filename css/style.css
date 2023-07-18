@@ -1282,6 +1282,16 @@ main .usos-section {
     main .uso-cont .uso-texto h2 {
         font-size: 4rem;
     }
+
+    main .uso-cont figure{
+        height: 30rem;
+    }
+    
+     main .uso-cont img{
+        height: 100%;
+    }
+
+
 }
 
 /*PCs / LAPTOPs*/
