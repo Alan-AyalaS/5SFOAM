@@ -1082,10 +1082,11 @@ main .productos-section .producto-title h2{
 /* A C C E S O R I O S*/
 
 .accesorios-section {
+    background-color: #242424;
     flex-direction: column;
     color: #FFF;
 
-    margin-bottom: 2.4rem;
+    padding-bottom: 4rem;
 }
 
 .accesorios-title h2 {
@@ -1139,6 +1140,85 @@ main .productos-section .producto-title h2{
     font-size: 1.5rem;
     font-weight: bolder;
     color: #FFF;
+}
+
+/* F O O T E R*/
+
+
+footer {
+    background-color: var(--gris-oscuro);
+    padding-top: 2.4rem;
+
+    display: flex;
+    flex-direction: column;
+
+    color: #FFF;
+}
+
+.footer-width {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2.4rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-bar ul {
+    font-size: 2rem;
+    font-weight: bold;
+    list-style: none;
+
+    margin-bottom: 2.4rem;
+} 
+
+.footer-bar ul li {
+    margin-top: 0.8rem;
+}
+
+.footer-mobile-divider {
+    border: 1px solid #272626;
+}
+
+.footer-correo {
+    margin-top: 1.6rem;
+}
+
+.footer-correo h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.6rem;
+}
+
+.footer-correo p {
+    font-size: 1.5rem;
+    margin-bottom: 1.6rem;
+}
+
+footer label input{
+    background-color: #242424;
+    width: 100%;
+    height: 4rem;
+
+    border: none;
+
+    font-size: 2rem;
+}
+
+footer label input::placeholder {
+    padding-left: 2rem;
+    align-self: center;
+}
+
+footer button {
+    background-color: var(--rojo);
+    border: none;
+
+    margin-top: 1.6rem;
+
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1.5rem 1.5rem;
 }
 
 /*TABLETAS*/
@@ -1502,6 +1582,23 @@ main .productos-section .producto-title h2{
         width: 50%;
         align-items: center;
         align-self: center;
+    }
+
+    /*F O O T E R*/
+
+    .footer-width {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer-bar {
+        width: 50%;
+    }
+
+    .footer-correo {
+        width: 50%;
+        padding-left: 4.8rem;
+        margin: 0 auto;
     }
 
 }
@@ -2205,6 +2302,21 @@ main .productos-section .producto-title h2{
 
     .accesorios-section .productos-boton a:hover {
         background-color: #ee4e50;
+    }
+
+    .footer-width {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer-bar {
+        width: 50%;
+    }
+
+    .footer-correo {
+        width: 50%;
+        padding-left: 4.8rem;
+        margin: 0 auto;
     }
 
 }
