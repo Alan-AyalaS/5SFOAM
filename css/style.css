@@ -1066,6 +1066,68 @@ main .productos-section .producto-title h2{
     height: 100%;
 }
 
+/* A C C E S O R I O S*/
+
+.accesorios-section {
+    flex-direction: column;
+    color: #FFF;
+
+    margin-bottom: 2.4rem;
+}
+
+.accesorios-title h2 {
+    position: relative;
+    width: 50%;
+    left: 5%;
+    margin-top: 2.4rem;
+    margin-bottom: 2.4rem;
+}
+
+.accesorios-width {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.accesorio-img {
+    width: 20rem;
+    margin: 0 auto;
+}
+
+.accesorio-img img{
+    width: 100%;
+    align-self: center;
+}
+
+.accesorio-text h2{
+    font-size: 3rem;
+}
+
+.accesorio-text p{
+    font-size: 1.5rem;
+}
+
+.productos-boton {
+    width: 100%;
+    margin-top: 2.4rem;
+
+    text-align: center;
+}
+
+.productos-boton {
+    margin-top: 2rem;
+}
+
+.productos-boton a {
+    background-color: var(--rojo);
+    padding: 1.5rem 3rem;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #FFF;
+}
+
 /*TABLETAS*/
 
 @media screen and (min-width: 767px) and (max-width:1023px){
@@ -1409,6 +1471,24 @@ main .productos-section .producto-title h2{
         width: 50%;
         padding-left: 1.6rem;
     }
+
+    /*A C C E S O R I O S*/
+
+    .accesorios-width {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .accesorio-cont {
+        width: 50%;
+    }
+
+    .productos-boton {
+        width: 50%;
+        align-items: center;
+        align-self: center;
+    }
+
 }
 
 
@@ -2079,6 +2159,32 @@ main .productos-section .producto-title h2{
 
     .producto-boton a {
         font-size: 2rem;
+    }
+
+    
+    /*A C C E S O R I O S*/
+    
+    .accesorios-width {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .accesorio-cont {
+        width: 50%;
+    }
+
+    .productos-boton {
+        width: 50%;
+        align-items: center;
+        align-self: center;
+    }
+
+    .accesorios-section .productos-boton a {
+        font-size: 2rem;
+    }
+
+    .accesorios-section .productos-boton a:hover {
+        background-color: #ee4e50;
     }
 
 }
