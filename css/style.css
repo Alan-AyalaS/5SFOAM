@@ -211,36 +211,38 @@ nav .nav_options.active {
     text-underline-offset: 5px;
 }
 
-.nav_options.active .galeria {
+.nav_options.active .productos {
     position: absolute;
     top: 24%;
     right: 50%;
     left: 0%;
 }
-.nav_options.active .galeria a{
+
+.nav_options.active .productos a{
     text-decoration: underline #EC3337 0.5rem;
     text-underline-offset: 5px;
 }
-.nav_options.active .blog {
+
+.nav_options.active .galeria {
     position: absolute;
     top: 32%;
     right: 50%;
     left: 0%;
 }
 
-.nav_options.active .blog a{
+.nav_options.active .galeria a{
     text-decoration: underline #EC3337 0.5rem;
     text-underline-offset: 5px;
 }
 
-.nav_options.active .nosotros {
+.nav_options.active .blog {
     position: absolute;
     top: 40%;
     right: 50%;
     left: 0%;
 }
 
-.nav_options.active .nosotros a{
+.nav_options.active .blog a{
     text-decoration: underline #EC3337 0.5rem;
     text-underline-offset: 5px;
 }
@@ -257,6 +259,17 @@ nav .nav_options.active {
     text-underline-offset: 5px;
 }
 
+.nav_options.active .nosotros {
+    position: absolute;
+    top: 56%;
+    right: 50%;
+    left: 0%;
+}
+
+.nav_options.active .nosotros a{
+    text-decoration: underline #EC3337 0.5rem;
+    text-underline-offset: 5px;
+}
 
 .nav_options.active a:hover {
     color: var(--rojo);
@@ -1166,7 +1179,7 @@ main .productos-section .producto-title h2{
     }
     
     .nav_options.active li {
-        font-size: 6.5rem;
+        font-size: 4.5rem;
         color: #FFFF;
         font-weight: bold;
     
@@ -1184,29 +1197,31 @@ main .productos-section .producto-title h2{
         text-align: center;
     }
     
-    .nav_options.active .galeria {
-        top: 28%;
+    .nav_options.active .productos {
+        top: 26%;
         text-align: center;
-
+    }
+    
+    .nav_options.active .galeria {
+        top: 36%;
+        text-align: center;
     }
     
     .nav_options.active .blog {
-        top: 40%;
+        top: 46%;
         text-align: center;
-
-    }
-    
-    .nav_options.active .nosotros {
-        top: 52%;
-        text-align: center;
-
     }
     
     .nav_options.active .contacto {
-        top: 64%;
+        top: 56%;
         text-align: center;
-
     }
+    
+    .nav_options.active .nosotros {
+        top: 66%;
+        text-align: center;
+    }
+
     
 
     main section .texto-entrada-cont .pasos-cont h2{
