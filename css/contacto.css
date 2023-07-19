@@ -442,12 +442,16 @@ main .formas-contacto-section {
     flex-direction: column;
 }
 
+.productos-section {
+    margin-top: 2.4rem;
+}
+
 main .productos-width .productos-title {
     font-size: 3.5rem;
     margin-bottom: 1.6rem;
 }
 
-.productos-width h2 {
+.productos-section h2 {
     font-size: 3rem;
     letter-spacing: 2px;
 }
@@ -469,6 +473,7 @@ main .productos-width .productos-title {
 }
 
 .productos-width figure {
+    margin-top: 1.6rem;
     width: 100%;
 }
 
@@ -570,11 +575,22 @@ main .productos-width .productos-title {
     .formas-contacto-section{
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
 
         padding-left: 1.6rem;
         width: 50%;
     }
+
+    .producto-cont {
+        width: 20rem;
+    }
+    
+    main .productos-width {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
 }
 
 /*PCs / LAPTOPs*/
@@ -641,15 +657,27 @@ main .productos-width .productos-title {
     .formas-contacto-section{
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
 
         padding-left: 1.6rem;
         width: 50%;
     }
 
+
+    .producto-cont {
+        display: flex;
+        width: 40%;
+    }
+
+    .producto-cont .producto-text {
+        align-self: center;
+    }
+    
     main .productos-width {
+        width: 100%;
         display: flex;
         flex-direction: row;
+        justify-content: space-around;
     }
+
 
 }
