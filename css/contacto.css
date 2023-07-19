@@ -358,6 +358,12 @@ form label {
     margin-bottom: 1.6rem;
 }
 
+
+textarea {
+    resize: vertical;
+}
+
+
 .required::after {
     content: '*';
     color: red;
@@ -420,14 +426,36 @@ main .formas-contacto-section {
     flex-direction: column;
 }
 
-.formas-contacto-section div figure{
+.formas-contacto-section figure{
     width: 100%;
     margin-bottom: 1.6rem;
 }
 
-.formas-contacto-section div figure img{
+.formas-contacto-section figure img{
     width: 100%;
 }
+
+.productos-width {
+    display: flex;
+}
+
+.productos-width h2 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+.productos-width p {
+    font-size: 1.5rem;
+}
+
+.productos-width figure {
+    width: 100%;
+}
+
+.productos-width figure img {
+    width: 100%;
+}
+
 
 
     /*T A B L E T A S*/
@@ -510,6 +538,23 @@ main .formas-contacto-section {
         top: 66%;
         text-align: center;
     }
+
+    .contacto-width {
+        display: flex;
+    }
+
+    .form-section {
+            width: 50%;
+    }
+
+    .formas-contacto-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        padding-left: 1.6rem;
+        width: 50%;
+    }
 }
 
 /*PCs / LAPTOPs*/
@@ -560,4 +605,26 @@ main .formas-contacto-section {
     nav .nav_options {
         display: flex;
     }
+
+    main {
+        margin-top: 2.4rem;
+    }
+
+    .contacto-width {
+        display: flex;
+    }
+
+    .form-section {
+            width: 50%;
+    }
+
+    .formas-contacto-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        padding-left: 1.6rem;
+        width: 50%;
+    }
+
 }
