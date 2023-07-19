@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/contacto.css">
+    <title>5sfoam Contacto</title>
+</head>
+<body>
+    <header>
+        <figure class="logo_5sfoam">
+            <a href="./index.html"><img src="./imgs/Logo5sFOAM.png" alt="5sFOAM_logo" height="30px"></a>
+        </figure>
+        <nav class="navigation">
+            <figure onclick="showMenu()" class="navbar-icon-cont">
+                <img class="menu-button" src="./imgs/navbar-icon.jpg" alt="navbar" width="30px">
+                    <img src="./imgs/x-icon.png" alt="" width="30px" class="x-icon">
+            </figure>
+
+            <ul class="nav_options">
+                <li class="home"><a href="./index.html">Home</a></li>
+                <li class="productos"><a href="#">Productos</a></li>
+                <li class="galeria"><a href="#">Galeria</a></li>
+                <li class="blog"><a href="#">Blog</a></li>
+                <li class="contacto"><a href="#">Contacto</a></li>
+                <li class="nosotros"><a href="#">Nosotros</a></li>
+
+
+                <ul class="redes-cont">
+                    <li>
+                        <figure>
+                            <a href="" target="_blank">
+                                <img src="./imgs/tiktok-icon.svg" alt="">
+                            </a>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <a href="https://www.youtube.com/@5sfoam" target="_blank">
+                                <img src="./imgs/youtube-icon.svg" alt="">
+                            </a>
+                            
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <a href="https://www.instagram.com/5sfoam/" target="_blank">
+                                <img src="./imgs/insta-icon.svg" alt="">
+                            </a>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <a href="https://www.facebook.com/5sfoam" target="_blank">
+                                <img src="./imgs/face-icon.svg" alt="">
+                            </a>
+                        </figure>
+                    </li>
+                </ul>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="main-title">
+            <h1>Contacto</h1>
+        </section>
+
+        <section class="main-desc">
+            <h2>Contáctanos para pedidos de mayoreo y espumas de dimensiones especiales para darte una cotización.</h2>
+        </section>
+
+        <section class="form-section">
+            <h2>Enviar su formulario</h2>
+            <form action="https://formsubmit.co/aalanaayala@live.com" method="POST">
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name" autocomplete="name" required>
+
+                <label for="empresa">Empresa</label>
+                <input type="text" name="empresa" id="empresa">
+
+                <label for="email">Correo electronico</label>
+                <input type="email" name="email" id="email" autocomplete="email" required>
+
+                <label for="subject">Asunto</label>
+                <input type="text" name="subject" id="subject" required>
+
+                <label for="coments">Comentarios</label>
+                <textarea name="coments" id="coments" cols="30" rows="5" required></textarea>
+
+                <button class="correo-boton" type="submit">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+    
+    <script src="./script/script.js"></script>
+</body>
+</html>
