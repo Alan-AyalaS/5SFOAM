@@ -1030,6 +1030,7 @@ main .usos-section {
 }
 
 main .productos-section .producto-title h2{
+    letter-spacing: normal;
     font-size: 3rem;
 }
 
