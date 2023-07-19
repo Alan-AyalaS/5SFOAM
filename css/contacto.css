@@ -332,6 +332,10 @@ main .main-desc h2{
     font-size: 1.5rem;
 }
 
+form label {
+    display: flex;
+}
+
 .form-section form input {
     background-color: #303030;
     padding-left: 1.6rem;
@@ -354,6 +358,38 @@ main .main-desc h2{
     margin-bottom: 1.6rem;
 }
 
+.required::after {
+    content: '*';
+    color: red;
+    float: right;
+    margin-left: 1rem;
+  }
+
+  .required-nombre::after {
+    content: '*';
+    color: red;
+    float: right;
+    margin-left: 1rem;
+  }
+
+  .required-asunto::after {
+    content: '*';
+    color: red;
+    float: right;
+    margin-left: 1rem;
+  }
+
+  .required-comentario::after {
+    content: '*';
+    color: red;
+    float: right;
+    margin-left: 1rem;
+  }
+
+:focus {
+    outline: 1px solid var(--rojo);
+}
+
 form button {
     width: 50%;
 
@@ -370,12 +406,28 @@ form button:hover {
     background-color: #ee4e50;
 }
 
-
-
-:focus {
-    outline: 1px solid var(--rojo);
+main .formas-contacto-section {
+    margin-top: 2.4rem;
 }
 
+.formas-contacto-section h2 {
+    font-size: 3rem;
+    margin-bottom: 1.6rem;
+}
+
+.formas-contacto-section div {
+    display: flex;
+    flex-direction: column;
+}
+
+.formas-contacto-section div figure{
+    width: 100%;
+    margin-bottom: 1.6rem;
+}
+
+.formas-contacto-section div figure img{
+    width: 100%;
+}
 
 
     /*T A B L E T A S*/

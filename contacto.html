@@ -77,25 +77,41 @@
         <section class="form-section">
             <h2>Enviar su formulario</h2>
             <form action="https://formsubmit.co/aalanaayala@live.com" method="POST">
-                <label for="name">Nombre</label>
+                <label for="name" class="required-nombre">Nombre</label>
                 <input type="text" name="name" id="name" autocomplete="name" required>
 
                 <label for="empresa">Empresa</label>
                 <input type="text" name="empresa" id="empresa">
 
-                <label for="email">Correo electronico</label>
+                <label for="email" class="required">Correo electronico</label>
                 <input type="email" name="email" id="email" autocomplete="email" required>
 
-                <label for="subject">Asunto</label>
+                <label for="subject" class="required-asunto">Asunto</label>
                 <input type="text" name="subject" id="subject" required>
 
-                <label for="coments">Comentarios</label>
+                <label for="coments" class="required-comentario">Comentarios</label>
                 <textarea name="coments" id="coments" cols="30" rows="5" required></textarea>
 
                 <button class="correo-boton" type="submit">Enviar</button>
             </form>
         </section>
 
+        <section class="formas-contacto-section">
+            <h2>Otras formas de Contacto</h2>
+            
+            <div>
+                <figure>
+                    <a href="mailto:aalanaayala@live.com">
+                        <img src="./imgs/Logo5sFOAM.png" alt="">
+                    </a>
+                </figure>
+    
+                <figure>
+                        <img src="./imgs/Logo5sFOAM.png" alt="">
+                </figure>
+            </div>
+
+        </section>
     </main>
     
     <script src="./script/script.js"></script>
