@@ -437,6 +437,7 @@ main .formas-contacto-section {
 
 .productos-width {
     display: flex;
+    flex-direction: column;
 }
 
 .productos-width h2 {
