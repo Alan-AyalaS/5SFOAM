@@ -293,6 +293,17 @@ nav .nav_options.active {
     cursor: pointer;
 }
 
+main {
+    width: 80%;
+    margin: 0 auto;
+    color: #FFF;
+}
+
+main h1 {
+    margin-top: 8rem;
+    font-size: 3.5rem;
+}
+
 /*TABLETAS*/
 
 @media screen and (min-width: 767px) and (max-width:1023px){
