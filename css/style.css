@@ -2360,6 +2360,10 @@ footer button:hover {
         width: 50%;
     }
 
+    .accesorio-img {
+        width: 40rem;
+    }
+
     .productos-boton {
         width: 50%;
         align-items: center;
