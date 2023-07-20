@@ -1737,6 +1737,18 @@ footer button:hover {
         height: 100%;
     }
 
+     /*P R O D U C T O S*/
+
+     main .productos-section .producto-text .producto-title h2 {
+        font-size: 3.5rem;
+     }
+
+     main .productos-section .producto-text p {
+        font-size: 1.5rem;
+    }
+
+
+
 
 }
 
