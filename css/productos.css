@@ -290,6 +290,119 @@ nav .nav_options.active {
     cursor: pointer;
 }
 
+
+/*P R O D U C T O S*/
+
+.productos-section {
+    flex-direction: column;
+    background-image: url('../imgs/asfalt-dark\ \(1\).png');
+
+    color: #FFF;
+
+    padding-top: 9rem;
+}
+
+.productos-section .productos-title {
+    width: 90%;
+    padding-left: 1.6rem;
+
+    font-size: 3rem;
+    letter-spacing: 1px;
+    color: #FFF;
+    margin-bottom: 2.4rem;
+}
+
+.productos-width {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.producto-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-top: 3.2rem;
+    margin-bottom: 3.2rem;
+}
+
+.producto-img {
+    order: 1;
+}
+
+.producto-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    order: 2;
+}
+
+main .productos-section .producto-title h2{
+    letter-spacing: normal;
+    font-size: 3rem;
+}
+
+.producto-text p {
+    font-size: 1.5rem;
+    padding-bottom: 1.6rem;
+}
+
+.producto-desc{
+    font-size: 2rem;
+}
+
+.producto-precio {
+    font-size: 1.5rem;
+}
+
+.producto-boton {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.producto-boton a{
+    width: 100%;
+    background-color: var(--rojo);
+    padding: 1.5rem 3rem;
+
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.producto-boton a:hover{
+    background-color: #ee4e50;
+}
+
+
+.producto-img {
+    width: 100%;
+    height: 50%;
+}
+
+.producto-img img {
+    width: 100%;
+}
+
+/*A C C E S O R I O S*/
+
+.accesorios-section {
+    width: 90%;
+    margin: 0 auto;
+
+    margin-top: 2.4rem;
+
+    color: #FFF;
+}
+
+.accesorios-title {
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
+
 /*TABLETAS*/
 
 @media screen and (min-width: 767px) and (max-width:1023px){
@@ -370,6 +483,34 @@ nav .nav_options.active {
         top: 66%;
         text-align: center;
     }
+
+    /*P R O D U C T O S*/
+
+    .productos-section .productos-title {
+        position: relative;
+        left: 5%;
+    }
+
+    .productos-width {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .producto-cont {
+        flex-direction: row;
+    }
+
+    .producto-img {
+        width: 50%;
+        height: 100%;
+    }
+
+    .producto-text {
+        justify-content: center;
+        width: 50%;
+        padding-left: 1.6rem;
+    }
 }
 
 /*PCs / LAPTOPs*/
@@ -419,5 +560,64 @@ nav .nav_options.active {
 
     nav .nav_options {
         display: flex;
+    }
+
+    /*P R O D U C T O S*/
+
+    main .productos-section {
+        padding-top: 2.4rem;
+   }
+    
+    .productos-section .productos-title {
+        position: relative;
+        left: 5%;
+    }
+
+    .productos-width {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    
+    .producto-cont {
+        flex-direction: row;
+        width: 50%;     
+
+        margin-top: 2.6rem;
+        margin-bottom: 2.4rem;
+    }
+    
+    .producto-img {
+        width: 68%;
+        height: 79%;
+    }
+
+    .producto-img img {
+        height: 100%;
+    }
+    
+    .producto-text {
+            width: 32%;
+            justify-content: center;
+            padding-left: 3.2rem;
+    }
+    
+    main .productos-section .producto-title h2 {
+            font-size: 3rem;
+            margin-bottom: 1.6rem;
+    }
+    
+    .producto-text p {
+        font-size: 1.5rem;
+    }   
+    
+    .producto-boton {
+        margin-top: 1.6rem;
+        margin-bottom: 0;
+    }
+    
+    .producto-boton a {
+        font-size: 2rem;
     }
 }
