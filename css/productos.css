@@ -302,10 +302,9 @@ nav .nav_options.active {
     padding-top: 9rem;
 }
 
-.productos-title {
-    background-color: var(--rojo);
-
-    width: 100%;
+.productos-section .productos-title {
+    width: 90%;
+    padding-left: 1.6rem;
 
     font-size: 3rem;
     letter-spacing: 1px;
@@ -325,6 +324,7 @@ nav .nav_options.active {
 
     margin-top: 3.2rem;
     margin-bottom: 3.2rem;
+    padding-right: 0.rem;
 }
 
 .producto-img {
@@ -487,7 +487,7 @@ main .productos-section .producto-title h2{
 
     /*P R O D U C T O S*/
 
-    .productos-title {
+    .productos-section .productos-title {
         position: relative;
         left: 5%;
     }
@@ -503,9 +503,6 @@ main .productos-section .producto-title h2{
     }
 
     .producto-img {
-        display: flex;
-        justify-content: center;
-        align-self: center;
         width: 50%;
         height: 100%;
     }
@@ -516,6 +513,31 @@ main .productos-section .producto-title h2{
         padding-left: 1.6rem;
 
     }
+}
+
+/*T A B L E T A S*/
+
+@media screen and (min-width: 1024px) and (max-width: 1024px) {
+    main .productos-width {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    main .producto-cont {
+        width: 100%;
+        align-self: center;
+    }
+
+    main .producto-img {
+        width: 50%;
+    }
+
+    main .producto-text {
+        width: 50%;
+    }
+
 }
 
 /*PCs / LAPTOPs*/
