@@ -290,8 +290,23 @@ nav .nav_options.active {
     cursor: pointer;
 }
 
-
 /*P R O D U C T O S*/
+
+.productos-title {
+
+    padding-top: 9rem;
+    color: #FFF;
+    background-color: var(--rojo);
+    position: relative;
+
+    font-size: 2.5rem;
+}
+
+.productos-title h2 {
+    width: 50%;
+    position: relative;
+    left: 5%;
+}
 
 .productos-section {
     flex-direction: column;
@@ -299,17 +314,43 @@ nav .nav_options.active {
 
     color: #FFF;
 
-    padding-top: 9rem;
+    position: relative;
+    z-index: 1;
 }
 
 .productos-section .productos-title {
+    background: var(--rojo);
     width: 90%;
-    padding-left: 1.6rem;
+    padding: 1.6rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
 
-    font-size: 3rem;
-    letter-spacing: 1px;
-    color: #FFF;
-    margin-bottom: 2.4rem;
+.productos-title h2 {
+    position: relative;
+    z-index: 1;
+}
+
+.productos-top-divider {
+    position: absolute;
+    top: 16%;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.productos-top-divider svg {
+    position: relative;
+    display: block;
+    width: calc(523% + 1.3px);
+    height: 303px;
+}
+
+.productos-top-divider .shape-fill {
+    fill: #EC3337;
 }
 
 .productos-width {
@@ -402,6 +443,20 @@ main .productos-section .producto-title h2{
 .accesorios-title {
     font-size: 3rem;
     letter-spacing: 1px;
+}
+
+.accesorios-title {
+    color: #FFF;
+    background-color: var(--rojo);
+    position: relative;
+
+    font-size: 2.5rem;
+}
+
+.accesorios-title h2 {
+    width: 50%;
+    position: relative;
+    left: 5%;
 }
 
 
@@ -710,7 +765,8 @@ footer button:hover {
     /*Header / nav*/
 
     header {
-        position: inherit;
+        position: relative;
+        z-index: 1;
     }
 
     header .logo_5sfoam {
@@ -752,6 +808,10 @@ footer button:hover {
         display: flex;
     }
 
+    main{
+        margin-top: 0;
+    }
+
     /*P R O D U C T O S*/
 
     main .productos-section {
@@ -759,6 +819,22 @@ footer button:hover {
    }
     
     .productos-section .productos-title {
+        padding-top: 0;
+        position: relative;
+    }
+
+    .productos-top-divider {
+        top: 16%;
+    }
+
+    
+    .productos-top-divider svg {
+        width: calc(500% + 1.3px);
+        height: 303px;
+    }
+
+
+    .producto-title h2 {
         position: relative;
         left: 5%;
     }
@@ -812,6 +888,24 @@ footer button:hover {
     
     .producto-boton a {
         font-size: 2rem;
+    }
+
+    .productos-title {
+        padding-top: 0;
+        color: #FFF;
+        background-color: var(--rojo);
+        position: relative;
+    
+        font-size: 4rem;
+    }
+    
+
+    .accesorios-title {
+        color: #FFF;
+        background-color: var(--rojo);
+        position: relative;
+    
+        font-size: 4rem;
     }
 
     /*F O O T E R*/
