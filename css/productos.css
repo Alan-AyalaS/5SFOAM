@@ -302,9 +302,10 @@ nav .nav_options.active {
     padding-top: 9rem;
 }
 
-.productos-section .productos-title {
-    width: 90%;
-    padding-left: 1.6rem;
+.productos-title {
+    background-color: var(--rojo);
+
+    width: 100%;
 
     font-size: 3rem;
     letter-spacing: 1px;
@@ -486,7 +487,7 @@ main .productos-section .producto-title h2{
 
     /*P R O D U C T O S*/
 
-    .productos-section .productos-title {
+    .productos-title {
         position: relative;
         left: 5%;
     }
@@ -502,6 +503,9 @@ main .productos-section .producto-title h2{
     }
 
     .producto-img {
+        display: flex;
+        justify-content: center;
+        align-self: center;
         width: 50%;
         height: 100%;
     }
@@ -510,6 +514,7 @@ main .productos-section .producto-title h2{
         justify-content: center;
         width: 50%;
         padding-left: 1.6rem;
+
     }
 }
 
@@ -589,6 +594,9 @@ main .productos-section .producto-title h2{
     }
     
     .producto-img {
+        display: flex;
+        justify-content: center;
+        align-self: center;
         width: 68%;
         height: 79%;
     }
@@ -598,9 +606,9 @@ main .productos-section .producto-title h2{
     }
     
     .producto-text {
-            width: 32%;
+            width: 30%;
             justify-content: center;
-            padding-left: 3.2rem;
+            padding-left: 1.6rem;
     }
     
     main .productos-section .producto-title h2 {
