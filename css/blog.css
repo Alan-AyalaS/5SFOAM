@@ -290,6 +290,223 @@ nav .nav_options.active {
     cursor: pointer;
 }
 
+/*G A L L E R Y*/
+
+main {
+    margin-top: 10rem;
+}
+
+.blog-section-title {
+    color: #FFF;
+    font-size: 2.5rem;
+
+    width: 90%;
+    margin: 0 auto;
+}
+
+.blogs {
+    width: 90%;
+    margin: 0 auto;
+
+    padding: 4rem 0;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.blog-cont {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    min-width: 20rem;
+    flex: 35rem;
+
+    margin-bottom: 2.4rem;
+    padding: 3rem 1.5rem;
+    color: #FFF;
+}
+
+.blog-cont:hover {
+    transform: scale(1.04);
+    transition: all 250ms ease-in-out;
+}
+
+.blog-cont .blog-title a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.blog-cont .blog-title a:hover{
+    color: var(--rojo);
+    transition: all 250ms ease-in-out;
+}
+
+
+
+.blog-cont .blog-title h2{
+    width: 100%;
+
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    margin-bottom: 0.8rem;
+}
+
+.blog-cont .blog-desc p{
+    width: 100%;
+
+
+    font-size: 1.5rem;
+}
+
+.blog-cont .blog-enlace {
+    margin-top: 1.6rem;
+}
+
+
+.blog-cont .blog-enlace a{
+    color: #FFF;
+    text-decoration: underline var(--rojo);
+    font-size: 2rem;
+}
+
+.blog-cont .blog-enlace a:hover{
+    color: var(--rojo);
+    transition: all 250ms ease-in-out;
+    text-decoration: underline #FFF;
+}
+
+
+.blog-img {
+    width: 100%;
+    height: 20rem;
+
+    object-fit: cover;
+}
+
+/* F O O T E R*/
+
+
+footer {
+    background-color: var(--gris-oscuro);
+    margin-top: 8rem;
+    padding-top: 4rem;
+
+    display: flex;
+    flex-direction: column;
+
+    color: #FFF;
+}
+
+.footer-width {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2.4rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-bar ul {
+    font-size: 2rem;
+    font-weight: bold;
+    list-style: none;
+
+    margin-bottom: 2.4rem;
+} 
+
+.footer-bar ul li {
+    margin-top: 0.8rem;
+}
+
+.footer-bar ul li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.footer-bar ul li a:hover {
+    color: var(--rojo);
+}
+
+
+.footer-mobile-divider {
+    border: 1px solid #272626;
+}
+
+.footer-correo {
+    margin-top: 1.6rem;
+    margin-bottom: 2.4rem;
+}
+
+.footer-correo h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.6rem;
+}
+
+.footer-correo p {
+    font-size: 1.5rem;
+    margin-bottom: 1.6rem;
+}
+
+footer label input{
+    background-color: #242424;
+    padding-left: 2rem;
+    width: 100%;
+    height: 4rem;
+
+    border: none;
+
+    color: #FFF;
+    font-size: 2rem;
+}
+
+footer label input::placeholder {
+    align-self: center;
+}
+
+footer button {
+    background-color: var(--rojo);
+    border: none;
+
+    margin-top: 1.6rem;
+
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1.5rem 1.5rem;
+}
+
+footer button:hover {
+    background-color: #ee4e50;
+}
+
+:focus {
+    outline: 1px solid var(--rojo);
+}
+
+
+.footer-redes-width {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2.4rem;
+}
+
+.footer-redes {
+    margin-top: 2.4rem;
+}
+
+.footer-redes ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-redes li {
+    list-style: none;
+    padding-left: 1.2rem;
+}
+
+.footer-redes img {
+    width: 70%;
+}
+
 /*TABLETAS*/
 
 @media screen and (min-width: 767px) and (max-width:1023px){
@@ -370,6 +587,92 @@ nav .nav_options.active {
         top: 66%;
         text-align: center;
     }
+
+    main .blogs {
+        width: 95%;
+    }
+
+    main .blog-cont {
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+
+        padding: 0;
+
+        align-self: center;
+        justify-self: center;
+    }
+
+    .blog-picture {
+        width: inherit;
+    }
+
+    .blog-img {
+        width: 100%;
+        height: 20rem;
+    
+        object-fit: cover;
+    }
+
+    .blog-cont .blog-title {
+        padding-left: 1.5rem;
+        width: inherit;
+    }
+
+    .blog-cont .blog-title h2{
+        font-size: 2.5rem;
+        letter-spacing: 1px;
+        margin-bottom: 0.8rem;
+    }
+
+    .blog-cont .blog-desc{
+        padding-left: 1.5rem;
+        width: 95%;
+    }
+
+    
+    .blog-cont .blog-desc p{
+        font-size: 1.5rem;
+    }
+
+    .blog-cont .blog-enlace {
+        padding-left: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    /*F O O T E R*/
+
+.footer-width {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-bar {
+    width: 50%;
+}
+
+.footer-correo {
+    width: 50%;
+    padding-left: 2.4rem;
+    margin: 0 auto;
+}
+
+.footer-correo input{
+    width: 100%;
+}
+
+.footer-redes {
+    width: 80%;
+    padding-left: 2.4rem;
+}
+
+.footer-redes ul{
+    align-self: center;
+    display: flex;
+    width: 115%;
+    justify-content: space-between;
+}
 }
 
 /*PCs / LAPTOPs*/
@@ -419,5 +722,69 @@ nav .nav_options.active {
 
     nav .nav_options {
         display: flex;
+    }
+
+    main {
+        margin-top: 2.4rem;
+    }
+
+    .blog-cont {
+        align-self: center;
+        justify-self: center;
+    }
+
+    .blog-picture {
+        width: inherit;
+    }
+
+    .blog-img {
+        width: 100%;
+        height: 20rem;
+    
+        object-fit: cover;
+    }
+
+    .blog-cont .blog-title h2{
+        width: inherit;
+    
+    
+        font-size: 2.5rem;
+        letter-spacing: 1px;
+        margin-bottom: 0.8rem;
+    }
+    
+    .blog-cont .blog-desc p{
+        width: inherit;
+    
+    
+        font-size: 1.5rem;
+    }
+
+    /*F O O T E R*/
+
+    .footer-width {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer-bar {
+        width: 50%;
+    }
+
+    .footer-correo {
+        width: 50%;
+        padding-left: 4.8rem;
+        margin: 0 auto;
+    }
+
+    .footer-redes ul{
+        align-self: center;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .footer-redes li {
+        padding-left: 3.2rem;
     }
 }
