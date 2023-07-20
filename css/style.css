@@ -975,6 +975,8 @@ main .usos-section {
     flex-direction: column;
     background-color: #ffffffe4;
     background-image: url('../imgs/asfalt-dark\ \(1\).png');
+
+    padding-bottom: 3.2rem;
 }
 
 .productos-top-divider {
@@ -2321,7 +2323,7 @@ footer button:hover {
         flex-direction: row;
 
         margin-top: 0;
-        margin-bottom: 0;
+        margin-bottom: 4rem;
     }
 
     .producto-img {
@@ -2379,6 +2381,8 @@ footer button:hover {
     .accesorios-section .productos-boton a:hover {
         background-color: #ee4e50;
     }
+
+    /*F O O T E R*/
 
     .footer-width {
         display: flex;
