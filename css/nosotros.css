@@ -418,14 +418,13 @@ footer button {
     padding: 1.5rem 1.5rem;
 }
 
-footer button:hover {
-    background-color: #ee4e50;
-}
-
-:focus {
+footer label input:focus {
     outline: 1px solid var(--rojo);
 }
 
+footer button:hover {
+    background-color: #ee4e50;
+}
 
 .footer-redes-width {
     width: 80%;

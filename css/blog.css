@@ -457,6 +457,10 @@ footer label input{
     font-size: 2rem;
 }
 
+footer label input:focus {
+    outline: 1px solid var(--rojo);
+}
+
 footer label input::placeholder {
     align-self: center;
 }
@@ -477,9 +481,6 @@ footer button:hover {
     background-color: #ee4e50;
 }
 
-:focus {
-    outline: 1px solid var(--rojo);
-}
 
 
 .footer-redes-width {
