@@ -334,6 +334,8 @@ main .main-desc h2{
 
 form label {
     display: flex;
+
+    font-size: 2rem;
 }
 
 .form-section form input {
@@ -709,8 +711,14 @@ footer button:hover {
         display: flex;
     }
 
+    /* F O R M U L A R I O*/
+
     .form-section {
             width: 50%;
+    }
+
+    .form-section form input {
+        height: 3.5rem;
     }
 
     .formas-contacto-section{
@@ -807,6 +815,11 @@ footer button:hover {
         justify-content: space-between;
     }
 
+    
+    .tel-cont {
+        padding-right: 5rem;
+    }
+
 }
 
 /*PCs / LAPTOPs*/
@@ -870,6 +883,11 @@ footer button:hover {
             width: 50%;
     }
 
+    
+    .form-section form input {
+        height: 3.5rem;
+    }
+
     .formas-contacto-section{
         display: flex;
         flex-direction: column;
@@ -903,6 +921,10 @@ footer button:hover {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+    }
+
+    .tel-cont {
+        padding-right: 9rem;
     }
 
    /*  .productos-section {
