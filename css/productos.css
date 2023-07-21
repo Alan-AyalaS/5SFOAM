@@ -292,6 +292,15 @@ nav .nav_options.active {
 
 /*P R O D U C T O S*/
 
+.productos-desc {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2.4rem;
+
+    font-size: 2rem;
+    font-family: var(--cont-font);
+}
+
 .productos-title {
 
     padding-top: 9rem;
@@ -851,6 +860,11 @@ footer label input::placeholder {
     }
 
     /*P R O D U C T O S*/
+
+        
+    .productos-desc {
+        font-size: 3rem;
+    }
 
     main .productos-section {
         padding-top: 2.4rem;
