@@ -293,15 +293,53 @@ nav .nav_options.active {
 /*G A L L E R Y*/
 
 main {
-    margin-top: 10rem;
+    padding-top: 6rem;
 }
 
 .blog-section-title {
+    background-color: var(--rojo);
     color: #FFF;
     font-size: 2.5rem;
 
-    width: 90%;
+    position: relative;
+
+    width: 100%;
     margin: 0 auto;
+}
+
+.blog-section-title {
+    width: 100%;
+
+    position: relative;
+}
+
+.blog-section-title h1{
+    width: 50%;
+    position: relative;
+    left: 5%;
+    z-index: 1;
+}
+
+
+
+.productos-top-divider {
+    position: absolute;
+    top: 16%;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.productos-top-divider svg {
+    position: relative;
+    display: block;
+    width: calc(4664% + 1.3px);
+    height: 485px;
+}
+
+.productos-top-divider .shape-fill {
+    fill: #ec3336;
 }
 
 .blogs {
@@ -771,7 +809,15 @@ footer label input::placeholder {
     }
 
     main {
-        margin-top: 2.4rem;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .productos-top-divider svg {
+        position: relative;
+        display: block;
+        width: calc(1664% + 1.3px);
+        height: 538px;
     }
 
     .blog-cont {
