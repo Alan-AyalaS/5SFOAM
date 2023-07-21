@@ -292,26 +292,61 @@ nav .nav_options.active {
 }
 
 main {
-    width: 90%;
-    margin: 0 auto;
-
-    margin-top: 10rem;
+    padding-top: 6rem;
 
     color: #FFF;
 }
 
+.main-width {
+    width: 90%;
+    margin: 0 auto;
+}
+
 main .main-title {
+    background-color: var(--rojo);
+    
     width: 100%;
     font-size: 3rem;
     letter-spacing: 2px;
 
+    position: relative;
+
     margin-bottom: 1.6rem;
+}
+
+main .main-title h1 {
+    width: 50%;
+    position: relative;
+    z-index: 1;
+
+    left: 5%;
 }
 
 main .main-desc h2{
     font-family: var(--cont-font);
     font-size: 1.5rem;
     font-weight: 100;
+
+}
+
+.productos-top-divider {
+    position: absolute;
+    top: 16%;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.productos-top-divider svg {
+    position: relative;
+    display: block;
+    width: calc(1664% + 1.3px);
+    height: 385px;
+}
+
+.productos-top-divider .shape-fill {
+    fill: #ec3336;
 }
 
 .form-section {
@@ -920,7 +955,8 @@ footer label input::placeholder {
     }
 
     main {
-        margin-top: 2.4rem;
+        margin-top: 0;
+        padding-top: 0;
     }
 
     .contacto-width {
