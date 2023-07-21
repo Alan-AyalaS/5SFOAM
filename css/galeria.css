@@ -697,3 +697,9 @@ footer label input::placeholder {
         padding-left: 3.2rem;
     }
 }
+
+@media screen and (min-width:1920px){
+    .gallery__picture:last-child img {
+        width: 50%;
+    }
+}
