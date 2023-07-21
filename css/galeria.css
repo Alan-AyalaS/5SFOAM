@@ -332,7 +332,6 @@ main {
 
 footer {
     background-color: var(--gris-oscuro);
-    margin-top: 8rem;
     padding-top: 4rem;
 
     display: flex;
@@ -377,8 +376,35 @@ footer {
 }
 
 .footer-correo {
+    display: flex;
+    flex-direction: column;
     margin-top: 1.6rem;
     margin-bottom: 2.4rem;
+}
+
+.mc-field-group label {
+    display: flex !important;
+    font-size: 2rem;
+}
+
+.mc-field-group label::after {
+    content: '*';
+    color: var(--rojo);
+    position: relative;
+    left: 2%;
+}
+
+#mc-embedded-subscribe {
+    margin: 1.6rem !important;
+}
+
+
+footer form {
+    margin: 0 !important;
+}
+
+footer .mc-field-group {
+    width: 100% !important;
 }
 
 .footer-correo h2 {
@@ -386,22 +412,36 @@ footer {
     margin-bottom: 1.6rem;
 }
 
-.footer-correo p {
+.mc-field-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-correo span {
     font-size: 1.5rem;
     margin-bottom: 1.6rem;
 }
 
-footer label input{
+footer .email{
+    margin-top: 1.6rem;
+
     background-color: #242424;
     padding-left: 2rem;
     width: 100%;
-    height: 4rem;
+    height: 3rem;
 
     border: none;
 
     color: #FFF;
     font-size: 2rem;
 }
+
+.footer-button {
+    padding: 1rem;
+    color: #FFF;
+    font-weight: bold;
+}
+
 
 footer label input:focus {
     outline: 1px solid var(--rojo);
@@ -411,19 +451,17 @@ footer label input::placeholder {
     align-self: center;
 }
 
-footer button {
-    background-color: var(--rojo);
-    border: none;
-
-    margin-top: 1.6rem;
-
-    color: #FFF;
+.asterisk {
+    color: var(--rojo);
     font-size: 1.5rem;
-    font-weight: bold;
-    padding: 1.5rem 1.5rem;
 }
 
-footer button:hover {
+.footer-button {
+    background-color: var(--rojo);
+}
+
+.footer-button:hover {
+    cursor: pointer;
     background-color: #ee4e50;
 }
 
