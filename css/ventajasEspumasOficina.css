@@ -301,6 +301,7 @@ main {
 .blog-section {
     width: 90%;
     margin: 0 auto;
+    margin-bottom: 4rem;
 }
 
 main .blog-title{
@@ -309,20 +310,86 @@ main .blog-title{
 }
 
 .blog-section p {
+    font-family: var(--cont-font);
+
     font-size: 1.5rem;
-    line-height: 2rem;
+    line-height: 2.5rem;
 }
 
 .ventajas-title {
     font-family: var(--cont-font);
-    font-size: 2rem;
-
-    margin-top: 1.6rem;
-    margin-bottom: 1.6rem;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    margin-top: 3.2rem;
+    margin-bottom: 2.4rem;
 }
 
+/*I N T E R E S A R*/
 
+.blog-divider {
+    border: 1px solid #272626;
+}
 
+.interesar-section {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1.6rem;
+
+    padding: 2rem 0rem;
+}
+
+.interesar-width {
+
+}
+
+.producto-cont{
+    display: flex;
+}
+
+.articulo-img {
+    width: 100%;
+}
+
+.articulo-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.interesar-title {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.interesar-section .articulo-cont {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 2.4rem;
+
+    padding: 1.6rem;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.interesar-section .articulo-cont:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 13px;
+    transform: scale(1.02);
+    transition: all 250ms ease-in-out;
+
+}
+
+.interesar-section .articulo-title {
+    margin-bottom: 0.8rem;
+}
+
+.interesar-section a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.interesar-section p {
+    font-size: 1.5rem;
+}
 
 /* F O O T E R*/
 
@@ -577,38 +644,43 @@ footer label input::placeholder {
         text-align: center;
     }
 
+    .blog-section {
+        width: 70%;
+        margin: 0 auto;
+    }
+
     /*F O O T E R*/
 
-.footer-width {
-    display: flex;
-    flex-direction: row;
-}
+    .footer-width {
+        display: flex;
+        flex-direction: row;
+    }
 
-.footer-bar {
-    width: 50%;
-}
+    .footer-bar {
+        width: 50%;
+    }
 
-.footer-correo {
-    width: 50%;
-    padding-left: 2.4rem;
-    margin: 0 auto;
-}
+    .footer-correo {
+        width: 50%;
+        padding-left: 2.4rem;
+        margin: 0 auto;
+    }
 
-.footer-correo input{
-    width: 100%;
-}
+    .footer-correo input{
+        width: 100%;
+    }
 
-.footer-redes {
-    width: 80%;
-    padding-left: 2.4rem;
-}
+    .footer-redes {
+        width: 80%;
+        padding-left: 2.4rem;
+    }
 
-.footer-redes ul{
-    align-self: center;
-    display: flex;
-    width: 115%;
-    justify-content: space-between;
-}
+    .footer-redes ul{
+        align-self: center;
+        display: flex;
+        width: 115%;
+        justify-content: space-between;
+    }
 }
 
 /*PCs / LAPTOPs*/
@@ -660,41 +732,31 @@ footer label input::placeholder {
         display: flex;
     }
 
+    /*A R T I C U L O*/
+
     main {
+        display: flex;
+        padding: 3.2rem;
+        padding-top: 0;
         margin-top: 2.4rem;
+        justify-content: space-around;
     }
 
-    .blog-cont {
-        align-self: center;
-        justify-self: center;
+    .blog-section {
+        width: 50%;
+        margin: 0 auto;
+
     }
 
-    .blog-picture {
-        width: inherit;
+    /*I N T E R E S A R*/
+
+    .interesar-section {
+        width: 20%;
+        margin: 0;
+        margin-left: 4rem;
+        padding-top: 0;
     }
 
-    .blog-img {
-        width: 100%;
-        height: 20rem;
-    
-        object-fit: cover;
-    }
-
-    .blog-cont .blog-title h2{
-        width: inherit;
-    
-    
-        font-size: 2.5rem;
-        letter-spacing: 1px;
-        margin-bottom: 0.8rem;
-    }
-    
-    .blog-cont .blog-desc p{
-        width: inherit;
-    
-    
-        font-size: 1.5rem;
-    }
 
     /*F O O T E R*/
 
