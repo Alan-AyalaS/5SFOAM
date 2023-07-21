@@ -354,8 +354,8 @@ nav .nav_options.active {
 .productos-top-divider svg {
     position: relative;
     display: block;
-    width: calc(623% + 1.3px);
-    height: 303px;
+    width: calc(1664% + 1.3px);
+    height: 385px;
 }
 
 .productos-top-divider .shape-fill {
@@ -474,7 +474,7 @@ main .productos-section .producto-title h2{
 .accesorios-top-divider svg {
     position: relative;
     display: block;
-    width: calc(500% + 1.3px);
+    width: calc(1460% + 1.3px);
     height: 434px;
 }
 
@@ -913,6 +913,10 @@ footer label input::placeholder {
 
     /*P R O D U C T O S*/
 
+    .productos-section {
+        margin-top: 3.2rem;
+        margin-bottom: 4.8rem;
+    }
         
     .productos-desc {
         font-size: 3rem;
@@ -934,7 +938,7 @@ footer label input::placeholder {
     
     .productos-top-divider svg {
         width: calc(500% + 1.3px);
-        height: 303px;
+        height: 369px;
     }
 
 
