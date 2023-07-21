@@ -876,7 +876,8 @@ footer label input::placeholder {
     }
 
     main .productos-section {
-        padding-top: 2.4rem;
+        padding-top: 5rem;
+        margin-bottom: 2.4rem;
    }
     
     .productos-section .productos-title {
@@ -897,7 +898,6 @@ footer label input::placeholder {
 
     .producto-title h2 {
         position: relative;
-        left: 5%;
     }
 
     .productos-width {
@@ -932,10 +932,18 @@ footer label input::placeholder {
             justify-content: center;
             padding-left: 1.6rem;
     }
+
+    main .producto-title {
+        width: 100%;
+
+        display: flex;
+        justify-content: start;
+    }
     
     main .productos-section .producto-title h2 {
+
             font-size: 3rem;
-            margin-bottom: 1.6rem;
+            margin-bottom: 0.8rem;
     }
     
     .producto-text p {
