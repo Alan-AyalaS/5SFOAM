@@ -372,9 +372,8 @@ nav .nav_options.active {
     flex-direction: column;
     justify-content: space-between;
 
-    margin-top: 3.2rem;
+    margin-top: 4.8rem;
     margin-bottom: 3.2rem;
-    padding-right: 0.rem;
 }
 
 .producto-img {
