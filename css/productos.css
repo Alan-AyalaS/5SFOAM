@@ -438,7 +438,49 @@ main .productos-section .producto-title h2{
     width: 80%;
 }
 
+.productos-bottom-divider {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.productos-bottom-divider svg {
+    position: relative;
+    display: block;
+    width: calc(1254% + 1.3px);
+    height: 421px;
+}
+
+.productos-bottom-divider .shape-fill {
+    fill: #EC3337;
+}
+
+
 /*A C C E S O R I O S*/
+
+.accesorios-top-divider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.accesorios-top-divider svg {
+    position: relative;
+    display: block;
+    width: calc(500% + 1.3px);
+    height: 434px;
+}
+
+.accesorios-top-divider .shape-fill {
+    fill: #EC3337;
+}
 
 .accesorios-section {
     width: 90%;
@@ -465,6 +507,7 @@ main .productos-section .producto-title h2{
 .accesorios-title h2 {
     width: 50%;
     position: relative;
+    z-index: 1;
     left: 5%;
 }
 
@@ -877,7 +920,6 @@ footer label input::placeholder {
 
     main .productos-section {
         padding-top: 5rem;
-        margin-bottom: 2.4rem;
    }
     
     .productos-section .productos-title {
@@ -967,7 +1009,20 @@ footer label input::placeholder {
     
         font-size: 4rem;
     }
+
+    .productos-bottom-divider svg {
+        position: relative;
+        display: block;
+        width: calc(1205% + 1.3px);
+        height: 626px;
+    }
     
+/*A C C E S O R I OS*/
+
+    .accesorios-top-divider SVG{
+        width: calc(825% + 1.3px);
+        height: 775px;
+    }
 
     .accesorios-title {
         color: #FFF;
