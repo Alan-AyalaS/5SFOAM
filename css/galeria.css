@@ -297,12 +297,41 @@ main {
 }
 
 .gallery__title {
+    background-color: var(--rojo);
+
     color: #FFF;
     font-size: 2.5rem;
 
-    width: 90%;
     margin: 0 auto;
 }
+
+.gallery__title h1{
+    width: 50%;
+    position: relative;
+    z-index: 1;
+    left: 5%;
+}
+
+.productos-top-divider {
+    position: absolute;
+    top: 16%;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.productos-top-divider svg {
+    position: relative;
+    display: block;
+    width: calc(1664% + 1.3px);
+    height: 385px;
+}
+
+.productos-top-divider .shape-fill {
+    fill: #ec3336;
+}
+
 
 .gallery {
     width: 90%;
@@ -666,7 +695,7 @@ footer label input::placeholder {
 
     
     main {
-        margin-top: 2.4rem;
+        margin-top: 0;
     }
 
     /*F O O T E R*/
