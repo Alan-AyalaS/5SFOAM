@@ -294,29 +294,61 @@ nav .nav_options.active {
 }
 
 main {
+    padding-top: 6rem;
     color: #FFF;
 }
 
 main h1 {
-    margin-top: 8rem;
     font-size: 3.5rem;
 
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .nosotros-title {
-    width: 80%;
+    background-color: var(--rojo);
+
+    width: 100%;
     margin: 0 auto;
-    margin-bottom: 1.6rem;
+    margin-bottom: 3.4rem;
 }
 
+.nosotros-title h1{
+    width: 50%;
+    position: relative;
+    left: 5%;
+    z-index: 1;
+}
+
+.productos-top-divider {
+    position: absolute;
+    top: 16%;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.productos-top-divider svg {
+    position: relative;
+    display: block;
+    width: calc(2664% + 1.3px);
+    height: 155px;
+}
+
+.productos-top-divider .shape-fill {
+    fill: #ec3336;
+}
+
+
+
 .nosotros-width {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
 .nosotros-width p{
     font-size: 1.5rem;
+
 }
 
 .nosotros-width h2{
@@ -678,8 +710,23 @@ footer label input::placeholder {
         display: flex;
     }
 
+    main {
+        padding-top: 0;
+    }
+
+    main .nosotros-title {
+        margin-bottom: 5.4rem;
+    }
+    
+    .productos-top-divider svg {
+        position: relative;
+        display: block;
+        width: calc(1664% + 1.3px);
+        height: 346px;
+    }
+
     main h1 {
-        margin-top: 2.4rem;
+        margin-top: 0;
         font-size: 4.5rem;
     }
 
