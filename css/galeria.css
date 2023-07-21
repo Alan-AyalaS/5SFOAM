@@ -382,6 +382,15 @@ footer {
     margin-bottom: 2.4rem;
 }
 
+#mc_embed_signup {
+    background-color:#2d2d2d;
+    clear: left; 
+    font-size:15px ;
+    font-family: var(--cont-font); 
+    width: 100%;
+}
+
+
 .mc-field-group label {
     display: flex !important;
     font-size: 2rem;
