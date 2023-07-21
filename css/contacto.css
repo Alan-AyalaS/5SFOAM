@@ -429,7 +429,7 @@ textarea {
     margin-left: 1rem;
   }
 
-:focus {
+form:focus {
     outline: 1px solid var(--rojo);
 }
 
@@ -448,6 +448,12 @@ form button {
 form button:hover {
     background-color: #ee4e50;
 }
+
+.contacto-desc-width a{
+    color: var(--rojo);
+    text-decoration: none;
+}
+
 
 main .formas-contacto-section {
     margin-top: 2.4rem;
