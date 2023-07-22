@@ -743,10 +743,23 @@ footer label input::placeholder {
     }
 
     .blog-section {
-        width: 50%;
+        width: 60%;
         margin: 0 auto;
 
     }
+
+    .blog-section .blog-title {
+        font-size: 3.5rem;
+    }
+
+    .blog-section p {
+        font-size: 2rem;
+    }
+
+    .blog-section h2 {
+        font-size: 3rem;
+    }
+
 
     /*I N T E R E S A R*/
 
