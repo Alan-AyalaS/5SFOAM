@@ -408,8 +408,9 @@ main .about-container .about-title-cont {
     -webkit-box-shadow: 0px 0px 16px 10px rgba(99,99,99,0.17);
     -moz-box-shadow: 0px 0px 16px 10px rgba(99,99,99,0.17);
     box-shadow: 0px 0px 16px 10px rgba(99,99,99,0.17);
-
 }
+
+
 
 .about-container .title-cont h1{
     position: relative;
@@ -417,6 +418,10 @@ main .about-container .about-title-cont {
     word-spacing: 0.1rem;
     letter-spacing: 2px;
     font-size: 3.2rem;
+
+
+    width: 100%;
+    justify-self: start;
 }
 
 .about-container .title-cont h2{
@@ -424,8 +429,10 @@ main .about-container .about-title-cont {
     z-index: 1;
     word-spacing: 0.1rem;
     letter-spacing: 2px;
-    font-size: 3.2rem;
+    font-size: 2.4rem;
     align-self: center;
+
+    width: 100%;
 }
 
 .about-container .title-cont {
@@ -433,7 +440,7 @@ main .about-container .about-title-cont {
     width: 90%;
     padding: 1.6rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
     font-weight: 400;
 }
@@ -462,6 +469,39 @@ main .about-container .about-title-cont {
     letter-spacing: 2px;
     font-size: 4rem;
     align-self: center;
+}
+
+.palomitas-cont {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    z-index: 1;
+
+    width: 90%;
+    margin: 0 auto;
+
+    margin-top: 1.6rem;
+    margin-bottom: 2.4rem;
+
+    font-size: 1.5rem;
+}
+
+.palomitas-cont div {
+    display: flex;
+}
+
+.palomitas-cont div span {
+    color: green;
+
+    padding-right: 0.8rem;
+}
+
+.palomitas-cont p{
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 0.8rem;
+    justify-self: center;
 }
 
 main .about-container .about-width {
@@ -1431,6 +1471,22 @@ footer label input::placeholder {
         width: 50%;
     }
 
+    .palomitas-cont {
+        display: flex;
+        flex-direction: column;
+    
+        position: relative;
+        z-index: 1;
+    
+        width: 90%;
+        margin: 0 auto;
+    
+        margin-top: 1.6rem;
+        margin-bottom: 3.2rem;
+    
+        font-size: 2.5rem;
+    }
+
     main .about-container .about-text-cont{
         flex-direction: row;
     }
@@ -1726,6 +1782,21 @@ footer label input::placeholder {
 
 
 @media screen and (min-width: 1024px) and (max-width: 1024px) {
+
+    main .about-container .title-cont h2{
+        position: relative;
+        z-index: 1;
+        word-spacing: 0.1rem;
+        letter-spacing: 2px;
+        font-size: 4.8rem;
+        align-self: center;
+
+        width: 87%;
+    }
+
+    main .about-container .title-cont h1{
+        font-size: 7rem;
+    }
     
     main .about-container .about-text .caract-cont  h2 {
         font-size: 4rem;
@@ -1735,12 +1806,6 @@ footer label input::placeholder {
         font-size: 1.6rem;
     }
 
-    main .org-cont {
-        background-position-x: calc(255%);
-        background-position-y: calc(50%);
-        background-repeat: no-repeat;
-        background-size: 35rem;
-    }
     
     main .vers-cont {
         background-position-x: calc(255%);
@@ -1920,6 +1985,22 @@ footer label input::placeholder {
         flex-direction: column;
     }
 
+    .palomitas-cont {
+        display: flex;
+        flex-direction: column;
+    
+        position: relative;
+        z-index: 1;
+    
+        width: 90%;
+        margin: 0 auto;
+    
+        margin-top: 1.6rem;
+        margin-bottom: 3.2rem;
+    
+        font-size: 2.5rem;
+    }
+
     main .about-container .about-width {
         width: 90%;
         margin: 0 auto;
@@ -1954,6 +2035,8 @@ footer label input::placeholder {
         letter-spacing: 2px;
         font-size: 6.8rem;
         align-self: center;
+
+        width: 77%;
     }
 
     .triangle svg {
