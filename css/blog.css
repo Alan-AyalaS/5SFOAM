@@ -290,6 +290,9 @@ nav .nav_options.active {
     cursor: pointer;
 }
 
+main {
+}
+
 /*G A L L E R Y*/
 
 .blog-section-title {
@@ -340,6 +343,9 @@ nav .nav_options.active {
 }
 
 .blogs {
+    position: relative;
+    z-index: 1;
+
     width: 90%;
     margin: 0 auto;
 
