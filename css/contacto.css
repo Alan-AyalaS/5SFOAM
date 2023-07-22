@@ -292,8 +292,6 @@ nav .nav_options.active {
 }
 
 main {
-    padding-top: 6rem;
-
     color: #FFF;
 }
 
@@ -312,6 +310,8 @@ main .main-title {
     position: relative;
 
     margin-bottom: 1.6rem;
+    padding-top: 8rem;
+
 }
 
 main .main-title h1 {
@@ -962,6 +962,10 @@ footer label input::placeholder {
 
     main {
         margin-top: 0;
+        padding-top: 0;
+    }
+
+    main .main-title {
         padding-top: 0;
     }
 

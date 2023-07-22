@@ -292,10 +292,6 @@ nav .nav_options.active {
 
 /*G A L L E R Y*/
 
-main {
-    padding-top: 6rem;
-}
-
 .blog-section-title {
     background-color: var(--rojo);
     color: #FFF;
@@ -305,6 +301,7 @@ main {
 
     width: 100%;
     margin: 0 auto;
+    padding-top: 8rem;
 }
 
 .blog-section-title {
@@ -810,6 +807,10 @@ footer label input::placeholder {
 
     main {
         margin-top: 0;
+        padding-top: 0;
+    }
+
+    .blog-section-title {
         padding-top: 0;
     }
 

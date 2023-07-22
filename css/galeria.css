@@ -292,10 +292,6 @@ nav .nav_options.active {
 
 /*G A L L E R Y*/
 
-main {
-    margin-top: 6rem;
-}
-
 .gallery__title {
     background-color: var(--rojo);
 
@@ -303,6 +299,8 @@ main {
     font-size: 2.5rem;
 
     margin: 0 auto;
+    padding-top: 8rem;
+
 }
 
 .gallery__title h1{
@@ -696,6 +694,10 @@ footer label input::placeholder {
     
     main {
         margin-top: 0;
+    }
+
+    .gallery__title {
+        padding-top: 1rem;
     }
 
     /*G A L L E R Y*/
