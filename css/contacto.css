@@ -342,7 +342,7 @@ main .main-desc h2{
     position: relative;
     display: block;
     width: calc(1664% + 1.3px);
-    height: 385px;
+    height: 515px;
 }
 
 .productos-top-divider .shape-fill {
@@ -966,7 +966,7 @@ footer label input::placeholder {
     }
 
     main .main-title {
-        padding-top: 0;
+        padding-top: 0rem;
     }
 
     .contacto-width {
