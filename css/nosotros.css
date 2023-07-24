@@ -613,6 +613,9 @@ footer label input::placeholder {
         text-align: center;
     }
 
+    .nosotros-width {
+        width: 80%;
+    }
     
     .nosotros-width p{
         font-size: 2rem;
@@ -733,11 +736,15 @@ footer label input::placeholder {
         font-size: 4.5rem;
     }
 
+    .nosotros-width {
+        width: 80%;
+    }
+
     .nosotros-width p{
         font-size: 2.5rem;
 
         line-height: 3.5rem;
-    }
+    }    
     
     .nosotros-width h2{
         font-size: 3.5rem;
