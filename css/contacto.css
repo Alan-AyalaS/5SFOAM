@@ -136,11 +136,12 @@ header nav ul a {
     color: white;
     list-style: none;
     text-decoration: underline #EC3337 0.5rem;
-    transition: all 0.3s ease;
 }
 
 header nav ul a:hover {
     text-decoration: #FFF;
+    transition: all 0.3s ease;
+
 }
 
 .redes-cont {

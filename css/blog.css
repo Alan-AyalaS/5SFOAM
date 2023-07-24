@@ -135,11 +135,11 @@ header nav ul a {
     color: white;
     list-style: none;
     text-decoration: underline #EC3337 0.5rem;
-    transition: all 0.3s ease;
 }
 
 header nav ul a:hover {
     text-decoration: #FFF;
+    transition: all 0.3s ease;
 }
 
 .redes-cont {
@@ -318,6 +318,8 @@ main {
     position: relative;
     left: 5%;
     z-index: 1;
+
+    padding-top: 1rem;
 }
 
 
@@ -824,7 +826,7 @@ footer label input::placeholder {
         position: relative;
         display: block;
         width: calc(1664% + 1.3px);
-        height: 538px;
+        height: 608px;
     }
 
     .blog-cont {
