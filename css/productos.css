@@ -943,8 +943,8 @@ footer label input::placeholder {
 
     
     .productos-top-divider svg {
-        width: calc(500% + 1.3px);
-        height: 296px;
+        width: calc(640% + 1.3px);
+        height: 348px;
     }
 
 

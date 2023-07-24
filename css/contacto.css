@@ -346,7 +346,7 @@ main .main-desc h2{
 .productos-top-divider svg {
     position: relative;
     display: block;
-    width: calc(3379% + 1.3px);
+    width: calc(4232% + 1.3px);
     height: 1079px;
 }
 
@@ -978,6 +978,13 @@ footer label input::placeholder {
 
     main .main-title {
         padding-top: 0rem;
+    }
+
+    .productos-top-divider svg {
+        position: relative;
+        display: block;
+        width: calc(1664% + 1.3px);
+        height: 590px;
     }
 
     .contacto-width {
