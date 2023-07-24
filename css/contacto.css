@@ -301,6 +301,11 @@ main {
     margin: 0 auto;
 }
 
+main .contacto-width {
+    position: relative;
+    z-index: 1;
+}
+
 main .main-title {
     background-color: var(--rojo);
     
@@ -434,7 +439,11 @@ textarea {
     margin-left: 1rem;
   }
 
-form:focus {
+input:focus {
+    outline: 1px solid var(--rojo);
+}
+
+textarea:focus {
     outline: 1px solid var(--rojo);
 }
 
