@@ -319,6 +319,8 @@ main .main-title h1 {
     position: relative;
     z-index: 1;
 
+    padding-top: 1rem;
+
     left: 5%;
 }
 
@@ -342,7 +344,7 @@ main .main-desc h2{
     position: relative;
     display: block;
     width: calc(1664% + 1.3px);
-    height: 515px;
+    height: 563px;
 }
 
 .productos-top-divider .shape-fill {
