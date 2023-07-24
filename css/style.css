@@ -2042,8 +2042,8 @@ footer label input::placeholder {
     .triangle svg {
         position: relative;
         display: block;
-        width: calc(100% + 960.3px);
-        height: 25.9rem;
+        width: calc(310% + 960.3px);
+        height: 24.9rem;
       }
         
     main .about-container .about-text {
