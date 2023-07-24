@@ -1,121 +1,600 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="esp">
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Espumas organizadoras de herramientas"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=PT+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <title>5SFOAM</title>
+    <title>5sfoam</title>
 </head>
 <body>
     <header>
         <figure class="logo_5sfoam">
-            <img src="./imgs/Logo5sFOAM.png" alt="5sFOAM_logo" height="35px">
+            <a href="./index.html"><img src="./imgs/Logo5sFOAM.png" alt="5sFOAM_logo" height="30px"></a>
         </figure>
         <nav class="navigation">
-            <figure class="navbar_icon_cont">
-                <a onclick="showMenu()" href="#"><img class="menu-button" src="./imgs/navbar-icon.jpg" alt="navbar" width="30px">
-                    <img src="./imgs/x-icon.png" alt="" width="30px" class="x-icon"></a>
+            <figure onclick="showMenu()" class="navbar-icon-cont">
+                <img class="menu-button" src="./imgs/navbar-icon.jpg" alt="navbar" width="30px">
+                    <img src="./imgs/x-icon.png" alt="" width="30px" class="x-icon">
             </figure>
 
             <ul class="nav_options">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Galeria</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li class="home"><a href="./index.html">Home</a></li>
+                <li class="productos"><a href="./productos.html">Productos</a></li>
+                <li class="galeria"><a href="./galeria.html">Galeria</a></li>
+                <li class="blog"><a href="./blog.html">Blog</a></li>
+                <li class="contacto"><a href="./contacto.html">Contacto</a></li>
+                <li class="nosotros"><a href="./nosotros.html">Nosotros</a></li>
+
+
+                <ul class="redes-cont">
+                    <li>
+                        <figure>
+                            <a href="" target="_blank">
+                                <img src="./imgs/tiktok-icon.svg" alt="">
+                            </a>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <a href="https://www.youtube.com/@5sfoam" target="_blank">
+                                <img src="./imgs/youtube-icon.svg" alt="">
+                            </a>
+                            
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <a href="https://www.instagram.com/5sfoam/" target="_blank">
+                                <img src="./imgs/insta-icon.svg" alt="">
+                            </a>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <a href="https://www.facebook.com/5sfoam" target="_blank">
+                                <img src="./imgs/face-icon.svg" alt="">
+                            </a>
+                        </figure>
+                    </li>
+                </ul>
             </ul>
         </nav>
     </header>
-    
-    <main class="main">
-        <section class="principal-frame">
-            <div class="texto-principal-container">
-                <article class="texto-principal">
-                    <h2 class="espumasorg">ESPUMAS ORGANIZADORAS</h2>
-                    <figure class="logo-5sfoam2-container">
-                        <img src="./imgs/Logo5sFOAM.png" alt="logo_5sfoam">
+    <main>
+        <section class="entrada-contenedor">
+            <video autobuffer autoplay="autoplay" loop muted playsinline class="back-video" id="video">
+                <source src="imgs/backvideoCOMP.mp4" type="video/mp4">
+            </video>
+
+            <article class="texto-entrada-cont">
+
+                <article class="espum-cont">
+                    <h2>ESPUMAS ORGANIZADORAS</h2>
+                    <figure class="logo2-cont">
+                        <img src="./imgs/Logo5sFOAM.png" alt="logo_5sfoam" width="200px">
                     </figure>
-                    <div class="elimine-container">
-                        <h2 class="elimine">Elimine el desorden en tres sencillos pasos</h2>
-                    </div>
                 </article>
-                <article class="pasos">
-                    <div class="container-paso1, container-paso">
-                        <figure class="container-number1-icon">
-                            <img class="number-icons" src="./imgs/number1-icon.svg" alt="paso1-icon" width="20px" height="20px">
+                
+                <article class="pasos-cont">
+                    <h2>Elimine el desorden en tres sencillos pasos</h2>
+                    <div>
+                        <figure>
+                            <img src="./imgs/number1-icon.svg" alt="number1-icon">
+                            <span>Corte</span>
                         </figure>
-                        <p>Corte</p>
                     </div>
-                    
-                    <div class="paso2-container, container-paso">
-                        <figure class="container-number2-icon">
-                            <img class="number-icons" src="./imgs/number2-icon.svg" alt="paso2-icon" width="20px" height="20px">
+                    <div>
+                        <figure>
+                            <img src="./imgs/number2-icon.svg" alt="number1-icon">
+                            <span>Pele</span>
                         </figure>
-                        <p>Pele</p>
                     </div>
-                    
-                    <div class="paso3-container, container-paso">
-                        <figure class="container-number3-icon">
-                            <img class="number-icons" src="./imgs/number3-icon.svg" alt="paso3-icon" width="20px" height="20px">
+                    <div>
+                        <figure class="org">
+                            <img src="./imgs/number3-icon.svg" alt="number1-icon">
+                            <span>Organice</span>
                         </figure>
-                        <p>Organice</p>    
                     </div>
-                    
+                    <article class="boton-contacto-cont">
+                        <a href="./contacto.html">Contacto</a>
+                    </article>
                 </article>
+            </article>
+        </section>
 
-                <div class="boton-contacto">
-                    <a href="#">
-                        <span>Contacto</span>
-                    </a>
+        <section class="about-container">
+
+            <article class="about-title-cont">
+                <div class="title-cont">
+                    <h2>Espuma Organizadora&nbsp;</h2>
+                    <h1 class="about-title">5sFoam</h1>
                 </div>
+            </article>
+
+            <div class="triangle">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M1200 0T0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+                </svg>
             </div>
-            
-            
-            <figure class="principal-image-container">
-                <img class="principal-image" alt="imagen" src="./imgs/TituloFondo1.png">
-            </figure>
-            
-        </section>
-        
-        <section class="random">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste fuga ab doloribus delectus exercitationem! Ipsam magnam ab a ducimus, explicabo sit saepe amet facere, ad ratione eveniet? Minus, deleniti pariatur.
-            Minus impedit, soluta, doloribus voluptatem facilis rem alias assumenda, deleniti ex expedita harum amet nulla! Quibusdam quae maxime dolorem recusandae facilis laboriosam laudantium laborum quidem, possimus porro natus, aperiam officiis!
-            Deleniti excepturi debitis obcaecati laboriosam dolores mollitia maiores, dolore reprehenderit molestias atque velit ea illum, sed amet necessitatibus doloremque blanditiis optio! Voluptate architecto placeat iusto blanditiis impedit cum provident! Aut.
-            Laudantium excepturi enim libero pariatur repudiandae facilis minus odit! Nisi quo excepturi sed? Architecto consectetur eum esse est? Autem ipsa quod voluptas commodi accusamus, accusantium blanditiis possimus cum optio veniam.
-            Voluptate fugiat animi exercitationem explicabo ad libero sapiente in ex consequatur delectus consectetur adipisci ipsam velit, corrupti natus, magnam veniam commodi aliquid facere quam? Eveniet quisquam doloremque nostrum iusto tenetur.
-            Atque itaque nesciunt, ullam magnam dolorum fugiat exercitationem rerum id eum voluptas laboriosam! Harum nesciunt quo, dolor saepe itaque quibusdam tempore at vel id dicta fugit deserunt, quae totam dignissimos?
-            Vero quam asperiores adipisci nulla, dolorum, veniam fugiat dignissimos quibusdam temporibus fuga quod itaque. Similique iure aperiam eos sed voluptates sint hic, deleniti cum corporis recusandae dolores pariatur doloremque quod?
-            Earum, iure nostrum. Libero atque, illum corporis repellendus aliquam ullam ducimus quo quos tempora? Autem eius unde aliquid nesciunt a, modi eligendi ipsam molestiae quos reiciendis mollitia placeat, ratione tempore.
-            In unde sed itaque facilis repudiandae delectus quisquam, dolor, voluptates doloribus eum voluptatem eos magni vero illum aspernatur dicta totam deleniti dolore. Modi dolor fuga neque officiis totam, eveniet in.
-            A omnis magnam, tempora ducimus minima neque optio numquam suscipit, tenetur blanditiis ex consequuntur unde nulla iste iusto, qui placeat ut quo nihil inventore cupiditate repellendus soluta cum doloremque. Minima?
-            Suscipit nam minima dolorum quae repellat officia facilis rem necessitatibus incidunt sit repellendus qui nesciunt reiciendis nemo facere perferendis voluptates aliquid, asperiores, delectus eligendi nobis sapiente architecto ipsa. Libero, rem.
-            Nobis nam ipsam sint, blanditiis exercitationem a, eveniet eligendi possimus consequatur, ea ex? Labore possimus, cumque similique nulla perferendis ipsam sint cum doloremque reiciendis voluptatibus quasi, unde, dignissimos asperiores commodi?
-            Commodi aut qui ullam nemo fuga velit consequatur ex, doloribus obcaecati a doloremque magnam blanditiis pariatur. Commodi voluptas, obcaecati asperiores rerum odit veritatis magni ipsa? Cum architecto quasi placeat possimus.
-            Aliquid nostrum aut placeat, voluptatum provident laboriosam tempora reprehenderit dignissimos, corrupti qui quod quidem? Quia nesciunt, cupiditate quidem minima sint recusandae deserunt consectetur laudantium corrupti nemo! Laudantium et animi repudiandae.
-            Quasi, fugit obcaecati dignissimos perferendis ipsam iure nobis, explicabo provident aut quibusdam quisquam iusto natus modi iste in odio? Odio ea quas suscipit ab vel minus quia ratione enim nihil?
-            Quos impedit ad asperiores voluptatibus, iste, deleniti, vero fugiat vel et reiciendis cumque beatae odio voluptate nesciunt vitae animi. Natus quidem rerum deserunt accusantium adipisci soluta nostrum voluptas illum earum.
-            Ipsa numquam repellat voluptas tenetur quaerat consequuntur adipisci accusantium saepe similique vitae fugiat, facere qui. Accusantium quidem reprehenderit eligendi adipisci culpa ut. Odio aliquam temporibus quibusdam? Ipsa excepturi eos officiis?
-            Quos facilis, amet optio totam cum vel assumenda molestiae minus rerum quo nulla itaque alias sapiente exercitationem saepe delectus iusto impedit inventore velit, cupiditate necessitatibus. Dolorem sapiente sit velit molestiae.
-            Blanditiis voluptates voluptatem commodi quas, minima aperiam? Repellendus reiciendis inventore dicta accusamus in corrupti molestias, eaque quos neque nisi architecto! Esse quo eos error illum, sunt labore natus voluptates fugiat?
-            Asperiores repellendus iste impedit laudantium obcaecati molestiae libero quo aliquam ut eum. Quos, adipisci dolores? Ab quia commodi numquam quisquam, deserunt reiciendis facere ratione corrupti consequuntur ipsa fugit quae ea.
-            Vero laudantium quod odit eum, maiores doloribus architecto? Voluptate commodi cumque iusto sapiente fugiat repellat quaerat, tempore amet laborum minima aut deleniti facere et eveniet! Minima nobis accusamus suscipit odio.
-            Sunt itaque deserunt fugiat illo quisquam dolor sit, unde omnis, officia aspernatur ullam! Voluptatum, fugit dolore at nisi a eum eaque soluta placeat dignissimos hic consectetur ullam amet magnam voluptatibus!
-            Facilis alias maiores ipsa culpa autem? Molestiae reiciendis ex totam sapiente quidem quos? Mollitia delectus tempore, cumque tempora quos corporis autem, inventore molestiae velit nesciunt similique quasi aut. Corporis, minus.
-            Quidem optio voluptates aliquid a fugit quam quibusdam sint nulla. Molestiae sequi voluptatum adipisci illum similique fugiat unde quod magnam alias expedita architecto aliquam dolore voluptatem laudantium, impedit voluptate laborum?
-            Nihil quas reprehenderit voluptates laudantium ea dolorem voluptate eveniet nobis quo. Rem ea ipsam obcaecati quod, maiores aliquam sunt eius amet quasi, perferendis cumque asperiores laborum reiciendis et unde rerum.
-            Necessitatibus consequuntur velit natus atque exercitationem, sit quae facere dicta. Dolore sequi quod odit velit atque! Placeat sint animi, exercitationem, quo reprehenderit nihil est ad ab cumque aut sit ratione.
-            Eius nostrum rerum distinctio quis ea officia nulla porro provident suscipit molestiae. Debitis dolor reiciendis ullam omnis eius magnam beatae eligendi provident sed, voluptatum nobis iusto tempora eum deleniti nulla.
-            Itaque ipsum iure quasi voluptas cumque non mollitia aperiam adipisci fugiat, ducimus porro exercitationem voluptate reiciendis impedit doloribus eaque quibusdam quo molestias fugit animi ab vitae? Perspiciatis recusandae quis consectetur?
-            Ducimus vitae impedit consequuntur! Rerum saepe, atque beatae obcaecati porro tempora nemo nobis esse eligendi necessitatibus fugiat maiores inventore corrupti harum illum fugit possimus impedit ducimus culpa repudiandae? Debitis, earum?
-            Amet sequi ipsam dolorum, nihil quibusdam ipsum voluptatibus, eius, magni sunt libero ut. Ut tenetur magnam distinctio pariatur nemo necessitatibus quidem quaerat asperiores, deleniti eius, sit nisi ea ipsam consectetur.</p>
+
+            <article class="palomitas-cont">
+                <div>
+                    <span>✓</span>
+                    <p>Ahorre tiempo y pérdidas de herramientas.</p>
+                </div>
+                <div>
+                    <span>✓</span>
+                    <p>Cada herramienta sienpre en su lugar.</p>
+                </div>
+                <div>
+                    <span>✓</span>
+                    <p>Aumente la productividad.</p>
+                </div>
+                <div>
+                    <span>✓</span>
+                    <p>Impresione a sus clientes.</p>
+                </div>
+                <div>
+                    <span>✓</span>
+                    <p>Supere las normas de orden y limpieza.</p>
+                </div>
+            </article>
+
+            <article class="about-width">
+    
+                <article class="about-text-cont">
+
+                    <article class="about-text">
+                        <article class="caract-cont vers-cont">
+                            <div class="caract-title-cont">
+                                <h2>Versátiles</h2>
+                            </div>
+                            <p>Son una <b>solución flexible y versátil</b> que se utiliza para <b>talleres y equipos de fábrica, transporte y embalaje</b>  o para la <b>organización de oficinas</b>, herramientas de alta calidad manteniendo el orden al máximo.<br><br>Con cúter crea manualmente las inserciones de espuma para cada herramienta para <b>garantizar</b>, el <b>transporte</b>, <b>almacenamiento</b>,&nbsp;etc. </p>
+                        </article>
+    
+                        <article class="caract-cont res-cont">
+                            <div class="caract-title-cont">
+                                <h2>Resistentes</h2>
+                            </div>
+                            <p>Son ligeras como toda espuma pero resistentes como ninguna, las espumas 5sfoam son resistentes a golpes, al aceite, solventes comunes, corrosión, hongos, etc.<br><br>Además son 100% reciclables.</p>
+                        </article>
+                    </article>
+
+                    <article class="about-imgs-cont">
+                        
+                        <figure class="image image1">
+                            <img src="./imgs/grandes 1.jpg" alt="" class="img-gal1">
+                        </figure>
+    
+                        <figure class="image image2">
+                            <img src="./imgs/TituloFondo.png" alt="" class="img-gal2">
+                        </figure>
+    
+                        <figure class="image">
+                            <img src="./imgs/packout-img.jpg" alt="" class="img-gal3">
+                        </figure>
+    
+                        <figure class="image">
+                            <img src="./imgs/Estuches 5.jpg" alt="" class="img-gal4">
+                        </figure>
+                        </article>
+    
+                    </article>
+                    <div class="shadow"></div>
+    
+                </article>
+    
+                <article class="preview-box">
+                    <div class="details">
+                        <span class="title"><p>Imagen</p><p class="total-img"></p><p>de</p><p class="current-img"></p></span>
+                        <span class="icon">&times;</span>           
+                    </div>
+                    <div class="img-box">
+                        <figure class="slide prev">
+                            <img src="imgs/next-icon.png" alt="" width="10px">
+                        </figure>
+                        <figure class="slide next">
+                            <img src="imgs/next-icon.png" alt="" width="10px">
+                        </figure>
+                        <figure class="image-cont">
+                            <img class="image" src="" alt="">
+                        </figure>
+                    </div>                 
+                </article>
+                <article class="boton-galeria-cont">
+                    <!-- <span>Más imágenes aquí</span> -->
+                    <a href="./galeria.html">Galeria</a>
+                </article>
+            </article>
+
+            <div class="triangle-bottom">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
+                </svg>
+            </div>   
+
         </section>
 
+        <section class="benefits-container">         
+            <article class="benefits-title-cont">
+                <div class="title-cont">
+                    <h2>Beneficios</h2>
+                </div>
+            </article>
+            <div class="triangle-top-benefits">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M1200 0T0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+                </svg>
+            </div>
+
+            <article class="benefits-width">
+
+                <article class="benefit-cont org-cont">
+                    <div class="benefit-title-cont">
+                        <figure>
+                            <img src="./imgs/espumaPared.jpg" alt="">
+                        </figure>
+                        <h2>ORGANIZADORAS</h2>
+                    </div>
+                    <p>Podras lograr un lugar de trabajo perfectamente <b>organizado</b>, podrás <b>aumentar</b> la <b>productividad</b> y la <b>seguridad</b> en todos los procesos. <br>Para un rendimiento óptimo, es necesario mantener esta perfecta organización hasta el último detalle.</p>
+                </article>
+
+                <article class="benefit-cont check-cont">
+                    <div class="benefit-title-cont">
+                        <figure>
+                            <img src="./imgs/check-img.jpg" alt="">
+                        </figure>
+                        <h2 class="check-title">ELIMINAN EL CHECK LIST</h2>
+                    </div>
+                    <p><b>No volverá a perder una herramienta</b>. Con un solo vistazo puede verificar el faltante de una herramienta o equipo, evitando perder el tiempo todos los días haciendo checklist manual.</p>
+                </article>
+
+                <article class="benefit-cont check-cont">
+                    <div class="benefit-title-cont">
+                        <figure>
+                            <img src="./imgs/protege-img.jpg" alt="">
+                        </figure>
+                        <h2 class="check-title">PROTEGEN SU EQUIPO</h2>
+                    </div>
+                    <p>Las espumas son excepcionalmente resistentes y duraderas, mantienen su equipo y/o herramientas seguras. <br>Evite "sorpresas" de los malos manejos que reciben sus equipos en los aeropuertos o durante la transportación.</p>
+                </article>
+               
+            </article>
+
+        </section>
+
+        <section class="usos-section">
+            <div class="benefits-bottom-divider">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+                </svg>
+            </div>
+            <article class="usos-title" id="usos-title">
+                <h2>Usos para las espumas 5sFoam</h2>
+            </article>
+
+            <div class="usos-top-divider">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+                </svg>
+            </div>
+
+            <div class="usos-width">
+                <article class="uso-cont uso-cont1">
+                    <figure>
+                        <img src="./imgs/caja-her-img.jpg" alt="">
+                    </figure>
+                    <div class="uso-texto">
+                        <h2>Cajas de herramientas</h2>
+                        <p>Logre el orden perfecto y un uso optimo del espacio en el lugar de trabajo. ¡Cumple con las 5s! <br>Evita el exceso de herramientas y facilita el seguimiento de su inventario.</p>
+                    </div>
+                </article>
+                <article class="uso-cont uso-cont2">
+                    <figure>
+                        <img src="./imgs/packout-img.jpg" alt="">
+                    </figure>
+                    <div class="uso-texto">
+                        <h2>Maletín de viaje o Packout</h2>
+                        <p>Los insertos personalizados transforman su maletín de montaje en un compañero fiable que se configura exactamente de acuerdo con sus necesidades y requisitos. Es perfecta para adaptarse a cualquier marca de caja de herramientas rodante como Truper, Stanley, Urrea, Dewalt, Husky, Boach, Craftsman, Snap on, Husky, Milwaukee, Packout, etc.</p>
+                    </div>
+                </article>
+                <article class="uso-cont uso-cont3">
+                    <figure>
+                        <img src="./imgs/espumaPared.jpg" alt="">
+                    </figure>
+                    <div class="uso-texto">
+                        <h2>Paredes de herramientas</h2>
+                        <p>El control visual de las herramientas en pared de espuma se ven increibles y entra a otro nivel cuando se puede detectar de manera instantánea cuando falta alguna herramienta.</p>
+                    </div>
+                </article>
+                <article class="uso-cont uso-cont4">
+                    <figure>
+                        <img src="./imgs/camioneta-img.jpg" alt="">
+                    </figure>
+                    <div class="uso-texto">
+                        <h2>Almacenamiento de camionetas de trabajo</h2>
+                        <p>La espuma protege y mantiene el orden de sus herramientas durante la vibración y movimiento que son sometidas durante su transportación dentro de su camioneta de trabajo, además elimina el ruido que provoca la fricción entre ellas.</p>
+                    </div>
+                </article>
+                <article class="uso-cont uso-cont5">
+                    <figure>
+                        <img src="./imgs/modulares-img.jpg" alt="">
+                    </figure>
+                    <div class="uso-texto">
+                        <h2>Sistemas modulares de cajas de herramientas</h2>
+                        <p>Optimiza tus cajas de herramientas modulares con nuestra espuma organizadora de calidad. Mantén tus herramientas perfectamente ordenadas y protegidas con nuestra espuma duradera y adaptable. Ahorra tiempo y maximiza la eficiencia en tus proyectos con nuestra solución organizativa. Lleva tus sistemas modulares al siguiente nivel!</p>
+                    </div>
+                </article>
+                <article class="uso-cont uso-cont6">
+                    <figure>
+                        <img src="./imgs/oficina-img.jpg" alt="">
+                    </figure>
+                    <div class="uso-texto">
+                        <h2>Oficina</h2>
+                        <p> Diseñada para profesionales exigentes, nuestra espuma ofrece una solución inteligente para mantener tus suministros y accesorios perfectamente ordenados. Podrás maximizar el espacio de trabajo y acceder fácilmente a tus elementos esenciales. No pierdas más tiempo buscando, excediendo el cumplimiento de las 5s.
+                        </p>
+                    </div>
+                </article>
+                <article class="uso-cont uso-cont7">
+                    <figure>
+                        <img src="./imgs/instrumementos-img.jpg" alt="">
+                    </figure>
+                    <div class="uso-texto">
+                        <h2>Instrumentos, Audio y Video</h2>
+                        <p> Con su diseño modular y duradero, es la elección perfecta para transportar y almacenar con comodidad. No comprometas la integridad de tus instrumentos y equipos, invierte en nuestra espuma protectora y disfruta de tranquilidad y seguridad.
+                        </p>
+                    </div>
+                </article>
+                <article class="uso-cont uso-cont8">
+                    <figure>
+                        <img src="./imgs/carrito-img.jpg" alt="">
+                    </figure>
+                    <div class="uso-texto">
+                        <h2>Carrito de trabajo</h2>
+                        <p>Nuestra espuma ofrece una solución eficiente para mantener tus herramientas y equipos perfectamente organizados. Con su diseño preciso, podrás asegurar que cada elemento tenga su lugar asignado, ahorrando tiempo y evitando la pérdida de objetos. No comprometas la eficiencia de tu carrito de trabajo y lleva tu productividad al siguiente nivel.
+                        </p>
+                    </div>
+                </article>
+                <article class="uso-cont uso-cont9">
+                    <figure>
+                        <img src="./imgs/estacion-img.jpg" alt="">
+                    </figure>
+                    <div class="uso-texto">
+                        <h2>Estación de trabajo</h2>
+                        <p>Optimiza tu estación de trabajo con nuestra espuma protectora de alta calidad. Diseñada pensando en profesionales como tú. Con su diseño inteligente y duradero, puedes transportar y almacenar tus dispositivos de manera segura y conveniente. Mantén tus herramientas de trabajo protegidas en todo momento.
+                        </p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="usos-bottom-divider">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+                </svg>
+            </div>
+
+        </section>
+
+        <section class="productos-section">
+            <div class="productos-top-divider">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+                </svg>
+            </div>
+            <div class="productos-title">
+                <h2>Productos</h2>
+            </div>
+
+            <div class="productos-width">
+                <article class="producto-cont">
+                    <div class="producto-text">
+                        <div class="producto-title">
+                            <h2>Placa de espuma tamaño mediano individual</h2>
+                        </div>
+                        <div class="producto-desc">
+                            <p>Dimensiones: 40cm x 60cm <br>Espesores: 20mm/25mm/30mm/44mm/57mm.
+                            </p>
+                        </div>
+                        <div class="producto-precio">
+                            <p>Desde $190 MXN por placa</p>
+                        </div>
+                        <div class="producto-boton">
+                            <a href="#">Comprar</a>
+                        </div>
+                    </div>
+                    <figure class="producto-img">
+                        <img src="./imgs/producto-img.png" alt="producto-img">
+                    </figure>
+                </article>
+
+                <article class="producto-cont">
+                    <div class="producto-text">
+                        <div class="producto-title">
+                            <h2>Placa de espuma tamaño standar individual</h2>
+                        </div>
+                        <div class="producto-desc">
+                            <p>Dimensiones: 120cm x 60cm <br>Espesores: 20mm/25mm/30mm/44mm/57mm.
+                            </p>
+                        </div>
+                        <div class="producto-precio">
+                            <p>Desde $300 MXN por placa</p>
+                        </div>
+                        <div class="producto-boton">
+                            <a href="#">Comprar</a>
+                        </div>
+                    </div>
+                    <figure class="producto-img">
+                        <img src="./imgs/producto-img.png" alt="producto-img">
+                    </figure>
+                </article>
+
+                <article class="producto-cont">
+                    <div class="producto-text">
+                        <div class="producto-title">
+                            <h2>Mayoreo</h2>
+                        </div>
+                        <div class="producto-desc">
+                            <p>Y Dimensiones especiales.</p>
+                        </div>
+                        <div class="producto-precio">
+                            <p>A partir de 10 placas hasta un 50% de descuento.</p>
+                        </div>
+                        <div class="producto-boton">
+                            <a href="./contacto.html">Contacto</a>
+                        </div>
+                    </div>
+                    <figure class="producto-img">
+                        <img src="./imgs/producto-img.png" alt="producto-img">
+                    </figure>
+                </article>
+            </div>
+        </section>
+
+        <section class="accesorios-section">
+            <div class="accesorios-title">
+                <h2>Accesorios</h2>
+            </div>
+            <div class="accesorios-width">
+                <article class="accesorio-cont">
+                    <figure class="accesorio-img">
+                        <a href="./productos.html">
+                            <img src="./imgs/accesorio-img" alt="">
+                        </a>
+                    </figure>
+                    <div class="accesorio-text">
+                        <!-- <p>Accesorios que te facilitarán la organización para tus herramientas y equipo.</p> -->
+                    </div>
+                </article>
+                    <div class="productos-boton">
+                        <a href="./productos.html">Productos</a>
+                    </div>
+            </div>
+        </section>
     </main>
-    <footer>
+
+    <footer class="footer">
+        <div class="footer-width">
+            <article class="footer-bar">
+                <ul>
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./productos.html">Productos</a>
+                    </li>
+                    <li>
+                        <a href="./galeria.html">Galeria</a>
+                    </li>
+                    <li>
+                        <a href="./blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="./contacto.html">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="./nosotros.html">Nosotros</a>
+                    </li>
+                </ul>
+            </article>
+
+            <hr class="footer-mobile-divider">
+
+
+            <div class="footer-correo" id="mc_embed_shell">
+                <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+            <style type="text/css">
+                  
+                  /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+                     We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+          </style>
+          <div id="mc_embed_signup">
+              <form action="https://5sfoam.us21.list-manage.com/subscribe/post?u=91c2fd0906640e2dd40746ff5&amp;id=fd4eb2d4de&amp;f_id=0041d9e6f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+                  <div id="mc_embed_signup_scroll"><h2 style="font-size: 35px;">Te mantenemos actualizado</h2>
+                    <p style="margin-bottom: 8px;">Suscribete a nuestra lista de correo para recibir actualizaciones y ofertas</p>
+                      <div class="mc-field-group"><label for="mce-EMAIL"><p>Dirección de correo electrónico</p></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div>
+                  <div id="mce-responses" class="clear foot">
+                      <div class="response" id="mce-error-response" style="display: none;"></div>
+                      <div class="response" id="mce-success-response" style="display: none;"></div>
+                  </div>
+              <div aria-hidden="true" style="position: absolute; left: -5000px;">
+                  /* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
+                  <input type="text" name="b_91c2fd0906640e2dd40746ff5_fd4eb2d4de" tabindex="-1" value="">
+              </div>
+                  <div class="optionalParent">
+                      <div class="clear foot">
+                          <input class="footer-button" class="footer-button" type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Suscribirse">
+                          <!-- <p class="brandingLogo" style="margin: 0px auto;"><a href="http://eepurl.com/iv6VvI" title="Mailchimp - email marketing made easy and fun"><img src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_light_dtp.svg" alt="referral badge"></a></p> -->
+                      </div>
+                  </div>
+              </div>
+          </form>
+          </div>
+          <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]=EMAIL;ftypes[0]=merge;fnames[1]=FNAME;ftypes[1]=merge;fnames[2]=LNAME;ftypes[2]=merge;fnames[3]=ADDRESS;ftypes[3]=merge;fnames[4]=PHONE;ftypes[4]=merge;fnames[5]=BIRTHDAY;ftypes[5]=merge;false}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
+              
+
+            
+            <!-- <article class="footer-correo">
+                <h2>Mantente actualizado</h2>
+                <p>Suscribete a nuestra lista de correo para recibir actualizaciones y ofertas.</p>
+                <form action="">
+                    <label for="correo">
+                        <input type="email" id="correo" placeholder="Email" autocomplete="email" required>
+                    </label>
+
+                    <button>SUSCRIBIRSE</button>
+                </form>
+            </article> -->
+        </div>
+
+        <div class="footer-redes-width">
+
+            <article class="footer-redes">
+
+                <ul>
+            <hr class="footer-mobile-divider footer-redes-divider">
+
+                    <li>
+                        <a href="https://www.youtube.com/@5sfoam" target="_blank">
+                            <figure>
+                                <img src="./imgs/youtube-icon.svg" alt="https://www.youtube.com/@5sfoam">
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/5sfoam/" target="_blank">
+                            <figure>
+                                <img src="./imgs/insta-icon.svg" alt="">
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/5sfoam" target="_blank">
+                            <figure>
+                                <img src="./imgs/face-icon.svg" alt="">
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <figure>
+                                <img src="./imgs/tiktok-icon.svg" alt="">
+                            </figure>
+                        </a>
+                    </li>
+                
+                <hr class="footer-mobile-divider footer-redes-divider">
+
+                </ul>
+
+            </article>
+        </div>
 
     </footer>
-
-    <script src="./script/script.js"></script>
+        
+    <script src="script/script.js"></script>
 </body>
 </html>
