@@ -333,7 +333,7 @@ main h1 {
     position: relative;
     display: block;
     width: calc(2664% + 1.3px);
-    height: 155px;
+    height: 436px;
 }
 
 .productos-top-divider .shape-fill {
@@ -733,7 +733,7 @@ footer label input::placeholder {
 
     main h1 {
         margin-top: 0;
-        font-size: 4.5rem;
+        font-size: 5rem;
     }
 
     .nosotros-width {

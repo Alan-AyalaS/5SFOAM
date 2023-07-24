@@ -318,11 +318,13 @@ main .main-title {
 main .main-title h1 {
     width: 50%;
     position: relative;
+    left: 5%;
+
     z-index: 1;
 
     padding-top: 1rem;
 
-    left: 5%;
+    font-size: 5rem;
 }
 
 main .main-desc h2{
@@ -344,8 +346,8 @@ main .main-desc h2{
 .productos-top-divider svg {
     position: relative;
     display: block;
-    width: calc(1664% + 1.3px);
-    height: 563px;
+    width: calc(3379% + 1.3px);
+    height: 1079px;
 }
 
 .productos-top-divider .shape-fill {
