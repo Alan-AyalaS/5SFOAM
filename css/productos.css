@@ -957,6 +957,7 @@ footer label input::placeholder {
         flex-direction: row;
         flex-wrap: wrap;
 
+        align-items: center;
     }
     
     .producto-cont {
