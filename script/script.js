@@ -2,9 +2,6 @@ function showMenu(){
     document.querySelector('.nav_options').classList.toggle('active');
     document.querySelector('.menu-button').classList.toggle('hide');
     document.querySelector('.x-icon').classList.toggle('show');
-<<<<<<< HEAD
-}
-=======
 
     /* document.querySelectorAll('.about-imgs-cont img').forEach(image =>{
         image.onclick = () =>{
@@ -104,4 +101,3 @@ const gallery = document.querySelectorAll('.about-imgs-cont .image'),
             }
         }
     }
->>>>>>> b07fda00f4155a6e9bbab724f87d45a15598ddef
