@@ -459,7 +459,7 @@ form button:hover {
 
 
 main .formas-contacto-section {
-    margin-top: 2.4rem;
+    margin-top: 8.8rem;
 }
 
 .formas-contacto-section h2 {
@@ -503,14 +503,15 @@ main .productos-width .productos-title {
 }
 
 .contacto-desc h2 {
-    font-size: 2.5rem;
+    font-size: 2.9rem;
     margin-bottom: 1.6rem;
-    letter-spacing: 1px;
 }
 
 .contacto-desc p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 1.6rem;
+
+    line-height: 2.5rem;
 }
 
 /* .productos-section p {
@@ -845,6 +846,11 @@ footer label input::placeholder {
         flex-direction: row;
         justify-content: space-between;
     }
+
+
+    main .formas-contacto-section {
+        margin-top: 0rem;
+    }
 /* 
     .productos-section {
         width: 50%;
@@ -1006,12 +1012,21 @@ footer label input::placeholder {
         font-size: 3.5rem;
     }
 
+    .contacto-desc p {
+        font-size: 2rem;
+        line-height: 3.5rem;
+    }
+
     .formas-contacto-section {
         width: 100%;
     }
 
     .formas-contacto-section figure {
         width: 40%;
+    }
+
+    main .formas-contacto-section {
+        margin-top: 2.4rem;
     }
 
     .formas-contacto-section .formas-contacto-width {
