@@ -2573,6 +2573,17 @@ footer label input::placeholder {
         font-size: 6rem;
     }
 
+    .about-container .title-cont h2{
+        position: relative;
+        z-index: 1;
+        word-spacing: 0.1rem;
+        letter-spacing: 2px;
+        font-size: 5.8rem;
+        align-self: center;
+
+        width: 44%;
+    }
+
 
     .about-container .res-cont {
         background-image: url('../imgs/prot-back-icon-black.svg');
@@ -2594,9 +2605,7 @@ footer label input::placeholder {
         margin-top: 8rem;
     }
 
-    main .about-container .about-title-cont .title-cont h2{
-        font-size: 3rem;
-    }
+
 
     main .about-container .about-title-cont .title-cont h1{
         font-size: 3.5rem;
